@@ -6,6 +6,11 @@ Link to live site [here](herokuapp.com).
 <p align="center">
 <img src="https://res.cloudinary.com/dugcwv1mf/image/upload/v1699528747/Project%204/Screenshot_2023-11-09_at_11.18.22_AM_ho9t8k.png" width="auto" height="auto" alt="image of the Radical Rides website home page on all devices"></p>
 
+## Business Product Model Canvas
+A....
+
+<img src="https://res.cloudinary.com/dugcwv1mf/image/upload/v1699533539/Project%204/Screenshot_2023-11-09_at_12.38.25_PM_me714m.png" width="auto" height="auto" alt="image of the Radical Rides product model canvas">
+
 ## Business Requirements
 Prior to initiating the project's development, user stories were created to give a high level understanding of what the platform's functional requirements will be and they were assigned labels based on their importance using the MoSCoW prioritization method.   
 
