@@ -9,11 +9,11 @@ Link to live site [here](herokuapp.com).
 ## Business Requirements
 Prior to initiating the project's development, user stories were created to give a high level understanding of what the platform's functional requirements will be and they were assigned labels based on their importance using the MoSCoW prioritization method.   
 
-<img src="https://res.cloudinary.com/dugcwv1mf/image/upload/v1699528747/Project%204/Screenshot_2023-11-09_at_11.18.22_AM_ho9t8k.png" width="auto" height="auto" alt="image of the Radical Rides website userstories">
+<img src="https://res.cloudinary.com/dugcwv1mf/image/upload/v1699533539/Project%204/Screenshot_2023-11-09_at_12.38.25_PM_me714m.png" width="auto" height="auto" alt="image of the Radical Rides website userstories">
 
 The user stories were then placed into a kanban board in order to track the progress of the platform's development.  The Agile development kanban board can be found [here](https://github.com/users/Xalil404/projects/5/views/1).
 
-<img src="https://res.cloudinary.com/dugcwv1mf/image/upload/v1699528747/Project%204/Screenshot_2023-11-09_at_11.18.22_AM_ho9t8k.png" width="auto" height="auto" alt="image of the Radical Rides project agile kanban board">
+<img src="https://res.cloudinary.com/dugcwv1mf/image/upload/v1699533713/Project%204/Screenshot_2023-11-09_at_12.41.34_PM_cbtswd.png" width="auto" height="auto" alt="image of the Radical Rides project agile kanban board">
 
 ## Branding
 The color pallete chosen for the project was meant to signify something connected to nature.......
