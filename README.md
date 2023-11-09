@@ -36,7 +36,7 @@ The Radical Rides e-commerce site consists of the following pages and features:
 <img src="https://res.cloudinary.com/dugcwv1mf/image/upload/v1699528747/Project%204/Screenshot_2023-11-09_at_11.18.22_AM_ho9t8k.png" width="auto" height="auto" alt="Radical Rides landing page"> 
 
 ## Testing
-All fucntional testing, user story testing, device compatibility testing and browswer compatibility testing can be found in the [TestingMD](herokuapp.com) file.
+All fucntional testing, user story testing, device compatibility testing and browswer compatibility testing can be found in the [TestingMD](https://github.com/Xalil404/Radical_Rides/blob/main/TESTING.md) file.
 
 ## Deployment
 
