@@ -1,39 +1,79 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# Radical Rides
+The Radical Rides e-commerce platoform aims to address the pain point of .....  
 
-Welcome,
+Link to live site [here](herokuapp.com).
 
-This is the Code Institute student template for Codeanywhere. If you are using Gitpod then you need [this template](https://github.com/Code-Institute-Org/gitpod-full-template) instead.  We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+<p align="center">
+<img src="https://res.cloudinary.com/dugcwv1mf/image/upload/v1699528747/Project%204/Screenshot_2023-11-09_at_11.18.22_AM_ho9t8k.png" width="auto" height="auto" alt="image of the Radical Rides website home page on all devices"></p>
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Codeanywhere and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **August 30th, 2023**
+## Business Requirements
+Prior to initiating the project's development, user stories were created to give a high level understanding of what the platform's functional requirements will be and they were assigned labels based on their importance using the MoSCoW prioritization method.   
 
-## Codeanywhere Reminders
+<img src="https://res.cloudinary.com/dugcwv1mf/image/upload/v1699528747/Project%204/Screenshot_2023-11-09_at_11.18.22_AM_ho9t8k.png" width="auto" height="auto" alt="image of the Radical Rides website userstories">
 
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere, in the terminal, type:
+The user stories were then placed into a kanban board in order to track the progress of the platform's development.  The Agile development kanban board can be found [here](https://github.com/users/Xalil404/projects/5/views/1).
 
-`python3 -m http.server`
+<img src="https://res.cloudinary.com/dugcwv1mf/image/upload/v1699528747/Project%204/Screenshot_2023-11-09_at_11.18.22_AM_ho9t8k.png" width="auto" height="auto" alt="image of the Radical Rides project agile kanban board">
 
-A button should appear to click: _Open Preview_ or _Open Browser_.
+## Branding
+The color pallete chosen for the project was meant to signify something connected to nature.......
 
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere with no-cache, you can use this alias for `python3 -m http.server`.
+## Wireframes
+Once the user stories were completed, the next phase of the project was to complete the UX of all the expected pages and functionalites in the platform.  
 
-`http_server`
+<img src="https://res.cloudinary.com/dugcwv1mf/image/upload/v1699528747/Project%204/Screenshot_2023-11-09_at_11.18.22_AM_ho9t8k.png" width="auto" height="auto" alt="Radical Rides project wireframes"> 
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+## Database Schema
+After the wire-frames completion, a database schema was created to understand what information should be stored on the back-end database.
 
-A button should appear to click: _Open Preview_ or _Open Browser_.
+<img src="https://res.cloudinary.com/dugcwv1mf/image/upload/v1699528747/Project%204/Screenshot_2023-11-09_at_11.18.22_AM_ho9t8k.png" width="auto" height="auto" alt="Radical Rides Project DB schema"> 
 
-In Codeanywhere you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+## Features 
+The Radical Rides e-commerce site consists of the following pages and features:
 
-To log into the Heroku toolbelt CLI:
+* Landing Page
 
-1. Log in to your Heroku account and go to _Account Settings_ in the menu under your avatar.
-2. Scroll down to the _API Key_ and click _Reveal_
-3. Copy the key
-4. In Codeanywhere, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+<img src="https://res.cloudinary.com/dugcwv1mf/image/upload/v1699528747/Project%204/Screenshot_2023-11-09_at_11.18.22_AM_ho9t8k.png" width="auto" height="auto" alt="Radical Rides landing page"> 
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+## Testing
+All fucntional testing, user story testing, device compatibility testing and browswer compatibility testing can be found in the [TestingMD](herokuapp.com) file.
 
----
+## Deployment
 
-Happy coding!
+Deployment of the Radical Rides application was done with the following steps:
+
+* I created ....
+
+## Credits
+
+* [Shopify](https://www.shopify.com/tools/business-name-generator) to generate the website business name.
+
+* [Colors](https://coolors.co/) to generate the website branding and color palette. 
+
+* [Unsplash](https://unsplash.com/) & [Pixels](https://www.pexels.com/) for marketing images.
+
+* [Favicon.io](https://favicon.io/) for web app Favicon. 
+
+* [Online Converter](https://www.online-convert.com/) was used to convert jpeg or png images into webp files.
+
+* [Github](https://github.com/) for version control.
+
+* [GoogleFonts](https://fonts.google.com/) for fonts selection.
+
+* [FontAwesome](https://fontawesome.com/) for icons selection.
+
+* [Django Framework](https://www.djangoproject.com/) for adminpanel, account authentication and other apps.
+
+* [Heroku](https://www.heroku.com/) for front-end deployment.
+
+* [Amazon S3](https://aws.amazon.com/s3/) for hosting static files.
+
+* [ElephantSQL](https://www.elephantsql.com/) for database hosting. 
+
+* [Bootstrap](https://getbootstrap.com/) for HTML and CSS code snippets.
+
+* The Code Academy [Boutique Ado](https://boutique-ado123321-0cc6174e0aff.herokuapp.com/), [Task Manager](https://zadachamanager-d3722b3cb1b7.herokuapp.com/), [To Do App](https://todoprilozheniya-b8e10f9f2dc1.herokuapp.com/), and [Code Star Blog](https://helloblog-eb1bdbb756c3.herokuapp.com/) walk-through projects for guidance during development. 
+
+* [DrawSQL](https://drawsql.app/) to create database schema.
+
+* [Miro](https://miro.com/) to create design wireframes.
