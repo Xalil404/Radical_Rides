@@ -34,6 +34,7 @@ Testing results of functionalities not considered to be feature or user story.
 | Landing Page Carousel | ![screenshot](https://res.cloudinary.com/dugcwv1mf/image/upload/v1699528747/Project%204/Screenshot_2023-11-09_at_11.18.22_AM_ho9t8k.png) | The carousel should have clickable indicators and buttons to go through the slides. | Works as expected |
 | Footer Social Media links | ![screenshot](https://res.cloudinary.com/dugcwv1mf/image/upload/v1699528747/Project%204/Screenshot_2023-11-09_at_11.18.22_AM_ho9t8k.png) | Clicking on the four social media links should open up those platforms in a new tab. | Works as expected |
 | Website Logo | ![screenshot](https://res.cloudinary.com/dugcwv1mf/image/upload/v1699528747/Project%204/Screenshot_2023-11-09_at_11.18.22_AM_ho9t8k.png) | Clicking on the website logo in the header should take the user to the home page. | Works as expected |
+| 404 Page Not Found | ![screenshot](https://res.cloudinary.com/dugcwv1mf/image/upload/v1699528747/Project%204/Screenshot_2023-11-09_at_11.18.22_AM_ho9t8k.png) | Entering a URL which does not exist shows a 404 page not found. | Works as expected |
 
 ## Features & User Story Testing
 
