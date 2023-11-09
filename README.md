@@ -18,6 +18,8 @@ The user stories were then placed into a kanban board in order to track the prog
 ## Branding
 The color pallete chosen for the project was meant to signify something connected to nature.......
 
+<img src="https://res.cloudinary.com/dugcwv1mf/image/upload/v1699533713/Project%204/Screenshot_2023-11-09_at_12.41.34_PM_cbtswd.png" width="auto" height="auto" alt="image of the Radical Rides project branding colors">
+
 ## Wireframes
 Once the user stories were completed, the next phase of the project was to complete the UX of all the expected pages and functionalites in the platform.  
 
