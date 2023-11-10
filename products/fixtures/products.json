@@ -1,0 +1,632 @@
+[
+    {
+       "pk":1,
+       "model":"products.product",
+       "fields":{
+          "sku":"pp5001340155",
+          "name":"Grenade 23",
+          "description":"The Grenade 23 will be your ultimate wingman. This sled was designed with the avid traveler and ripper in mind. Although it may be tiny, do not judge it by its size. This 23” deck is proven to hold its own when it comes time to lay into some turns.",
+          "price":190.99,
+          "category":1,
+          "rating":4.6,
+          "image_url":"https://res.cloudinary.com/dugcwv1mf/image/upload/v1699618516/products/1_ev3xz1.png",
+          "image":"1.png"
+       }
+    },
+    {
+        "pk":2,
+        "model":"products.product",
+        "fields":{
+           "sku":"pp5001600425",
+           "name":"Endo 28",
+           "description":"The Endo 28 has quickly become a team favorite since its recent re-release. Mainly because of the decks ability to be ridden from either end. No worries about tail or nose - simply grab this sled and start cruising.",
+           "price":199.95,
+           "category":1,
+           "rating":4.6,
+           "image_url":"https://res.cloudinary.com/dugcwv1mf/image/upload/v1699618955/products/2_yyqvlm.png",
+           "image":"2.png"
+        }
+     },
+     {
+        "pk":3,
+        "model":"products.product",
+        "fields":{
+           "sku":"pp5001730010",
+           "name":"Classic 29",
+           "description":"The Classic 29 was created with the everyday skater in mind. It is designed to be the ultimate inbetweener of a mini-cruiser and classic longboard. Making this deck a team and customer favorite!",
+           "price":204.95,
+           "category":1,
+           "rating":4.7,
+           "image_url":"https://res.cloudinary.com/dugcwv1mf/image/upload/v1699619156/products/Screenshot_2023-11-10_at_12.25.37_PM_oubu1p.png",
+           "image":"3.png"
+        }
+     },
+     {
+        "pk":4,
+        "model":"products.product",
+        "fields":{
+           "sku":"pp5001890157",
+           "name":"Slalom 30",
+           "description":"This board was made for speed and responsiveness. The moment you step on this board you will notice you can pump, increase, and maintain high speeds at ease. Even when flowing through turns. This deck was designed for high-speed pumping and precision skating. But it is also very accessible to all levels of skaters.",
+           "price":209.99,
+           "category":1,
+           "rating":3.0,
+           "image_url":"https://res.cloudinary.com/dugcwv1mf/image/upload/v1699619386/products/Screenshot_2023-11-10_at_12.29.25_PM_tbi271.png",
+           "image":"4.png"
+        }
+     },
+     {
+        "pk":5,
+        "model":"products.product",
+        "fields":{
+           "sku":"pp5002111605",
+           "name":"Slalom 30 V",
+           "description":"The S30 Vented is your ultimate Hill bombing, down-the-line cruising, and bank carving hybrid.This deck from a scientific and team tested stand point is lighter and more stable because of its design. The vented shape not only offers a lighter more airy feeling to the rider, but it enables for more control with weight distribution.",
+           "price":224.99,
+           "category":1,
+           "rating":5.0,
+           "image_url":"https://res.cloudinary.com/dugcwv1mf/image/upload/v1699619581/products/5_ktbrmw.png",
+           "image":"5.png"
+        }
+     },
+     {
+        "pk":6,
+        "model":"products.product",
+        "fields":{
+           "sku":"pp5002260206",
+           "name":"Cruiser 36",
+           "description":"The Cruiser 36 is one of our top sellers. This sled is your longboard/shortboard hybrid. It is shorter and lighter than our Flexdex 40 and is a step up from the Pro 33. This deck was originally designed with our mid-length/ longboard surfers in mind. ",
+           "price":261.99,
+           "category":2,
+           "rating":4.7,
+           "image_url":"https://res.cloudinary.com/dugcwv1mf/image/upload/v1699620717/products/6_xvygti.png",
+           "image":"6.png"
+        }
+     },
+     {
+        "pk":7,
+        "model":"products.product",
+        "fields":{
+           "sku":"pp5002440521",
+           "name":"L 37",
+           "description":"If you're searching for an indestructible longboard, look no further than the Flexdex® L37.  A low rider drop-thru board, meets and exceeds all of your cruising needs. A completely symmetrical shape allows you to ride whichever way you want, and a simple, sleek design adds the finishing touch.",
+           "price":275.69,
+           "category":2,
+           "rating":4.4,
+           "image_url":"https://res.cloudinary.com/dugcwv1mf/image/upload/v1699620874/products/7_ibm3jv.png",
+           "image":"7.png"
+        }
+     },
+     {
+        "pk":8,
+        "model":"products.product",
+        "fields":{
+           "sku":"pp5002601115",
+           "name":"PRO 40",
+           "description":"The Flexdex® Pro 40 is in a class of its own. It is made out of custom fiberglass, and is known to be indestructible. Stronger and more flexible than wood, the Pro 40 deck carves and flexes with a feel that you have to experience to believe. This one of a kind board claims to outlast and outperform it’s wood-pressed counterparts, but its up to you to find out.",
+           "price":285.99,
+           "category":2,
+           "rating":4.5,
+           "image_url":"https://res.cloudinary.com/dugcwv1mf/image/upload/v1699621026/products/8_gimcf7.png",
+           "image":"8.png"
+        }
+     },
+     {
+        "pk":9,
+        "model":"products.product",
+        "fields":{
+           "sku":"pp5002690715",
+           "name":"PRO 40 V",
+           "description":"The Flexdex® Pro 40v ventilated longboard blasts asphalt, cement, and anything else its wheels roll onto. Long story short, this board is truly in a class of its own. The furthest thing from your standard longboard. The Pro 40v is the most high-end technically advanced board in the fiberglass line-up. As a suped up version of the legendary Pro 40, the Pro 40v is simply another step up.  This deck flosses the precision cut Flexdex® Vent System that runs the length of the rails, increasing board flex and allowing for the highest rider control of any longboard its size. The Pro 40v's supreme flexibility, paired with the right setup, makes for a riding experience that is smooth, fluid, and ultimately unrivaled.",
+           "price":314.99,
+           "category":2,
+           "rating":4.7,
+           "image_url":"https://res.cloudinary.com/dugcwv1mf/image/upload/v1699621196/products/9_kasovz.png",
+           "image":"9.png"
+        }
+     },
+     {
+        "pk":10,
+        "model":"products.product",
+        "fields":{
+           "sku":"pp5002701115",
+           "name":"FLEXDEX 40",
+           "description":"The Flexdex® 40 is in a class of its own. It is made out of custom fiberglass, and is said to be indestructible. Stronger and more flexible than wood, the Flexdex® 40 deck carves and flexes with a feel that you have to experience to believe. This one of a kind board claims to outlast and outperform it’s wood-pressed counterparts but its up to you to find out.",
+           "price":279.99,
+           "category":2,
+           "rating":4.4,
+           "image_url":"https://res.cloudinary.com/dugcwv1mf/image/upload/v1699621375/products/10_ufhdix.png",
+           "image":"10.png"
+        }
+     },
+     {
+        "pk":11,
+        "model":"products.product",
+        "fields":{
+           "sku":"pp5002761055",
+           "name":"Tropical Odyssey",
+           "description":"The Flexdex® Tropical Odyssey will be your ultimate wingman. This sled was designed with the avid traveler and ripper in mind. Packs A Punch Although it may be tiny, do not judge it by its size. This 23” deck is proven to hold its own when it comes time to lay into some turns.",
+           "price":204.99,
+           "category":3,
+           "rating":3.0,
+           "image_url":"https://res.cloudinary.com/dugcwv1mf/image/upload/v1699621660/products/11_slzvyb.png",
+           "image":"11.png"
+        }
+     },
+     {
+        "pk":12,
+        "model":"products.product",
+        "fields":{
+           "sku":"pp5002820069",
+           "name":"REFLEXTION 28",
+           "description":"The Reflextion 28 has quickly become a team favorite since its recent re-release. Mainly because of the decks ability to be ridden from either end. No worries about tail or nose - simply grab this sled and start cruising.",
+           "price":199.99,
+           "category":3,
+           "rating":4.6,
+           "image_url":"https://res.cloudinary.com/dugcwv1mf/image/upload/v1699621852/products/12_pte2va.png",
+           "image":"12.png"
+        }
+     },
+     {
+        "pk":13,
+        "model":"products.product",
+        "fields":{
+           "sku":"pp5002820147",
+           "name":"The LineUp 29",
+           "description":"Perfect for: Cruising, Commuting, Heavy Carving. The Lineup was created with the everyday skater in mind. It is designed to be the ultimate inbetweener of a mini-cruiser and classic longboard. Making this deck a team and customer favorite! All Day Cruising. Never worry about what board to bring again. The C29 Is easy-to-carry and reliable for any conditions.",
+           "price":204.99,
+           "category":3,
+           "rating":3.2,
+           "image_url":"https://res.cloudinary.com/dugcwv1mf/image/upload/v1699622061/products/13_ywopas.png",
+           "image":"13.png"
+        }
+     },
+     {
+        "pk":14,
+        "model":"products.product",
+        "fields":{
+           "sku":"pp5002910572",
+           "name":"WANDERLUST 30",
+           "description":"The Wanderlust is a combination of size and shape to create the most unique riding experience deck we offer. This sled inspires tight lines to be drawn with maximum speed in mind. Born To Carve, This board was made for speed and responsiveness. The moment you step on this board you will notice you can pump, increase, and maintain high speeds at ease.",
+           "price":202.99,
+           "category":3,
+           "rating":4.7,
+           "image_url":"https://res.cloudinary.com/dugcwv1mf/image/upload/v1699622267/products/14_ouzjja.png",
+           "image":"14.png"
+        }
+     },
+     {
+        "pk":15,
+        "model":"products.product",
+        "fields":{
+           "sku":"pp5002990740",
+           "name":"GRENADE 25",
+           "description":"A more maneuverable deck that still offers the stability and style of a Fish. This deck is made for those who like to mix style with functionality. When you pick up this sled - you won’t be afraid to rip, hack, and slide your way through any concrete slab that comes your way.",
+           "price":49.99,
+           "category":3,
+           "rating":4.8,
+           "image_url":"https://res.cloudinary.com/dugcwv1mf/image/upload/v1699622493/products/15_wxfqoh.png",
+           "image":"15.png"
+        }
+     },
+     {
+        "pk":16,
+        "model":"products.product",
+        "fields":{
+           "sku":"pp5003050248",
+           "name":"Shortboard 900",
+           "description":"Designed for the advanced surfer between 60 and 75 kg in powerful waves from waist height to head height, by our team of enthusiasts in the Basque Country.",
+           "price":359.99,
+           "category":4,
+           "rating":4.4,
+           "image_url":"https://res.cloudinary.com/dugcwv1mf/image/upload/v1699624047/products/16_jjenhn.png",
+           "image":"16.png"
+        }
+     },
+     {
+        "pk":17,
+        "model":"products.product",
+        "fields":{
+           "sku":"pp5003070787",
+           "name":"Shortboard 800",
+           "description":"Designed for young advanced surfers in powerful waves from waist height to head height, by our team of enthusiasts in the Basque Country.",
+           "price":339.99,
+           "category":4,
+           "rating":4.4,
+           "image_url":"https://res.cloudinary.com/dugcwv1mf/image/upload/v1699624191/products/17_w3qfpo.png",
+           "image":"17.png"
+        }
+     },
+     {
+        "pk":18,
+        "model":"products.product",
+        "fields":{
+           "sku":"pp5003090182",
+           "name":"Kid shortboard 750",
+           "description":"Designed for young advanced surfers aged between 8 and 12 weighing less than 40 kg Developed by our team of enthusiasts in the Basque country.",
+           "price":329.99,
+           "category":4,
+           "rating":4.8,
+           "image_url":"https://res.cloudinary.com/dugcwv1mf/image/upload/v1699624344/products/18_bsguav.png",
+           "image":"18.png"
+        }
+     },
+     {
+        "pk":19,
+        "model":"products.product",
+        "fields":{
+           "sku":"pp5003090186",
+           "name":"Fish 900",
+           "description":"Designed for the advanced surfer between 60 and 80 kg in mushy waves from waist height to shoulder height, by our team of enthusiasts in the Basque Country.",
+           "price":360.99,
+           "category":4,
+           "rating":5.0,
+           "image_url":"https://res.cloudinary.com/dugcwv1mf/image/upload/v1699624481/products/19_pevity.png",
+           "image":"19.png"
+        }
+     },
+     {
+        "pk":20,
+        "model":"products.product",
+        "fields":{
+           "sku":"pp5003161326",
+           "name":"Shortboard 500",
+           "description":"Designed for high level advanced surfers between 70 and 80 kg in powerful waves. Developed by our team of enthusiasts in the Basque Country.",
+           "price":374.99,
+           "category":4,
+           "rating":4.7,
+           "image_url":"https://res.cloudinary.com/dugcwv1mf/image/upload/v1699624706/products/20_ktky0w.png",
+           "image":"20.png"
+        }
+     },
+     {
+        "pk":21,
+        "model":"products.product",
+        "fields":{
+           "sku":"pp5003230723",
+           "name":"Surfboard 500 hybrid",
+           "description":"For intermediate surfers weighing less than 80 kg who want a board that is easy to use and handle. Hybrid shape for easy take-offs.",
+           "price":409.99,
+           "category":5,
+           "rating":4.3,
+           "image_url":"https://res.cloudinary.com/dugcwv1mf/image/upload/v1699624882/products/21_bzldnf.png",
+           "image":"21.png"
+        }
+     },
+     {
+        "pk":22,
+        "model":"products.product",
+        "fields":{
+           "sku":"pp5003270936",
+           "name":"Surf 900 epoxy soft",
+           "description":"A surfboard for regular surfers looking for safety and performance in small waves.",
+           "price":289.99,
+           "category":5,
+           "rating":5.0,
+           "image_url":"https://res.cloudinary.com/dugcwv1mf/image/upload/v1699625013/products/22_gbpkfb.png",
+           "image":"22.png"
+        }
+     },
+     {
+        "pk":23,
+        "model":"products.product",
+        "fields":{
+           "sku":"pp5003360384",
+           "name":"Fish 9000",
+           "description":"Designed for the advanced surfer between 70 and 100 kg in mushy waves from waist height to shoulder height, by our team of enthusiasts in the Basque Country.",
+           "price":359.99,
+           "category":5,
+           "rating":4.8,
+           "image_url":"https://res.cloudinary.com/dugcwv1mf/image/upload/v1699625174/products/23_hvhtxu.png",
+           "image":"23.png"
+        }
+     },
+     {
+        "pk":24,
+        "model":"products.product",
+        "fields":{
+           "sku":"pp5003440111",
+           "name":"Surf 500 hybrid cork top",
+           "description":"Designed for intermediate surfers of small build who are starting to turn in medium waves, or regular surfers looking for an easy-to-surf board.",
+           "price":395.99,
+           "category":5,
+           "rating":3.8,
+           "image_url":"https://res.cloudinary.com/dugcwv1mf/image/upload/v1699625319/products/24_oesqlp.png",
+           "image":"24.png"
+        }
+     },
+     {
+        "pk":25,
+        "model":"products.product",
+        "fields":{
+           "sku":"pp5003540313",
+           "name":"Surfboard 400 epoxy soft",
+           "description":"Regular surfers looking for safety and boosted performances in small waves. Wear a rash vest or wetsuit to avoid irritation.",
+           "price":306.99,
+           "category":5,
+           "rating":3.0,
+           "image_url":"https://res.cloudinary.com/dugcwv1mf/image/upload/v1699625458/products/25_cuq8na.png",
+           "image":"25.png"
+        }
+     },
+     {
+        "pk":26,
+        "model":"products.product",
+        "fields":{
+           "sku":"pp5003560513",
+           "name":"Longboard 900",
+           "description":"Designed by our team of passionate surfers based in the Basque Country for the more experienced longboarder in small waves.",
+           "price":590.99,
+           "category":6,
+           "rating":4.4,
+           "image_url":"https://res.cloudinary.com/dugcwv1mf/image/upload/v1699625643/products/26_fevwbf.png",
+           "image":"26.png"
+        }
+     },
+     {
+        "pk":27,
+        "model":"products.product",
+        "fields":{
+           "sku":"pp5003560948",
+           "name":"Longboard 9000",
+           "description":"Developed by our team for advanced longboarders looking for an ultra-versatile board to surf all types of waves. This board requires strong paddling",
+           "price":569.99,
+           "category":6,
+           "rating":5.0,
+           "image_url":"https://res.cloudinary.com/dugcwv1mf/image/upload/v1699625792/products/27_phbnkh.png",
+           "image":"27.png"
+        }
+     },
+     {
+        "pk":28,
+        "model":"products.product",
+        "fields":{
+           "sku":"pp5003570628",
+           "name":"Longboard 750",
+           "description":"Developed by our team for advanced longboarders looking for an ultra-versatile board to surf all types of waves. This board requires strong paddling",
+           "price":569.99,
+           "category":6,
+           "rating":4.3,
+           "image_url":"https://res.cloudinary.com/dugcwv1mf/image/upload/v1699625916/products/28_tfc3qw.png",
+           "image":"28.png"
+        }
+     },
+     {
+        "pk":29,
+        "model":"products.product",
+        "fields":{
+           "sku":"pp5003620308",
+           "name":"Longboard 007",
+           "description":"Developed by our team for high or intermediate-level surfers looking for a versatile longboard that can be used to surf waves of up to 2 metres.",
+           "price":590.99,
+           "category":6,
+           "rating":4.6,
+           "image_url":"https://res.cloudinary.com/dugcwv1mf/image/upload/v1699626038/products/29_s0xdjq.png",
+           "image":"29.png"
+        }
+     },
+     {
+        "pk":30,
+        "model":"products.product",
+        "fields":{
+           "sku":"pp5003690115",
+           "name":"Foam surfboard 100 reinforced",
+           "description":"Designed by our team of surfing enthusiasts based on the Basque coast for adults under 65 kg to learn and improve their skills in surf schools.",
+           "price":299.99,
+           "category":6,
+           "rating":5.0,
+           "image_url":"https://res.cloudinary.com/dugcwv1mf/image/upload/v1699626266/products/30_elrxvd.jpg",
+           "image":"30.jpg"
+        }
+     },
+     {
+        "pk":31,
+        "model":"products.product",
+        "fields":{
+           "sku":"pp5003690116",
+           "name":"Men's snowboard all mountain freeride - all road",
+           "description":"Piste addicts and powder heads rejoice.",
+           "price":239.99,
+           "category":7,
+           "rating":4.0,
+           "image_url":"https://res.cloudinary.com/dugcwv1mf/image/upload/v1699626575/products/31_matu5w.png",
+           "image":"31.png"
+        }
+     },
+     {
+        "pk":32,
+        "model":"products.product",
+        "fields":{
+           "sku":"pp5003780391",
+           "name":"Mixed snowboard all mountain freeride - all road",
+           "description":"Slash through soft snow or tear across cords with this rigid-flex board designed for manoeuvrability at speed.",
+           "price":289.99,
+           "category":7,
+           "rating":4.8,
+           "image_url":"https://res.cloudinary.com/dugcwv1mf/image/upload/v1699627462/products/32_xu6jbz.png",
+           "image":"32.png"
+        }
+     },
+     {
+        "pk":33,
+        "model":"products.product",
+        "fields":{
+           "sku":"pp5003790542",
+           "name":"Men's freestyle & all mountain snowboard - endzone 500 brokovich",
+           "description":"A versatile board for the go-anywhere rider.",
+           "price":288.99,
+           "category":7,
+           "rating":4.5,
+           "image_url":"https://res.cloudinary.com/dugcwv1mf/image/upload/v1699627593/products/33_nuibr4.png",
+           "image":"33.png"
+        }
+     },
+     {
+        "pk":34,
+        "model":"products.product",
+        "fields":{
+           "sku":"pp5003831225",
+           "name":"Men's all-mountain & freestyle snowboard snb 100",
+           "description":"A team of snowboarding enthusiasts developed this ultra-playful and easy-to-ride board for learning to snowboard with confidence",
+           "price":193.99,
+           "category":7,
+           "rating":4.5,
+           "image_url":"https://res.cloudinary.com/dugcwv1mf/image/upload/v1699627704/products/34_rhqcd4.png",
+           "image":"34.png"
+        }
+     },
+     {
+        "pk":35,
+        "model":"products.product",
+        "fields":{
+           "sku":"pp5003861402",
+           "name":"Men's rental snowboard all road 500",
+           "description":"A durable board for piste, park or powder.",
+           "price":150.99,
+           "category":7,
+           "rating":4.7,
+           "image_url":"https://res.cloudinary.com/dugcwv1mf/image/upload/v1699627851/products/35_zqe4jt.jpg",
+           "image":"35.jpg"
+        }
+     },
+     {
+        "pk":36,
+        "model":"products.product",
+        "fields":{
+           "sku":"pp5003910638",
+           "name":"Womens freestyle & all mountain snowboard - endzone 500",
+           "description":"A playful twin tipped board for shredding the park, piste or sidecountry.",
+           "price":230.99,
+           "category":8,
+           "rating":4.6,
+           "image_url":"https://res.cloudinary.com/dugcwv1mf/image/upload/v1699628010/products/36_lhlmmp.jpg",
+           "image":"36.jpg"
+        }
+     },
+     {
+        "pk":37,
+        "model":"products.product",
+        "fields":{
+           "sku":"pp5003950574",
+           "name":"Unisex all-mountain & freestyle snowboard - park & ride",
+           "description":"For intermediate and advanced riders seeking an all-rounder board: park, side hits, carving and powder snow.",
+           "price":261.99,
+           "category":8,
+           "rating":4.0,
+           "image_url":"https://res.cloudinary.com/dugcwv1mf/image/upload/v1699628120/products/37_b3gkj3.jpg",
+           "image":"37.jpg"
+        }
+     },
+     {
+        "pk":38,
+        "model":"products.product",
+        "fields":{
+           "sku":"pp5003950576",
+           "name":"Womens snowboard all mountain & freestyle snb 100",
+           "description":"Learn to snowboard easily with this playful and easy-to-ride board.",
+           "price":160.99,
+           "category":8,
+           "rating":4.5,
+           "image_url":"https://res.cloudinary.com/dugcwv1mf/image/upload/v1699628255/products/38_b24mu8.jpg",
+           "image":"38.jpg"
+        }
+     },
+     {
+        "pk":39,
+        "model":"products.product",
+        "fields":{
+           "sku":"pp5003960062",
+           "name":"Women's mountain & freeride snowboard - allroad 500 white/blue",
+           "description":"Ride without compromise; solid turns with soft snow manoeuvrability.",
+           "price":241.99,
+           "category":8,
+           "rating":3.8,
+           "image_url":"https://res.cloudinary.com/dugcwv1mf/image/upload/v1699628374/products/39_ihjsol.jpg",
+           "image":"39.jpg"
+        }
+     },
+     {
+        "pk":40,
+        "model":"products.product",
+        "fields":{
+           "sku":"pp5003960682",
+           "name":"Womens snowboard all mountain freeride - serenity 500 blue",
+           "description":"Ride without compromise; solid turns with soft snow manoeuvrability.",
+           "price":131.99,
+           "category":8,
+           "rating":5.0,
+           "image_url":"https://res.cloudinary.com/dugcwv1mf/image/upload/v1699628509/products/40_des2vr.jpg",
+           "image":"40.jpg"
+        }
+     },
+     {
+        "pk":41,
+        "model":"products.product",
+        "fields":{
+           "sku":"pp5003960775",
+           "name":"Kids freestyle all mountain snowboard- endzone jr",
+           "description":"For kids 1.45 m to 1.60 m in height, beginners to intermediate, looking for an easy snowboard",
+           "price":141.99,
+           "category":9,
+           "rating":3.0,
+           "image_url":"https://res.cloudinary.com/dugcwv1mf/image/upload/v1699628712/products/41_fzqdw1.jpg",
+           "image":"41.jpg"
+        }
+     },
+     {
+        "pk":42,
+        "model":"products.product",
+        "fields":{
+           "sku":"pp5003990736",
+           "name":"Kidz freestyle all mountain snowboard- endzone jr 105",
+           "description":"For kids from 1.15 m to 1.29 m tall, beginners looking for an easy snowboard to learn and progress with.",
+           "price":108.99,
+           "category":9,
+           "rating":4.7,
+           "image_url":"https://res.cloudinary.com/dugcwv1mf/image/upload/v1699628835/products/42_c2jpob.jpg",
+           "image":"42.jpg"
+        }
+     },
+     {
+        "pk":43,
+        "model":"products.product",
+        "fields":{
+           "sku":"pp5003990746",
+           "name":"Kids rental snowboard endzone - 135 cm",
+           "description":"This rental snowboard is designed for kids from 1.45 m to 1.60 m in height, beginners to intermediate, looking for an easy snowboard to learn and progress.",
+           "price":165.99,
+           "category":9,
+           "rating":4.0,
+           "image_url":"https://res.cloudinary.com/dugcwv1mf/image/upload/v1699628954/products/43_tehxf9.jpg",
+           "image":"43.jpg"
+        }
+     },
+     {
+        "pk":44,
+        "model":"products.product",
+        "fields":{
+           "sku":"pp5004111503",
+           "name":"Kids freestyle all mountain snowboard- endzone jr 120 cm",
+           "description":"For kids from 1.30 m to 1.44 m tall, beginners to intermediate. Easy snowboard to learn and progress with.",
+           "price":260.99,
+           "category":9,
+           "rating":4.9,
+           "image_url":"https://res.cloudinary.com/dugcwv1mf/image/upload/v1699629068/products/44_st29wu.jpg",
+           "image":"44.jpg"
+        }
+     },
+     {
+        "pk":45,
+        "model":"products.product",
+        "fields":{
+           "sku":"pp5004230059",
+           "name":"Children freestyle all mountain snowboard, endzone 120 cm",
+           "description":"For kids from 1.30 m to 1.44 m tall, beginners to intermediate. Easy snowboard to learn and progress with.",
+           "price":141.0,
+           "category":9,
+           "rating":4.6,
+           "image_url":"https://res.cloudinary.com/dugcwv1mf/image/upload/v1699629193/products/45_xdqqju.jpg",
+           "image":"45.jpg"
+        }
+     }
+]

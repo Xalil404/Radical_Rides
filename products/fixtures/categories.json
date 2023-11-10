@@ -1,0 +1,74 @@
+[
+    {
+        "pk": 1,
+        "model": "products.category",
+        "fields": {
+            "name": "skate_boards",
+            "friendly_name": "Skate Boards"
+        }
+    },
+    {
+        "pk": 2,
+        "model": "products.category",
+        "fields": {
+            "name": "cruiser_boards",
+            "friendly_name": "Cruiser Boards"
+        }
+    },
+    {
+        "pk": 3,
+        "model": "products.category",
+        "fields": {
+            "name": "mini_boards",
+            "friendly_name": "Mini Boards"
+        }
+    },
+    {
+        "pk": 4,
+        "model": "products.category",
+        "fields": {
+            "name": "short_boards",
+            "friendly_name": "Short Boards"
+        }
+    },
+    {
+        "pk": 5,
+        "model": "products.category",
+        "fields": {
+            "name": "hybrid_boards",
+            "friendly_name": "Hybrid Boards"
+        }
+    },
+    {
+        "pk": 6,
+        "model": "products.category",
+        "fields": {
+            "name": "long_boards",
+            "friendly_name": "Long Boards"
+        }
+    },
+    {
+        "pk": 7,
+        "model": "products.category",
+        "fields": {
+            "name": "mens_boards",
+            "friendly_name": "Men's Boards"
+        }
+    },
+    {
+        "pk": 8,
+        "model": "products.category",
+        "fields": {
+            "name": "womens_boards",
+            "friendly_name": "Women's Boards"
+        }
+    },
+    {
+        "pk": 9,
+        "model": "products.category",
+        "fields": {
+            "name": "kids-boards",
+            "friendly_name": "Kids' Boards"
+        }
+    }
+]
