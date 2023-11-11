@@ -73,6 +73,8 @@ Deployment of the Radical Rides application was done with the following steps:
 
 * [Heroku](https://www.heroku.com/) for front-end deployment.
 
+* [FlexDex](https://www.flexdexskateboards.com/) and [Decathalon.ie](https://www.decathlon.ie/) for product stock data.
+
 * [Amazon S3](https://aws.amazon.com/s3/) for hosting static files.
 
 * [ElephantSQL](https://www.elephantsql.com/) for database hosting. 
