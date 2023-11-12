@@ -2,8 +2,13 @@ html {
     height: 100%;
 }
 
+#shop {
+    background: url('https://res.cloudinary.com/dugcwv1mf/image/upload/v1699796823/Project%204/yann-allegre-8FG9tt8qZ-8-unsplash_oucvla.jpg') no-repeat center center fixed;
+    max-width: 100%; 
+    height: auto;
+}
+
 body {
-    background: url('/media/homepage_background_cropped.jpg') no-repeat center center fixed;
     background-size: cover;
     height: calc(100vh - 164px);
     color: #555;
@@ -68,6 +73,24 @@ body {
 	position: fixed;
 	background: white;
 	z-index: -1;
+}
+
+.carousel-item img {
+    max-width: 100%; 
+    height: auto;
+}
+
+.col-md-5 img {
+    max-width: 100%; 
+    height: auto;
+}
+
+.featurette-heading {
+    font-size: 50px;
+}
+
+#footer li {
+    margin-right: 40px; 
 }
 
 /* -------------------------------- Media Queries */
