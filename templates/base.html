@@ -47,9 +47,9 @@
             <div class="col-12 col-lg-4 my-auto py-1 py-lg-0">
                 <form method="GET" action="">
                     <div class="input-group w-100">
-                        <input class="form-control border border-black rounded-0" type="text" name="q" placeholder="Search our site">
+                        <input class="form-control border border-dark rounded-0" type="text" name="q" placeholder="Search our site">
                         <div class="input-group-append">
-                            <button class="form-control btn btn-black border border-black rounded-0" type="submit">
+                            <button class="form-control btn btn-dark border border-dark rounded-0" type="submit">
                                 <span class="icon">
                                     <i class="fas fa-search"></i>
                                 </span>
@@ -63,8 +63,8 @@
                     <li class="list-inline-item dropdown">
                         <a class="text-black nav-link" href="#" id="user-options" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                             <div class="text-center">
-                                <div><i class="fas fa-user fa-lg"></i></div>
-                                <p class="my-0">My Account</p>
+                                <div><i class="fas fa-user fa-lg text-black"></i></div>
+                                <p class="my-0 text-black">My Account</p>
                             </div>
                         </a>
                         <div class="dropdown-menu border-0" aria-labelledby="user-options">
@@ -83,8 +83,8 @@
                     <li class="list-inline-item">
                         <a class="{% if grand_total %}text-info font-weight-bold{% else %}text-black{% endif %} nav-link" href="">
                             <div class="text-center">
-                                <div><i class="fas fa-shopping-bag fa-lg"></i></div>
-                                <p class="my-0">
+                                <div><i class="fas fa-shopping-bag fa-lg text-black"></i></div>
+                                <p class="my-0 text-black">
                                     {% if grand_total %}
                                         ${{ grand_total|floatformat:2 }}
                                     {% else %}
@@ -107,7 +107,7 @@
             </nav>
         </div>
         <div id="delivery-banner" class="row text-center">
-            <div class="col bg-black text-white">
+            <div class="col bg-success text-white">
                 <h4 class="logo-font my-1">Free delivery on orders over ${{ free_shipping_threshold }}!</h4>                
             </div>            
         </div>
@@ -131,35 +131,20 @@
     <footer class="py-5">
         <div class="row">
             <div class="col-6 col-md-2 mb-3">
-                <h5>Section</h5>
+                <h5>Shop</h5>
                 <ul class="nav flex-column">
-                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Home</a></li>
-                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Features</a></li>
-                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Pricing</a></li>
-                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">FAQs</a></li>
-                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">About</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Skate</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Surf</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Snow</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Contact</a></li>
                 </ul>
             </div>
 
             <div class="col-6 col-md-2 mb-3">
-                <h5>Section</h5>
+                <h5>Useful Links</h5>
                 <ul class="nav flex-column">
-                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Home</a></li>
-                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Features</a></li>
-                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Pricing</a></li>
-                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">FAQs</a></li>
-                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">About</a></li>
-                </ul>
-            </div>
-
-            <div class="col-6 col-md-2 mb-3">
-                <h5>Section</h5>
-                <ul class="nav flex-column">
-                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Home</a></li>
-                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Features</a></li>
-                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Pricing</a></li>
-                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">FAQs</a></li>
-                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">About</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Privacy Policy</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Terms of Use</a></li>
                 </ul>
             </div>
 
@@ -169,7 +154,7 @@
                     <p>Monthly digest of what's new and exciting from us.</p>
                     <div class="d-flex flex-column flex-sm-row w-100 gap-2">
                         <input id="newsletter1" type="text" class="form-control" placeholder="Email address">
-                        <button class="btn btn-primary" type="button">Subscribe</button>
+                        <button class="btn btn-dark" type="button">Subscribe</button>
                     </div>
                 </form>
             </div>
@@ -178,9 +163,9 @@
         <div class="d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top">
             <p>&copy; 2023 RADICAL RIDES. All rights reserved.</p>
             <ul class="list-unstyled d-flex" id="footer">
-                <li class="ms-5"><a class="link-body-emphasis" href="https://twitter.com/" target="_blank" rel="noopener" aria-label="visit our twitter page (opens in a new tab)"><i class="fab fa-twitter fa-4x"></i></a></li>
-                <li class="ms-5"><a class="link-body-emphasis" href="https://www.instagram.com/" target="_blank" rel="noopener" aria-label="visit our instagram page (opens in a new tab)"><i class="fab fa-instagram fa-4x"></i></a></li>
-                <li class="ms-5"><a class="link-body-emphasis" href="#"><i class="fab fa-facebook fa-4x" target="_blank" rel="noopener" aria-label="visit our twitter page (opens in a new tab)"></i></a></li>
+                <li class="ms-5"><a class="link-body-emphasis" href="https://twitter.com/" target="_blank" rel="noopener" aria-label="visit our twitter page (opens in a new tab)"><i class="fab fa-twitter fa-4x" style="color: #343a40;"></i></a></li>
+                <li class="ms-5"><a class="link-body-emphasis" href="https://www.instagram.com/" target="_blank" rel="noopener" aria-label="visit our instagram page (opens in a new tab)"><i class="fab fa-instagram fa-4x" style="color: #343a40;"></i></a></li>
+                <li class="ms-5"><a class="link-body-emphasis" href="#"><i class="fab fa-facebook fa-4x" target="_blank" rel="noopener" aria-label="visit our twitter page (opens in a new tab)" style="color: #343a40;"></i></a></li>
             </ul>
         </div>
     </footer>
