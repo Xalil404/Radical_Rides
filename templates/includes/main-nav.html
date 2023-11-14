@@ -17,10 +17,10 @@
                 Skateboards
             </a>
             <div class="dropdown-menu border-0" aria-labelledby="clothing-link">
-                <a href="" class="dropdown-item">Skate Boards</a>
-                <a href="" class="dropdown-item">Cruiser Boards</a>
-                <a href="" class="dropdown-item">Mini Boards</a>
-                <a href="" class="dropdown-item">All Skateboards</a>
+                <a href="{% url 'products' %}?category=skate_boards" class="dropdown-item">Skate Boards</a>
+                <a href="{% url 'products' %}?category=cruiser_boards" class="dropdown-item">Cruiser Boards</a>
+                <a href="{% url 'products' %}?category=mini_boards" class="dropdown-item">Mini Boards</a>
+                <a href="{% url 'products' %}?category=skate_boards,cruiser_boards,mini_boards" class="dropdown-item">All Skateboards</a>
             </div>
         </li>
 
@@ -29,10 +29,10 @@
                 Surfboards
             </a>
             <div class="dropdown-menu border-0" aria-labelledby="homeware-link">
-                <a href="" class="dropdown-item">Short Boards</a>
-                <a href="" class="dropdown-item">Hybrid Boards</a>
-                <a href="" class="dropdown-item">Long Boards</a>
-                <a href="" class="dropdown-item">All Surfboards</a>
+                <a href="{% url 'products' %}?category=short_boards" class="dropdown-item">Short Boards</a>
+                <a href="{% url 'products' %}?category=hybrid_boards" class="dropdown-item">Hybrid Boards</a>
+                <a href="{% url 'products' %}?category=long_boards" class="dropdown-item">Long Boards</a>
+                <a href="{% url 'products' %}?category=short_boards,hybrid_boards,long_boards" class="dropdown-item">All Surfboards</a>
             </div>
         </li>
 
@@ -41,10 +41,10 @@
                 Snowboards
             </a>
             <div class="dropdown-menu border-0" aria-labelledby="specials-link">
-                <a href="" class="dropdown-item">Men's Boards</a>
-                <a href="" class="dropdown-item">Women's Boards</a>
-                <a href="" class="dropdown-item">Kids' Boards</a>
-                <a href="" class="dropdown-item">All Snowboards</a>
+                <a href="{% url 'products' %}?category=mens_boards" class="dropdown-item">Men's Boards</a>
+                <a href="{% url 'products' %}?category=womens_boards" class="dropdown-item">Women's Boards</a>
+                <a href="{% url 'products' %}?category=kids-boards" class="dropdown-item">Kids' Boards</a>
+                <a href="{% url 'products' %}?category=mens_boards,womens_boards,kids-boards" class="dropdown-item">All Snowboards</a>
             </div>
         </li>
        
