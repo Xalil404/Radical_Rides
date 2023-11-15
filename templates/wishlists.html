@@ -11,23 +11,24 @@
 
 {% block content %}
 
-<h2>Your Radical Rides Wishlists</h2>
-<div class="list-group">
-  {% for wishlist in user_wishlists %}
-      <div class="list-group-item d-flex justify-content-between align-items-center">
-          <a href="{% url 'view_wishlist' wishlist.id %}" class="list-group-item-action">
-              {{ wishlist.name }}
-          </a>
-          <form method="post" action="{% url 'delete_wishlist' wishlist.id %}" class="ml-2">
-              {% csrf_token %}
-              <button type="submit" class="btn btn-danger btn-sm">Delete Wishlist</button>
-          </form>
-      </div>
-  {% endfor %}
-</div>
+<div class="container mt-5 text-center">
+    <h2>Your Radical Rides Wishlists</h2>
+    <div class="list-group mt-5">
+        {% for wishlist in user_wishlists %}
+            <a href="{% url 'view_wishlist' wishlist.id %}" class="list-group-item list-group-item-action d-flex justify-content-between align-items-center">
+                {{ wishlist.name }}
+                <form method="post" action="{% url 'delete_wishlist' wishlist.id %}" class="ml-2">
+                    {% csrf_token %}
+                    <button type="submit" class="btn btn-danger btn-sm">Delete Wishlist</button>
+                </form>
+            </a>
+        {% endfor %}
+    </div>
 
-  <a href="{% url 'create_wishlist' %}" class="btn btn-success mt-3">
-    Create Products Wishlist
-</a>
+    <a href="{% url 'create_wishlist' %}" class="btn btn-dark my-5 mx-auto">
+        Create Products Wishlist
+    </a>
+
+</div>
 
 {% endblock %}
