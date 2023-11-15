@@ -1,0 +1,37 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block page_header %}
+<div class="container header-container">
+    <div class="row">
+        <div class="col"></div>
+    </div>
+</div>
+{% endblock %}
+
+{% block content %}
+
+
+<h2>Add Products to Wishlist</h2>
+  <form method="post" action="{% url 'wishlist_add' wishlist.id %}">
+    {% csrf_token %}
+    
+    <div class="form-group">
+      <label>Select Products:</label>
+      {% for product in all_products %}
+        <div class="form-check">
+          <input type="checkbox" class="form-check-input" id="product_{{ product.id }}" name="products" value="{{ product.id }}">
+          <label class="form-check-label" for="product_{{ product.id }}">{{ product.name }} - ${{ product.price }}</label>
+        </div>
+      {% endfor %}
+    </div>
+
+    <button type="submit" class="btn btn-primary">Add Selected Products</button>
+  </form>
+
+  <br>
+  <a href="{% url 'view_wishlist' wishlist.id %}" class="btn btn-secondary">Cancel</a>
+
+
+
+{% endblock %}

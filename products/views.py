@@ -5,6 +5,10 @@ from django.db.models.functions import Lower
 from .models import Product, Category
 
 # Create your views here.
+#wishlist views
+from django.contrib.auth.decorators import login_required
+from .models import Wishlist
+
 
 def all_products(request):
     """ A view to show all products, including sorting and search queries """
@@ -66,3 +70,69 @@ def product_detail(request, product_id):
     }
 
     return render(request, 'products/product_detail.html', context)
+
+
+@login_required
+def view_wishlists(request):
+    user_wishlists = Wishlist.objects.filter(user=request.user)
+    return render(request, 'wishlists.html', {'user_wishlists': user_wishlists})
+
+
+def view_wishlist(request, wishlist_id):
+    wishlist = Wishlist.objects.get(id=wishlist_id, user=request.user)
+    products = wishlist.products.all()
+    return render(request, 'view_wishlist.html', {'wishlist': wishlist, 'products': products})
+
+
+def wishlist_add(request, wishlist_id):
+    wishlist = Wishlist.objects.get(id=wishlist_id, user=request.user)
+    all_products = Product.objects.all()
+
+    if request.method == 'POST':
+        selected_product_ids = request.POST.getlist('products')
+        selected_products = Product.objects.filter(id__in=selected_product_ids)
+        wishlist.products.add(*selected_products)
+        return redirect('view_wishlist', wishlist_id=wishlist_id)
+
+    return render(request, 'wishlist_add.html', {'wishlist': wishlist, 'all_products': all_products})
+
+
+def create_wishlist(request):
+    if request.method == 'POST':
+        # Process the form submission to create a new wishlist
+        wishlist_name = request.POST.get('wishlist_name')
+        if wishlist_name:
+            new_wishlist = Wishlist.objects.create(user=request.user, name=wishlist_name)
+            return redirect('select_products', wishlist_id=new_wishlist.id)
+
+    return render(request, 'create_wishlist.html')
+
+def select_products(request, wishlist_id):
+    wishlist = Wishlist.objects.get(id=wishlist_id, user=request.user)
+    all_products = Product.objects.all()
+
+    if request.method == 'POST':
+        selected_product_ids = request.POST.getlist('products')
+        selected_products = Product.objects.filter(id__in=selected_product_ids)
+        wishlist.products.add(*selected_products)
+        return redirect('view_wishlist', wishlist_id=wishlist_id)
+
+    return render(request, 'select_products.html', {'wishlist': wishlist, 'all_products': all_products})
+
+
+def delete_wishlist(request, wishlist_id):
+    wishlist = get_object_or_404(Wishlist, id=wishlist_id, user=request.user)
+
+    if request.method == 'POST':
+        wishlist.delete()
+    return redirect('view_wishlists')
+
+
+def remove_from_wishlist(request, wishlist_id, product_id):
+    wishlist = get_object_or_404(Wishlist, id=wishlist_id, user=request.user)
+    product = get_object_or_404(Product, id=product_id)
+    
+    if request.method == 'POST':
+        wishlist.products.remove(product)
+    
+    return redirect('view_wishlist', wishlist_id=wishlist_id)

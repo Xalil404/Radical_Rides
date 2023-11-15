@@ -1,0 +1,33 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block page_header %}
+<div class="container header-container">
+    <div class="row">
+        <div class="col"></div>
+    </div>
+</div>
+{% endblock %}
+
+{% block content %}
+
+<h2>Your Radical Rides Wishlists</h2>
+<div class="list-group">
+  {% for wishlist in user_wishlists %}
+      <div class="list-group-item d-flex justify-content-between align-items-center">
+          <a href="{% url 'view_wishlist' wishlist.id %}" class="list-group-item-action">
+              {{ wishlist.name }}
+          </a>
+          <form method="post" action="{% url 'delete_wishlist' wishlist.id %}" class="ml-2">
+              {% csrf_token %}
+              <button type="submit" class="btn btn-danger btn-sm">Delete Wishlist</button>
+          </form>
+      </div>
+  {% endfor %}
+</div>
+
+  <a href="{% url 'create_wishlist' %}" class="btn btn-success mt-3">
+    Create Products Wishlist
+</a>
+
+{% endblock %}

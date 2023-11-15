@@ -1,0 +1,28 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block page_header %}
+<div class="container header-container">
+    <div class="row">
+        <div class="col"></div>
+    </div>
+</div>
+{% endblock %}
+
+{% block content %}
+
+<div class="container mt-5">
+    <h2>Create A Wishlist</h2>
+    <form method="post" action="{% url 'create_wishlist' %}">
+      {% csrf_token %}
+      <div class="form-group">
+        <label for="wishlistName">Give it a name:</label>
+        <input type="text" class="form-control" id="wishlistName" name="wishlist_name" required>
+      </div>
+      <button type="submit" class="btn btn-primary">Next</button>
+    </form>
+  </div>
+
+
+
+{% endblock %}
