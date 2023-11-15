@@ -11,23 +11,28 @@
 
 {% block content %}
 
-<h2>{{ wishlist.name }} Wishlist</h2>
-<ul class="list-group">
-  {% for product in products %}
-      <li class="list-group-item d-flex justify-content-between align-items-center">
-          {{ product.name }} - ${{ product.price }}
-          <form method="post" action="{% url 'remove_from_wishlist' wishlist.id product.id %}">
-              {% csrf_token %}
-              <button type="submit" class="btn btn-danger btn-sm">Remove</button>
-          </form>
-      </li>
-  {% endfor %}
-</ul>
+<div class="container mt-5">
+    <h2>{{ wishlist.name }} Wishlist</h2>
+    <div class="row">
+        {% for product in products %}
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <img src="{{ product.image.url }}" alt="{{ product.name }}" class="card-img-top">
+                    <div class="card-body">
+                        <p class="card-text">{{ product.name }} - ${{ product.price }}</p>
+                        <form method="post" action="{% url 'remove_from_wishlist' wishlist.id product.id %}">
+                            {% csrf_token %}
+                            <button type="submit" class="btn btn-danger btn-sm">Remove</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        {% endfor %}
+    </div>
 
-
-
-  <a href="{% url 'wishlist_add' wishlist.id %}" class="btn btn-primary">Add More Products</a>
-  <br>
-  <a href="{% url 'view_wishlists' %}" class="btn btn-secondary">Back To Whislists</a>
+    <a href="{% url 'wishlist_add' wishlist.id %}" class="btn btn-primary mt-3">Add More Products</a>
+    <br>
+    <a href="{% url 'view_wishlists' %}" class="btn btn-secondary mt-3">Back To Wishlists</a>
+</div>
 
 {% endblock %}
