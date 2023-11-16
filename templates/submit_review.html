@@ -16,14 +16,15 @@
 <div class="container mt-5 ">
     <h2 class="mb-4 text-center">Submit a Product Review</h2>
 
+
     <form method="post" class="form">
         {% csrf_token %}
         {{ form|crispy }}
-<div class="container text-center my-5">
-    <button type="submit" class="btn btn-primary mb-3">Submit Review</button>
-</div>
-    </form>
 
+        <div class="container text-center my-5">
+            <button type="submit" class="btn btn-primary mb-3">Submit Review</button>
+        </div>
+    </form>
 </div>
 
 
