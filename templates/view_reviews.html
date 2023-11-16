@@ -1,0 +1,39 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% load custom_filters %}
+
+{% block page_header %}
+<div class="container header-container">
+    <div class="row">
+        <div class="col"></div>
+    </div>
+</div>
+{% endblock %}
+
+{% block content %}
+
+<div class="container mt-5">
+    <h2>Product Reviews</h2>
+    <div class="row">
+        {% for review in reviews %}
+        <div class="col-md-6 mb-4">
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">Product: {{ review.product.name }}</h5>
+                    {% if review.product.image %}
+                    <img src="{{ review.product.image.url }}" alt="{{ review.product.name }}"
+                        class="img-thumbnail mb-3">
+                    {% endif %}
+                    <p class="card-text">{{ review.text }}</p>
+
+                    <p><strong>{{ review.user.username }}</strong> - {{ review.rating|stars }}</p>
+
+                    <p class="text-muted">Published on {{ review.date_published }}</p>
+                </div>
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+</div>
+{% endblock %}

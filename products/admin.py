@@ -1,5 +1,5 @@
 from django.contrib import admin
-from .models import Product, Category, Wishlist
+from .models import Product, Category, Wishlist, ProductReview
 
 # Register your models here.
 
@@ -31,6 +31,14 @@ class WishlistAdmin(admin.ModelAdmin):
     display_products.short_description = 'Products'
 
 
+
+class ProductReviewAdmin(admin.ModelAdmin):
+    list_display = ('product', 'user', 'rating', 'date_published')
+    list_filter = ('product', 'rating', 'date_published')
+    search_fields = ('product__name', 'user__username', 'text')
+
+
 admin.site.register(Product, ProductAdmin)
 admin.site.register(Category, CategoryAdmin)
 admin.site.register(Wishlist, WishlistAdmin)
+admin.site.register(ProductReview, ProductReviewAdmin)

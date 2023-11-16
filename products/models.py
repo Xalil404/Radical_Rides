@@ -2,6 +2,7 @@ from django.db import models
 
 from django.contrib.auth.models import User
 
+from django.utils import timezone
 
 class Category(models.Model):
     class Meta:
@@ -38,3 +39,22 @@ class Wishlist(models.Model):
 
     def __str__(self):
         return f"{self.user.username}'s {self.name} Wishlist"
+    
+
+class ProductReview(models.Model):
+    RATING_CHOICES = (
+        (1, '1 star'),
+        (2, '2 stars'),
+        (3, '3 stars'),
+        (4, '4 stars'),
+        (5, '5 stars'),
+    )
+
+    product = models.ForeignKey(Product, on_delete=models.CASCADE)
+    user = models.ForeignKey(User, on_delete=models.CASCADE)
+    text = models.TextField()
+    rating = models.IntegerField(choices=RATING_CHOICES)
+    date_published = models.DateTimeField(default=timezone.now)
+
+    def __str__(self):
+        return f"{self.product} - {self.user.username} - {self.rating} stars"

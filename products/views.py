@@ -7,7 +7,7 @@ from .models import Product, Category
 # Create your views here.
 #wishlist views
 from django.contrib.auth.decorators import login_required
-from .models import Wishlist
+from .models import Wishlist, ProductReview
 
 
 def all_products(request):
@@ -107,6 +107,7 @@ def create_wishlist(request):
 
     return render(request, 'create_wishlist.html')
 
+
 def select_products(request, wishlist_id):
     wishlist = Wishlist.objects.get(id=wishlist_id, user=request.user)
     all_products = Product.objects.all()
@@ -136,3 +137,8 @@ def remove_from_wishlist(request, wishlist_id, product_id):
         wishlist.products.remove(product)
     
     return redirect('view_wishlist', wishlist_id=wishlist_id)
+
+
+def view_reviews(request):
+    reviews = ProductReview.objects.select_related('product').all().order_by('-date_published')
+    return render(request, 'view_reviews.html', {'reviews': reviews, 'star_range': range(5)})  
