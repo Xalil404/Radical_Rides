@@ -11,8 +11,12 @@
 
 {% block content %}
 
-<div class="container mt-5">
-    <h2>{{ wishlist.name }} Wishlist</h2>
+<div class="container my-5">
+    <h2 class="text-center mb-5">{{ wishlist.name }} Wishlist</h2>
+    <div class="d-flex justify-content-between mb-5">
+        <a href="{% url 'view_wishlists' %}" class="btn btn-secondary mt-3">Back To Wishlists</a>
+        <a href="{% url 'wishlist_add' wishlist.id %}" class="btn btn-primary mt-3">Add More Products</a>
+    </div>
     <div class="row">
         {% for product in products %}
             <div class="col-md-4 mb-4">
@@ -29,10 +33,6 @@
             </div>
         {% endfor %}
     </div>
-
-    <a href="{% url 'wishlist_add' wishlist.id %}" class="btn btn-primary mt-3">Add More Products</a>
-    <br>
-    <a href="{% url 'view_wishlists' %}" class="btn btn-secondary mt-3">Back To Wishlists</a>
 </div>
 
 {% endblock %}
