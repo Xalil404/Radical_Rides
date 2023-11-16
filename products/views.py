@@ -4,11 +4,15 @@ from django.db.models import Q
 from django.db.models.functions import Lower
 from .models import Product, Category
 
-# Create your views here.
+
 #wishlist views
 from django.contrib.auth.decorators import login_required
 from .models import Wishlist, ProductReview
 
+#product review form
+from .forms import ProductReviewForm
+from django.views import View
+from django.contrib.auth.mixins import LoginRequiredMixin
 
 def all_products(request):
     """ A view to show all products, including sorting and search queries """
@@ -142,3 +146,23 @@ def remove_from_wishlist(request, wishlist_id, product_id):
 def view_reviews(request):
     reviews = ProductReview.objects.select_related('product').all().order_by('-date_published')
     return render(request, 'view_reviews.html', {'reviews': reviews, 'star_range': range(5)})  
+
+
+class SubmitReviewView(LoginRequiredMixin, View):
+    template_name = 'submit_review.html'
+    login_url = '/accounts/login/'  
+
+    def get(self, request):
+        form = ProductReviewForm()
+        return render(request, self.template_name, {'form': form})
+
+    def post(self, request):
+        form = ProductReviewForm(request.POST)
+
+        if form.is_valid():
+            review = form.save(commit=False)
+            review.user = request.user  
+            review.save()
+            return redirect('view_reviews')  
+
+        return render(request, self.template_name, {'form': form})

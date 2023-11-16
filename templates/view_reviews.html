@@ -13,8 +13,11 @@
 
 {% block content %}
 
-<div class="container mt-5">
-    <h2>Product Reviews</h2>
+<div class="container mt-5 text-center">
+    <h2 class="mb-5">Radical Rides Product Reviews</h2>
+
+    <a href="{% url 'submit_review' %}" class="btn btn-primary mb-5">Submit a Review</a>
+
     <div class="row">
         {% for review in reviews %}
         <div class="col-md-6 mb-4">
