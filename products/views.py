@@ -14,6 +14,7 @@ from .forms import ProductReviewForm
 from django.views import View
 from django.contrib.auth.mixins import LoginRequiredMixin
 
+
 def all_products(request):
     """ A view to show all products, including sorting and search queries """
 
