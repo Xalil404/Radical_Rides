@@ -52,6 +52,7 @@
 </div>
 
 <script>
+    /*
    // function getProductImageURL(productNumber) because of different file types
   function getProductImageURL(productNumber) {
     var fileExtension;
@@ -67,6 +68,26 @@
     }
 
     return "/media/" + productNumber + "." + fileExtension;
+}
+*/
+
+function getProductImageURL(productNumber) {
+    var fileExtension;
+
+    if (productNumber >= 1 && productNumber <= 29) {
+        fileExtension = 'png';
+    } else if (productNumber === 30) {
+        fileExtension = 'jpg';
+    } else if (productNumber >= 31 && productNumber <= 34) {
+        fileExtension = 'png';
+    } else if (productNumber >= 35 && productNumber <= 45) {
+        fileExtension = 'jpg';
+    }
+
+    // S3_BUCKET_URL to retrieve files
+    var S3_BUCKET_URL = "https://radical-rides.s3.amazonaws.com/";
+
+    return S3_BUCKET_URL + "media/" + productNumber + "." + fileExtension;
 }
 
 
