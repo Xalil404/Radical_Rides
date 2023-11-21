@@ -82,6 +82,9 @@ function getProductImageURL(productNumber) {
         fileExtension = 'png';
     } else if (productNumber >= 35 && productNumber <= 45) {
         fileExtension = 'jpg';
+    } else {
+        // To Handle file images after the 45th image
+        fileExtension = 'jpg'; 
     }
 
     // S3_BUCKET_URL to retrieve files
