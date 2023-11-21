@@ -47,9 +47,27 @@ All fucntional testing, user story testing, device compatibility testing and bro
 
 ## Deployment
 
-Deployment of the Radical Rides application was done with the following steps:
+Deployment of the Radical Rides application required deployment of the web app on 3 platforms: Heroku, ElephantSQL and AWS S3 through the following steps:
 
-* I created ....
+* In [ElephantSQL](https://www.elephantsql.com/) I created a new instance and copied the new database URL.
+
+* The on [Heroku](heroku.com) I created a new application and in the app's config vars section added the ElephantSQL database URL.
+
+* In my project's settings.py file I installed psycopg2, imported the dj_database_url, commented out the DATABASES section and replaced it with another temporary DATABASES section, migrated the database models to the new database, loaddata-ed the categories, products and created a new superuser. After completing the migration I removed the newly created temporary DATABASES section and uncommented the original DATABASES section, git commited and git pushed my code in order to initiate the deployment.
+
+* Then on AWS I created a new bucket to store static files and configured the bucket's settings. In the bucket's settings, I updated the CORS configuration, enabled ACLs, updated object ownership permissions, generated a bucket policy, created a new group in the Identify and Access Management (IAM) section, attached the newly generated bucket policy to it, and finally retrieved and downloaded the access keys in a CSV file.
+
+* Back in the IDE I added 'storages' to my apps in settings.py and an additional setting to use AWS storage.
+
+* In [Heroku](heroku.com), in the config vars section, I added the AWS retrieved keys and to use AWS and removed the disable collect static variable so that static files would be pushed to S3.  
+
+* Back in the IDE again, I added a custom_storages.py file, imported S3Boto storage and added a media and static storage classes. After committing and pushing the latest changes, I deployed the app again.
+
+* Back in AW S3 I created a media folder, uploaded all the proudct images, granted them public read access and completed the media upload process. 
+
+* Then from the [Stripe](https://stripe.com/en-ie) admin interface I retrieved the Stripe public and private keys and added them as config variables in the Heroku app settings.  Also in the Stripe admin dashboard I added the web app's checkout URL in the webhook endpoint URL section and marked it to receive all events. 
+
+* I then copied the Stripe webhook signing secret and added to the config vars in the Heroku settings.
 
 ## Credits
 
