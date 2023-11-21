@@ -195,8 +195,7 @@ a.category-badge > span.badge:hover {
 
 .background-image-container {
     background-image: url('https://res.cloudinary.com/dugcwv1mf/image/upload/v1699796823/Project%204/yann-allegre-8FG9tt8qZ-8-unsplash_oucvla.jpg');
-    max-width: 100%; 
-    height: auto;
+    background-size: cover;
 }
 
 /* -------------------------------- Media Queries */
