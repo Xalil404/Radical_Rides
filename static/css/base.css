@@ -193,6 +193,11 @@ a.category-badge > span.badge:hover {
     overflow-y: auto;
 }
 
+.background-image-container {
+    background-image: url('https://res.cloudinary.com/dugcwv1mf/image/upload/v1699796823/Project%204/yann-allegre-8FG9tt8qZ-8-unsplash_oucvla.jpg');
+    background-size: cover;
+}
+
 /* -------------------------------- Media Queries */
 
 /* Slightly larger container on xl screens */
