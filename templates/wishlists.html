@@ -19,7 +19,9 @@
                 {{ wishlist.name }}
                 <form method="post" action="{% url 'delete_wishlist' wishlist.id %}" class="ml-2">
                     {% csrf_token %}
-                    <button type="submit" class="btn btn-danger btn-sm">Delete Wishlist</button>
+                    <button type="button" class="btn btn-danger btn-sm delete-wishlist" data-toggle="modal" data-target="#confirmDeleteModal" data-wishlist-id="{{ wishlist.id }}" data-delete-url="{% url 'delete_wishlist' wishlist.id %}">
+                        Delete Wishlist
+                    </button>
                 </form>
             </a>
         {% endfor %}
@@ -30,5 +32,67 @@
     </a>
 
 </div>
+
+<!-- Delete Confirmation Modal -->
+<div class="modal fade" id="confirmDeleteModal" tabindex="-1" role="dialog" aria-labelledby="confirmDeleteModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="confirmDeleteModalLabel">Confirm Deletion</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <p>Are you sure you want to delete this wishlist?</p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancel</button>
+                <a href="#" id="confirmDeleteButton" class="btn btn-danger">Delete</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- JavaScript to Handle Modal Display -->
+<script>
+    $(document).ready(function () {
+        $('.delete-wishlist').on('click', function (event) {
+            var button = $(this);
+            var wishlistId = button.data('wishlist-id');
+            var deleteUrl = button.data('delete-url');
+
+            // Set the delete URL
+            $('#confirmDeleteButton').attr('data-delete-url', deleteUrl);
+
+            // Show the modal
+            $('#confirmDeleteModal').modal('show');
+
+            event.preventDefault(); // Prevent link click
+        });
+
+        // Handle deletion when the confirmation button in the modal is clicked
+        $('#confirmDeleteButton').on('click', function () {
+            var deleteUrl = $(this).data('delete-url');
+
+            // Perform the deletion using AJAX
+            $.ajax({
+                url: deleteUrl,
+                type: 'POST',
+                data: {'csrfmiddlewaretoken': '{{ csrf_token }}'},
+                success: function () {
+                    location.reload();  
+                },
+                error: function () {
+                    // Handle error
+                    console.log('Error during deletion');
+                }
+            });
+
+            // Hide the modal
+            $('#confirmDeleteModal').modal('hide');
+        });
+    });
+</script>
 
 {% endblock %}
