@@ -1,0 +1,39 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block page_header %}
+<div class="container header-container">
+    <div class="row">
+        <div class="col"></div>
+    </div>
+</div>
+{% endblock %}
+
+{% block content %}
+
+<div class="container my-5">
+    <h2 class="text-center mb-4">Available Custom Orders</h2>
+
+    {% if custom_orders %}
+        <!-- Display List of Available Orders -->
+        <div class="list-group">
+            {% for order in custom_orders %}
+                <div class="list-group-item list-group-item-action">
+                    <h5 class="mb-1">Order #{{ order.id }}</h5>
+                    <p class="mb-1">Type: {{ order.board_type }}</p>
+                    <p class="mb-1">Class: {{ order.board_class }}</p>
+                    <p class="mb-1">Length: {{ order.board_length }} cm</p>
+                    <p class="mb-1">Color: {{ order.board_color }}</p>
+                </div>
+            {% endfor %}
+        </div>
+    {% else %}
+        <!-- No Available Orders Message -->
+        <p class="text-center my-4">No available custom orders.</p>
+    {% endif %}
+
+    <!-- Button to Create New Custom Order -->
+    <a href="{% url 'create_custom' %}" class="btn btn-primary btn-lg my-3">Create New Custom Order</a>
+</div>
+
+{% endblock %}
