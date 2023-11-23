@@ -3,7 +3,7 @@ from django.contrib.auth.decorators import login_required
 from .models import CustomBoardOrder
 from .forms import CustomOrderForm
 
-
+from django.http import JsonResponse
 
 # Create your views here.
 
@@ -30,3 +30,17 @@ def create_custom_order(request):
 def view_order(request, order_id):
     order = get_object_or_404(CustomBoardOrder, id=order_id)
     return render(request, 'custom/view_order.html', {'order': order})
+
+
+def delete_order(request, order_id):
+    order = get_object_or_404(CustomBoardOrder, id=order_id, user=request.user)
+
+    if request.method == 'POST':
+        order.delete()
+
+        if request.is_ajax():
+            return JsonResponse({'success': True})
+        else:
+            return redirect('custom_orders')  
+
+    return render(request, 'custom/custom_orders.html', {'order': order})
