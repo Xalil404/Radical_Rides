@@ -11,32 +11,51 @@
 
 {% block content %}
 
-<div class="container my-5">
-    <h2 class="text-center mb-4">Available Custom Orders</h2>
+<div class="container mt-5">
+    <h2 class="text-center">Available Custom Board Orders</h2>
 
-    {% if custom_orders %}
-        <!-- Display List of Available Orders -->
-        <div class="list-group">
-            {% for order in custom_orders %}
-                <div class="list-group-item list-group-item-action">
-                    <h5 class="mb-1">Order #{{ order.id }}</h5>
-                    <p class="mb-1">Type: {{ order.board_type }}</p>
-                    <p class="mb-1">Class: {{ order.board_class }}</p>
-                    <p class="mb-1">Length: {{ order.board_length }} cm</p>
-                    <p class="mb-1">Color: {{ order.board_color }}</p>
+    <div class="container text-center">
+        <a href="{% url 'create_custom' %}" class="btn btn-primary btn-lg mx-auto mt-3">Create New Custom Board Order</a>
+    </div>
 
-                    <a href="{% url 'view_order' order.id %}" class="btn btn-secondary">View Details</a>
-
+    <div class="row mt-4">
+        {% for order in custom_orders %}
+            <div class="col-md-6 mb-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Order #{{ order.id }}</h5>
+                        <p class="card-text">Type: {{ order.board_type }}</p>
+                        <p class="card-text">Class: {{ order.board_class }}</p>
+                        <p class="card-text">Length: {{ order.board_length }} cm</p>
+                        <p class="card-text">Color: {{ order.board_color }}</p>
+                    </div>
+                    <div class="card-footer d-flex justify-content-between align-items-center">
+                        <form method="post" action="">
+                            {% csrf_token %}
+                            <button type="button" class="btn btn-danger delete-order" data-toggle="modal" data-target="#confirmDeleteModal" data-order-id="{{ order.id }}" data-delete-url="">
+                                Delete
+                            </button>
+                        </form>
+                        <a href="{% url 'view_order' order.id %}" class="btn btn-secondary">View Order Details</a>
+                    </div>
                 </div>
-            {% endfor %}
-        </div>
-    {% else %}
-        <!-- No Available Orders Message -->
+            </div>
+        {% endfor %}
+    </div>
+
+    {% if not custom_orders %}
         <p class="text-center my-4">No available custom orders.</p>
     {% endif %}
 
-    <!-- Button to Create New Custom Order -->
-    <a href="{% url 'create_custom' %}" class="btn btn-primary btn-lg my-3">Create New Custom Order</a>
+    <div class="container text-center">
+    <a href="{% url 'create_custom' %}" class="btn btn-primary btn-lg mx-auto mt-3">Create New Custom Board Order</a>
 </div>
+</div>
+
+
+
+
+
+
 
 {% endblock %}

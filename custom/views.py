@@ -29,4 +29,4 @@ def create_custom_order(request):
 
 def view_order(request, order_id):
     order = get_object_or_404(CustomBoardOrder, id=order_id)
-    return render(request, 'view_order.html', {'order': order})
+    return render(request, 'custom/view_order.html', {'order': order})
