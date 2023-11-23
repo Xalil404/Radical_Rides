@@ -12,19 +12,27 @@
 {% block content %}
 
 <div class="container my-5">
-    <h2 class="text-center mb-4">Order Details</h2>
-
+    <h2 class="text-center mb-4">Custom Board Order Details</h2>
+    <div class="container text-center mb-5">
+        <a href="{% url 'custom_orders' %}" class="btn btn-primary">Back to Order List</a>
+    </div>
     <div class="card">
         <div class="card-body">
-            <h5 class="card-title">Order #{{ order.id }}</h5>
+            <h5 class="card-title">Order # {{ order.id }}</h5>
             <p class="card-text">Type: {{ order.board_type }}</p>
             <p class="card-text">Class: {{ order.board_class }}</p>
             <p class="card-text">Length: {{ order.board_length }} cm</p>
             <p class="card-text">Color: {{ order.board_color }}</p>
-            <!-- Add more details as needed -->
-
-            <!-- Add a button or link to go back to the order list -->
+            <p class="card-text">Width: {{ order.board_width }} cm</p>
+            <p class="card-text">Thickness: {{ order.board_thickness }} cm</p>
+            <p class="card-text">Additional Notes: {{ order.additional_notes }}</p>
+            <p class="card-text">Image To Be Printed:
+            {% if order.image_upload %}
+            <img src="{{ order.image_upload.url }}" alt="Board Image" class="img-fluid mb-3">
+            {% endif %}</p>
+            <div class="container text-center">
             <a href="{% url 'custom_orders' %}" class="btn btn-primary">Back to Order List</a>
+        </div>
         </div>
     </div>
 </div>
