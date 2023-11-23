@@ -66,3 +66,9 @@ def remove_from_bag(request, item_id):
     except Exception as e:
         messages.error(request, f'Error removing item: {e}')
         return HttpResponse(status=500)
+    
+
+def liked_products(request):
+    """ A view that renders the liked products page """
+
+    return render(request, 'bag/liked_products.html')
