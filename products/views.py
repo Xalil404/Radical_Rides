@@ -236,3 +236,15 @@ class SubmitReviewView(LoginRequiredMixin, View):
             return redirect('view_reviews')  
 
         return render(request, self.template_name, {'form': form})
+
+
+def product_detail(request, product_id):
+    current_product = Product.objects.get(id=product_id)
+    similar_products = Product.objects.filter(category=current_product.category).exclude(id=product_id)[:3]
+
+    context = {
+        'product': current_product,
+        'similar_products': similar_products,
+    }
+
+    return render(request, 'products/product_detail.html', context)
