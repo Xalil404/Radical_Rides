@@ -68,11 +68,13 @@ def all_products(request):
 
 def product_detail(request, product_id):
     """ A view to show individual product details """
-
-    product = get_object_or_404(Product, pk=product_id)
+    
+    current_product = Product.objects.get(id=product_id)
+    similar_products = Product.objects.filter(category=current_product.category).exclude(id=product_id)[:3]
 
     context = {
-        'product': product,
+        'product': current_product,
+        'similar_products': similar_products,
     }
 
     return render(request, 'products/product_detail.html', context)
@@ -237,14 +239,3 @@ class SubmitReviewView(LoginRequiredMixin, View):
 
         return render(request, self.template_name, {'form': form})
 
-
-def product_detail(request, product_id):
-    current_product = Product.objects.get(id=product_id)
-    similar_products = Product.objects.filter(category=current_product.category).exclude(id=product_id)[:3]
-
-    context = {
-        'product': current_product,
-        'similar_products': similar_products,
-    }
-
-    return render(request, 'products/product_detail.html', context)
