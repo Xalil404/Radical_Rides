@@ -1,7 +1,8 @@
-from django.shortcuts import render, redirect
+from django.shortcuts import render, redirect, get_object_or_404
 from django.contrib.auth.decorators import login_required
 from .models import CustomBoardOrder
 from .forms import CustomOrderForm
+
 
 
 # Create your views here.
@@ -24,3 +25,8 @@ def create_custom_order(request):
         form = CustomOrderForm()
 
     return render(request, 'custom/create_custom.html', {'form': form})
+
+
+def view_order(request, order_id):
+    order = get_object_or_404(CustomBoardOrder, id=order_id)
+    return render(request, 'view_order.html', {'order': order})

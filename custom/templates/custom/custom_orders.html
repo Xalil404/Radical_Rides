@@ -24,6 +24,9 @@
                     <p class="mb-1">Class: {{ order.board_class }}</p>
                     <p class="mb-1">Length: {{ order.board_length }} cm</p>
                     <p class="mb-1">Color: {{ order.board_color }}</p>
+
+                    <a href="{% url 'view_order' order.id %}" class="btn btn-secondary">View Details</a>
+
                 </div>
             {% endfor %}
         </div>

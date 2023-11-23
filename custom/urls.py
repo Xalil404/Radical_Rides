@@ -11,4 +11,5 @@ from django.conf.urls.static import static
 urlpatterns = [
     path('custom_orders/', views.custom_orders, name='custom_orders'),
     path('create_custom/', views.create_custom_order, name='create_custom'),
+    path('view_order/<int:order_id>/', views.view_order, name='view_order'),
 ] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)

@@ -1,0 +1,33 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block page_header %}
+<div class="container header-container">
+    <div class="row">
+        <div class="col"></div>
+    </div>
+</div>
+{% endblock %}
+
+{% block content %}
+
+<div class="container my-5">
+    <h2 class="text-center mb-4">Order Details</h2>
+
+    <div class="card">
+        <div class="card-body">
+            <h5 class="card-title">Order #{{ order.id }}</h5>
+            <p class="card-text">Type: {{ order.board_type }}</p>
+            <p class="card-text">Class: {{ order.board_class }}</p>
+            <p class="card-text">Length: {{ order.board_length }} cm</p>
+            <p class="card-text">Color: {{ order.board_color }}</p>
+            <!-- Add more details as needed -->
+
+            <!-- Add a button or link to go back to the order list -->
+            <a href="{% url 'custom_orders' %}" class="btn btn-primary">Back to Order List</a>
+        </div>
+    </div>
+</div>
+
+
+{% endblock %}
