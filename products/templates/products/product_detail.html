@@ -49,6 +49,20 @@
                         </small>
                     {% endif %}
                     <p class="mt-3">{{ product.description }}</p>
+                    
+                    <button id="likeBtn"
+                        class="like-btn btn btn-outline-danger rounded-0 mt-5 {% if product.id in liked_product_ids %}liked{% endif %}"
+                        type="button" data-product-id="{{ product.id }}">
+                        <span class="icon">
+                            {% if product.id in liked_product_ids %}
+                            <i class="fas fa-heart liked"></i> 
+                            {% else %}
+                            <i class="far fa-heart"></i> 
+                            {% endif %}
+                        </span>
+                        <span class="text-uppercase likeBtnText">{% if product.id in liked_product_ids %}Liked{% else %}Like{%endif%}</span>
+                    </button>
+               
                     <form class="form" action="{% url 'add_to_bag' product.id %}" method="POST">
                         {% csrf_token %}
                         <div class="form-row">
@@ -84,6 +98,7 @@
                                     </span>
                                     <span class="text-uppercase">Keep Shopping</span>
                                 </a>
+                                
                                 <input type="submit" class="btn btn-black rounded-0 text-uppercase mt-5" value="Add to Bag">
                             </div>
                             <input type="hidden" name="redirect_url" value="{{ request.path }}">
@@ -115,6 +130,41 @@
         {% endfor %}
     </div>
 </div>
+
+
+<script>
+    document.getElementById('likeBtn').addEventListener('click', function() {
+        var productId = '{{ product.id }}';
+
+        fetch('{% url "like_product" product.id %}', {
+            method: 'POST',
+            headers: {
+                'X-CSRFToken': '{{ csrf_token }}',
+                'Content-Type': 'application/json'
+            },
+            body: JSON.stringify({ product_id: productId })
+        })
+        .then(response => response.json())
+        .then(data => {
+            
+            if (data.success) {
+                document.getElementById('likeBtn').classList.toggle('liked');
+                var buttonTextElement = document.getElementById('likeBtnText');
+                if (buttonTextElement) {
+                    buttonTextElement.innerText = (buttonTextElement.innerText === 'Like') ? 'Liked' : 'Like';
+                } else {
+                    console.error('Element with id "likeBtnText" not found.');
+                }
+            } else {
+                console.error('Product like failed:', data.message);
+            }
+        })
+        .catch(error => {
+            console.error('Error during product like:', error);
+        });
+    });
+
+</script> 
 
 
 

@@ -2,6 +2,10 @@ from django.shortcuts import render, redirect, reverse, HttpResponse, get_object
 from django.contrib import messages
 from products.models import Product
 
+
+from django.http import JsonResponse
+
+
 # Create your views here.
 
 def view_bag(request):
@@ -69,6 +73,34 @@ def remove_from_bag(request, item_id):
     
 
 def liked_products(request):
-    """ A view that renders the liked products page """
+    liked_product_ids = request.session.get('liked_product_ids', [])
+    liked_products = Product.objects.filter(id__in=liked_product_ids)
+    
+    liked_product_ids = [product.id for product in liked_products]
+    
+    context = {'liked_products': liked_products, 'liked_product_ids': liked_product_ids}
+    return render(request, 'bag/liked_products.html', context)
 
-    return render(request, 'bag/liked_products.html')
+
+def like_product(request, product_id):
+    liked_product_ids = request.session.get('liked_product_ids', [])
+    product = get_object_or_404(Product, id=product_id)
+
+    if request.method == 'POST':
+        if product_id not in liked_product_ids:
+            liked_product_ids.append(product_id)
+            request.session['liked_product_ids'] = liked_product_ids
+
+    return JsonResponse({'success': True, 'message': 'Product liked successfully'})
+
+
+def unlike_product(request, product_id):
+    liked_product_ids = request.session.get('liked_product_ids', [])
+    product = get_object_or_404(Product, id=product_id)
+
+    if request.method == 'POST':
+        if product_id in liked_product_ids:
+            liked_product_ids.remove(product_id)
+            request.session['liked_product_ids'] = liked_product_ids
+
+    return redirect('liked_products')
