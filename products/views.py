@@ -55,10 +55,10 @@ def all_products(request):
             
             queries = Q(name__icontains=query) | Q(description__icontains=query)
             products = products.filter(queries)
-
+   
     # Pagination
     page = request.GET.get('page', 1)
-    paginator = Paginator(products, 12)  
+    paginator = Paginator(products, 15)  
     try:
         products = paginator.page(page)
     except PageNotAnInteger:
