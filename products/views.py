@@ -5,6 +5,8 @@ from django.db.models.functions import Lower
 from .models import Product, Category
 from .forms import ProductForm
 
+from django.core.paginator import Paginator, EmptyPage, PageNotAnInteger
+
 
 #wishlist views
 from django.contrib.auth.decorators import login_required
@@ -53,6 +55,16 @@ def all_products(request):
             
             queries = Q(name__icontains=query) | Q(description__icontains=query)
             products = products.filter(queries)
+
+    # Pagination
+    page = request.GET.get('page', 1)
+    paginator = Paginator(products, 12)  
+    try:
+        products = paginator.page(page)
+    except PageNotAnInteger:
+        products = paginator.page(1)
+    except EmptyPage:
+        products = paginator.page(paginator.num_pages)
 
     current_sorting = f'{sort}_{direction}'
 
