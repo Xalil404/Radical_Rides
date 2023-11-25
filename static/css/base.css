@@ -360,3 +360,12 @@ a.category-badge > span.badge:hover {
 
     
 }
+
+
+/* Galaxy Fold*/
+@media (max-width: 300px) {
+    /*Mailchimp form*/
+#mc_embed_signup {
+    width: 200px;
+}
+}
