@@ -1,0 +1,417 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+
+<url>
+  <loc>https://radical-rides-7dc93d43c139.herokuapp.com/</loc>
+  <lastmod>2023-11-25T12:22:00+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://radical-rides-7dc93d43c139.herokuapp.com/bag/liked-products/</loc>
+  <lastmod>2023-11-25T12:22:00+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://radical-rides-7dc93d43c139.herokuapp.com/accounts/signup/</loc>
+  <lastmod>2023-11-25T12:22:00+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://radical-rides-7dc93d43c139.herokuapp.com/accounts/login/</loc>
+  <lastmod>2023-11-25T12:22:00+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://radical-rides-7dc93d43c139.herokuapp.com/bag/</loc>
+  <lastmod>2023-11-25T12:22:00+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://radical-rides-7dc93d43c139.herokuapp.com/products/?sort=price&amp;direction=asc</loc>
+  <lastmod>2023-11-25T12:22:00+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://radical-rides-7dc93d43c139.herokuapp.com/products/?sort=rating&amp;direction=desc</loc>
+  <lastmod>2023-11-25T12:22:00+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://radical-rides-7dc93d43c139.herokuapp.com/products/?sort=category&amp;direction=asc</loc>
+  <lastmod>2023-11-25T12:22:00+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://radical-rides-7dc93d43c139.herokuapp.com/products/</loc>
+  <lastmod>2023-11-25T12:22:00+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://radical-rides-7dc93d43c139.herokuapp.com/products/?category=skate_boards</loc>
+  <lastmod>2023-11-25T12:22:00+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://radical-rides-7dc93d43c139.herokuapp.com/products/?category=cruiser_boards</loc>
+  <lastmod>2023-11-25T12:22:00+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://radical-rides-7dc93d43c139.herokuapp.com/products/?category=mini_boards</loc>
+  <lastmod>2023-11-25T12:22:00+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://radical-rides-7dc93d43c139.herokuapp.com/products/?category=skate_boards,cruiser_boards,mini_boards</loc>
+  <lastmod>2023-11-25T12:22:00+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://radical-rides-7dc93d43c139.herokuapp.com/products/?category=short_boards</loc>
+  <lastmod>2023-11-25T12:22:00+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://radical-rides-7dc93d43c139.herokuapp.com/products/?category=hybrid_boards</loc>
+  <lastmod>2023-11-25T12:22:00+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://radical-rides-7dc93d43c139.herokuapp.com/products/?category=long_boards</loc>
+  <lastmod>2023-11-25T12:22:00+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://radical-rides-7dc93d43c139.herokuapp.com/products/?category=short_boards,hybrid_boards,long_boards</loc>
+  <lastmod>2023-11-25T12:22:00+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://radical-rides-7dc93d43c139.herokuapp.com/products/?category=mens_boards</loc>
+  <lastmod>2023-11-25T12:22:00+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://radical-rides-7dc93d43c139.herokuapp.com/products/?category=womens_boards</loc>
+  <lastmod>2023-11-25T12:22:00+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://radical-rides-7dc93d43c139.herokuapp.com/products/?category=kids-boards</loc>
+  <lastmod>2023-11-25T12:22:00+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://radical-rides-7dc93d43c139.herokuapp.com/products/?category=mens_boards,womens_boards,kids-boards</loc>
+  <lastmod>2023-11-25T12:22:00+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://radical-rides-7dc93d43c139.herokuapp.com/accounts/login/?next=/custom/custom_orders/</loc>
+  <lastmod>2023-11-25T12:22:00+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://radical-rides-7dc93d43c139.herokuapp.com/accounts/login/?next=/products/wishlists/</loc>
+  <lastmod>2023-11-25T12:22:00+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://radical-rides-7dc93d43c139.herokuapp.com/products/view_reviews/</loc>
+  <lastmod>2023-11-25T12:22:00+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://radical-rides-7dc93d43c139.herokuapp.com/contact/</loc>
+  <lastmod>2023-11-25T12:22:00+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://radical-rides-7dc93d43c139.herokuapp.com/accounts/password/reset/</loc>
+  <lastmod>2023-11-25T12:22:00+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://radical-rides-7dc93d43c139.herokuapp.com/products/15/</loc>
+  <lastmod>2023-11-25T12:22:00+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://radical-rides-7dc93d43c139.herokuapp.com/products/42/</loc>
+  <lastmod>2023-11-25T12:22:00+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://radical-rides-7dc93d43c139.herokuapp.com/products/40/</loc>
+  <lastmod>2023-11-25T12:22:00+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://radical-rides-7dc93d43c139.herokuapp.com/products/45/</loc>
+  <lastmod>2023-11-25T12:22:00+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://radical-rides-7dc93d43c139.herokuapp.com/products/41/</loc>
+  <lastmod>2023-11-25T12:22:00+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://radical-rides-7dc93d43c139.herokuapp.com/products/35/</loc>
+  <lastmod>2023-11-25T12:22:00+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://radical-rides-7dc93d43c139.herokuapp.com/products/38/</loc>
+  <lastmod>2023-11-25T12:22:00+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://radical-rides-7dc93d43c139.herokuapp.com/products/43/</loc>
+  <lastmod>2023-11-25T12:22:00+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://radical-rides-7dc93d43c139.herokuapp.com/products/1/</loc>
+  <lastmod>2023-11-25T12:22:00+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://radical-rides-7dc93d43c139.herokuapp.com/products/34/</loc>
+  <lastmod>2023-11-25T12:22:00+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://radical-rides-7dc93d43c139.herokuapp.com/products/2/</loc>
+  <lastmod>2023-11-25T12:22:00+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://radical-rides-7dc93d43c139.herokuapp.com/products/12/</loc>
+  <lastmod>2023-11-25T12:22:00+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://radical-rides-7dc93d43c139.herokuapp.com/products/14/</loc>
+  <lastmod>2023-11-25T12:22:00+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://radical-rides-7dc93d43c139.herokuapp.com/products/3/</loc>
+  <lastmod>2023-11-25T12:22:00+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://radical-rides-7dc93d43c139.herokuapp.com/products/13/</loc>
+  <lastmod>2023-11-25T12:22:00+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://radical-rides-7dc93d43c139.herokuapp.com/products/?page=2</loc>
+  <lastmod>2023-11-25T12:22:00+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://radical-rides-7dc93d43c139.herokuapp.com/products/?page=3</loc>
+  <lastmod>2023-11-25T12:22:00+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://radical-rides-7dc93d43c139.herokuapp.com/products/19/</loc>
+  <lastmod>2023-11-25T12:22:00+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://radical-rides-7dc93d43c139.herokuapp.com/products/30/</loc>
+  <lastmod>2023-11-25T12:22:00+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://radical-rides-7dc93d43c139.herokuapp.com/products/22/</loc>
+  <lastmod>2023-11-25T12:22:00+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://radical-rides-7dc93d43c139.herokuapp.com/products/27/</loc>
+  <lastmod>2023-11-25T12:22:00+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://radical-rides-7dc93d43c139.herokuapp.com/products/5/</loc>
+  <lastmod>2023-11-25T12:22:00+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://radical-rides-7dc93d43c139.herokuapp.com/products/44/</loc>
+  <lastmod>2023-11-25T12:22:00+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://radical-rides-7dc93d43c139.herokuapp.com/products/32/</loc>
+  <lastmod>2023-11-25T12:22:00+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://radical-rides-7dc93d43c139.herokuapp.com/products/18/</loc>
+  <lastmod>2023-11-25T12:22:00+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://radical-rides-7dc93d43c139.herokuapp.com/products/23/</loc>
+  <lastmod>2023-11-25T12:22:00+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://radical-rides-7dc93d43c139.herokuapp.com/products/20/</loc>
+  <lastmod>2023-11-25T12:22:00+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://radical-rides-7dc93d43c139.herokuapp.com/products/6/</loc>
+  <lastmod>2023-11-25T12:22:00+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://radical-rides-7dc93d43c139.herokuapp.com/products/8/</loc>
+  <lastmod>2023-11-25T12:22:00+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://radical-rides-7dc93d43c139.herokuapp.com/products/7/</loc>
+  <lastmod>2023-11-25T12:22:00+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://radical-rides-7dc93d43c139.herokuapp.com/products/10/</loc>
+  <lastmod>2023-11-25T12:22:00+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://radical-rides-7dc93d43c139.herokuapp.com/products/9/</loc>
+  <lastmod>2023-11-25T12:22:00+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://radical-rides-7dc93d43c139.herokuapp.com/products/24/</loc>
+  <lastmod>2023-11-25T12:22:00+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://radical-rides-7dc93d43c139.herokuapp.com/products/21/</loc>
+  <lastmod>2023-11-25T12:22:00+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://radical-rides-7dc93d43c139.herokuapp.com/products/25/</loc>
+  <lastmod>2023-11-25T12:22:00+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://radical-rides-7dc93d43c139.herokuapp.com/products/4/</loc>
+  <lastmod>2023-11-25T12:22:00+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://radical-rides-7dc93d43c139.herokuapp.com/products/11/</loc>
+  <lastmod>2023-11-25T12:22:00+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://radical-rides-7dc93d43c139.herokuapp.com/products/16/</loc>
+  <lastmod>2023-11-25T12:22:00+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://radical-rides-7dc93d43c139.herokuapp.com/products/17/</loc>
+  <lastmod>2023-11-25T12:22:00+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://radical-rides-7dc93d43c139.herokuapp.com/products/26/</loc>
+  <lastmod>2023-11-25T12:22:00+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://radical-rides-7dc93d43c139.herokuapp.com/products/28/</loc>
+  <lastmod>2023-11-25T12:22:00+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://radical-rides-7dc93d43c139.herokuapp.com/products/29/</loc>
+  <lastmod>2023-11-25T12:22:00+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://radical-rides-7dc93d43c139.herokuapp.com/products/31/</loc>
+  <lastmod>2023-11-25T12:22:00+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://radical-rides-7dc93d43c139.herokuapp.com/products/33/</loc>
+  <lastmod>2023-11-25T12:22:00+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://radical-rides-7dc93d43c139.herokuapp.com/products/36/</loc>
+  <lastmod>2023-11-25T12:22:00+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://radical-rides-7dc93d43c139.herokuapp.com/products/37/</loc>
+  <lastmod>2023-11-25T12:22:00+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://radical-rides-7dc93d43c139.herokuapp.com/products/39/</loc>
+  <lastmod>2023-11-25T12:22:00+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://radical-rides-7dc93d43c139.herokuapp.com/accounts/signup/?next=%2Fcustom%2Fcustom_orders%2F</loc>
+  <lastmod>2023-11-25T12:22:00+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://radical-rides-7dc93d43c139.herokuapp.com/accounts/signup/?next=%2Fproducts%2Fwishlists%2F</loc>
+  <lastmod>2023-11-25T12:22:00+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://radical-rides-7dc93d43c139.herokuapp.com/accounts/login/?next=/products/submit_review/</loc>
+  <lastmod>2023-11-25T12:22:00+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://radical-rides-7dc93d43c139.herokuapp.com/products/?page=1</loc>
+  <lastmod>2023-11-25T12:22:00+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://radical-rides-7dc93d43c139.herokuapp.com/accounts/login/?next=%2Fcustom%2Fcustom_orders%2F</loc>
+  <lastmod>2023-11-25T12:22:00+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://radical-rides-7dc93d43c139.herokuapp.com/accounts/login/?next=%2Fproducts%2Fwishlists%2F</loc>
+  <lastmod>2023-11-25T12:22:00+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://radical-rides-7dc93d43c139.herokuapp.com/accounts/signup/?next=%2Fproducts%2Fsubmit_review%2F</loc>
+  <lastmod>2023-11-25T12:22:00+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://radical-rides-7dc93d43c139.herokuapp.com/accounts/login/?next=%2Fproducts%2Fsubmit_review%2F</loc>
+  <lastmod>2023-11-25T12:22:00+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+
+
+</urlset>

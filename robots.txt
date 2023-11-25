@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: /accounts/
+Disallow: /bag/
+Sitemap: https://radical-rides-7dc93d43c139.herokuapp.com/sitemap.xml
