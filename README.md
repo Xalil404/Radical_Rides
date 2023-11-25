@@ -21,7 +21,7 @@ The user stories were then placed into a kanban board in order to track the prog
 <img src="https://res.cloudinary.com/dugcwv1mf/image/upload/v1699533713/Project%204/Screenshot_2023-11-09_at_12.41.34_PM_cbtswd.png" width="auto" height="auto" alt="image of the Radical Rides project agile kanban board">
 
 ## Wireframes
-Once the user stories were completed, the next phase of the project was to complete the UX of all the expected pages and functionalites in the platform. All wireframes can be found in the designMD file [here]().  
+Once the user stories were completed, the next phase of the project was to complete the UX of all the expected pages and functionalites in the platform. All wireframes can be found in the designMD file [here](https://github.com/Xalil404/Radical_Rides/blob/main/DESIGN.md).  
 
 <img src="https://res.cloudinary.com/dugcwv1mf/image/upload/v1700905215/Project%204/Screenshot_2023-11-25_at_9.36.39_AM_nwxc2j.png" width="auto" height="auto" alt="Radical Rides project wireframes"> 
 
