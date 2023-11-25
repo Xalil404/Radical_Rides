@@ -16,13 +16,13 @@ The platform was tested for responsiveness on the following devices through Chro
 | Device | Screenshot | Notes |
 | --- | --- | --- |
 | iPhone SE | ![screenshot]() | Works as expected |
-| iPhone XR | ![screenshot](https://res.cloudinary.com/dugcwv1mf/image/upload/v1699528747/Project%204/Screenshot_2023-11-09_at_11.18.22_AM_ho9t8k.png) | Works as expected |
-| iPhone 12 PRO | ![screenshot](https://res.cloudinary.com/dugcwv1mf/image/upload/v1699528747/Project%204/Screenshot_2023-11-09_at_11.18.22_AM_ho9t8k.png) | Works as expected |
-| Galaxy Fold | ![screenshot](https://res.cloudinary.com/dugcwv1mf/image/upload/v1699528747/Project%204/Screenshot_2023-11-09_at_11.18.22_AM_ho9t8k.png) | Works as expected |
-| Galaxy S8+ | ![screenshot](https://res.cloudinary.com/dugcwv1mf/image/upload/v1699528747/Project%204/Screenshot_2023-11-09_at_11.18.22_AM_ho9t8k.png) | Works as expected |
-| Nest Hub Max | ![screenshot](https://res.cloudinary.com/dugcwv1mf/image/upload/v1699528747/Project%204/Screenshot_2023-11-09_at_11.18.22_AM_ho9t8k.png) | Works as expected |
-| iPad Air | ![screenshot](https://res.cloudinary.com/dugcwv1mf/image/upload/v1699528747/Project%204/Screenshot_2023-11-09_at_11.18.22_AM_ho9t8k.png) | Works as expected |
-| iPad Mini | ![screenshot](https://res.cloudinary.com/dugcwv1mf/image/upload/v1699528747/Project%204/Screenshot_2023-11-09_at_11.18.22_AM_ho9t8k.png) | Works as expected |
+| iPhone XR | ![screenshot]() | Works as expected |
+| iPhone 12 PRO | ![screenshot]() | Works as expected |
+| Galaxy Fold | ![screenshot]() | Works as expected |
+| Galaxy S8+ | ![screenshot]() | Works as expected |
+| Nest Hub Max | ![screenshot]() | Works as expected |
+| iPad Air | ![screenshot]() | Works as expected |
+| iPad Mini | ![screenshot]() | Works as expected |
 
 ## Functional Testing
 Testing results of functionalities not considered to be feature or user story.
