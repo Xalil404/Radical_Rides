@@ -20,15 +20,10 @@ The user stories were then placed into a kanban board in order to track the prog
 
 <img src="https://res.cloudinary.com/dugcwv1mf/image/upload/v1699533713/Project%204/Screenshot_2023-11-09_at_12.41.34_PM_cbtswd.png" width="auto" height="auto" alt="image of the Radical Rides project agile kanban board">
 
-## Branding
-The color pallete chosen for the project was meant to signify something connected to nature.......
-
-<img src="https://res.cloudinary.com/dugcwv1mf/image/upload/v1699533713/Project%204/Screenshot_2023-11-09_at_12.41.34_PM_cbtswd.png" width="auto" height="auto" alt="image of the Radical Rides project branding colors">
-
 ## Wireframes
-Once the user stories were completed, the next phase of the project was to complete the UX of all the expected pages and functionalites in the platform.  
+Once the user stories were completed, the next phase of the project was to complete the UX of all the expected pages and functionalites in the platform. All wireframes can be found in the designMD file [here]().  
 
-<img src="https://res.cloudinary.com/dugcwv1mf/image/upload/v1699528747/Project%204/Screenshot_2023-11-09_at_11.18.22_AM_ho9t8k.png" width="auto" height="auto" alt="Radical Rides project wireframes"> 
+<img src="https://res.cloudinary.com/dugcwv1mf/image/upload/v1700905215/Project%204/Screenshot_2023-11-25_at_9.36.39_AM_nwxc2j.png" width="auto" height="auto" alt="Radical Rides project wireframes"> 
 
 ## Database Schema
 After the wire-frames completion, a database schema was created to understand what information should be stored on the back-end database.
