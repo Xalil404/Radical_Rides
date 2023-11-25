@@ -29,14 +29,14 @@ Testing results of functionalities not considered to be a feature or user story.
 
 | Function(s) | Screenshot | Expected Result | Notes |
 | --- | --- | --- | --- |
-| Web Navigation | ![screenshot]() | Should be expanded showing all the available website pages | Works as expected |
-| Mobile Navigation | ![screenshot]() | Should be visible in a hamburger menu | Works as expected |
-| Landing Page Carousel | ![screenshot]() | The carousel should have clickable indicators and buttons to go through the slides. | Works as expected |
-| Footer Social Media links | ![screenshot]() | Clicking on the three social media links should open up those platforms in a new tab. | Works as expected |
-| Website Logo | ![screenshot]() | Clicking on the website logo in the header should take the user to the home page. | Works as expected |
+| Web Navigation | ![screenshot](https://res.cloudinary.com/dugcwv1mf/image/upload/v1700943074/Project%204/Screenshot_2023-11-25_at_8.10.51_PM_olg0wj.png) | Should be expanded showing all the available website pages | Works as expected |
+| Mobile Navigation | ![screenshot](https://res.cloudinary.com/dugcwv1mf/image/upload/v1700943126/Project%204/Screenshot_2023-11-25_at_8.11.44_PM_uvci8f.png) | Should be visible in a hamburger menu | Works as expected |
+| Landing Page Carousel | ![screenshot](https://res.cloudinary.com/dugcwv1mf/image/upload/v1700943172/Project%204/Screenshot_2023-11-25_at_8.12.29_PM_egnoqx.png) | The carousel should have clickable indicators and buttons to go through the slides. | Works as expected |
+| Footer Social Media links | ![screenshot](https://res.cloudinary.com/dugcwv1mf/image/upload/v1700943222/Project%204/Screenshot_2023-11-25_at_8.13.20_PM_bcokyq.png) | Clicking on the three social media links should open up those platforms in a new tab. | Works as expected |
+| Website Logo | ![screenshot](https://res.cloudinary.com/dugcwv1mf/image/upload/v1700943265/Project%204/Screenshot_2023-11-25_at_8.14.03_PM_qpaske.png) | Clicking on the website logo in the header should take the user to the home page. | Works as expected |
 | 404 Page Not Found | ![screenshot]() | Entering a URL which does not exist shows a 404 page not found. | Works as expected |
-| Search - positive | ![screenshot]() | Entering search criteria should show relevant products | Works as expected |
-| Search - negative | ![screenshot]() | Entering search criteria that doesn't exist should show no products found | Works as expected |
+| Search - positive | ![screenshot](https://res.cloudinary.com/dugcwv1mf/image/upload/v1700943359/Project%204/Screenshot_2023-11-25_at_8.15.38_PM_uaa5p5.png) | Entering search criteria should show relevant products | Works as expected |
+| Search - negative | ![screenshot](https://res.cloudinary.com/dugcwv1mf/image/upload/v1700943416/Project%204/Screenshot_2023-11-25_at_8.16.35_PM_zafi59.png) | Entering search criteria that doesn't exist should show no products found | Works as expected |
 | Notifications - add to bag | ![screenshot]() | When a user addes to their bag, they should see a notification | Works as expected |
 | Notifications - update bag | ![screenshot]() | When a user updates their bag, they should see notifications | Works as expected |
 | Notifications - profile | ![screenshot]() | When a user updates their profile, they should see notifications | Works as expected |
