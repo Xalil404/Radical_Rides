@@ -15,9 +15,9 @@ The platform was tested for responsiveness on the following devices through Chro
 
 | Device | Screenshot | Notes |
 | --- | --- | --- |
-| iPhone SE | ![screenshot]() | Works as expected |
-| iPhone XR | ![screenshot]() | Works as expected |
-| iPhone 12 PRO | ![screenshot]() | Works as expected |
+| iPhone SE | ![screenshot](https://res.cloudinary.com/dugcwv1mf/image/upload/v1700930757/Project%204/Screenshot_2023-11-25_at_4.45.36_PM_m8thiu.png) | Works as expected |
+| iPhone XR | ![screenshot](https://res.cloudinary.com/dugcwv1mf/image/upload/v1700930796/Project%204/Screenshot_2023-11-25_at_4.46.16_PM_qbl87t.png) | Works as expected |
+| iPhone 12 PRO | ![screenshot](https://res.cloudinary.com/dugcwv1mf/image/upload/v1700930833/Project%204/Screenshot_2023-11-25_at_4.46.52_PM_y5tvzc.png) | Works as expected |
 | Galaxy Fold | ![screenshot]() | Works as expected |
 | Galaxy S8+ | ![screenshot]() | Works as expected |
 | Nest Hub Max | ![screenshot]() | Works as expected |
