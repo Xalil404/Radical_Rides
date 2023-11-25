@@ -6,7 +6,7 @@ Link to live site [here](https://radical-rides-7dc93d43c139.herokuapp.com/).
 <p align="center">
 <img src="https://res.cloudinary.com/dugcwv1mf/image/upload/v1700912560/Project%204/Screenshot_2023-11-25_at_11.41.37_AM_tswplp.png" width="auto" height="auto" alt="image of the Radical Rides website home page on all devices"></p>
 
-## Business Product Model Canvas
+## E-commerce business model & Product Model Canvas
 A....
 
 <img src="https://res.cloudinary.com/dugcwv1mf/image/upload/v1699533539/Project%204/Screenshot_2023-11-09_at_12.38.25_PM_me714m.png" width="auto" height="auto" alt="image of the Radical Rides product model canvas">
