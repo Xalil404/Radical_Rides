@@ -14,11 +14,11 @@ A....
 ## Business Requirements
 Prior to initiating the project's development, user stories were created to give a high level understanding of what the platform's functional requirements will be and they were assigned labels based on their importance using the MoSCoW prioritization method.   
 
-<img src="https://res.cloudinary.com/dugcwv1mf/image/upload/v1699533539/Project%204/Screenshot_2023-11-09_at_12.38.25_PM_me714m.png" width="auto" height="auto" alt="image of the Radical Rides website userstories">
+<img src="https://res.cloudinary.com/dugcwv1mf/image/upload/v1700907160/Project%204/Screenshot_2023-11-25_at_10.10.48_AM_q4lvfq.png" width="auto" height="auto" alt="image of the Radical Rides website userstories">
 
 The user stories were then placed into a kanban board in order to track the progress of the platform's development.  The Agile development kanban board can be found [here](https://github.com/users/Xalil404/projects/5/views/1).
 
-<img src="https://res.cloudinary.com/dugcwv1mf/image/upload/v1699533713/Project%204/Screenshot_2023-11-09_at_12.41.34_PM_cbtswd.png" width="auto" height="auto" alt="image of the Radical Rides project agile kanban board">
+<img src="https://res.cloudinary.com/dugcwv1mf/image/upload/v1700907194/Project%204/Screenshot_2023-11-25_at_10.12.21_AM_yeq1db.png" width="auto" height="auto" alt="image of the Radical Rides project agile kanban board">
 
 ## Wireframes
 Once the user stories were completed, the next phase of the project was to complete the UX of all the expected pages and functionalites in the platform. All wireframes can be found in the designMD file [here](https://github.com/Xalil404/Radical_Rides/blob/main/DESIGN.md).  
