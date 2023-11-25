@@ -1,5 +1,5 @@
 # Radical Rides
-The Radical Rides e-commerce platoform aims to address the pain point of .....  
+The Radical Rides e-commerce platoform is the 1 stop destination for surfers, skaters and snowboarders to purchase all of their sporting goods needs in one place.
 
 Link to live site [here](https://radical-rides-7dc93d43c139.herokuapp.com/).
 
@@ -7,9 +7,22 @@ Link to live site [here](https://radical-rides-7dc93d43c139.herokuapp.com/).
 <img src="https://res.cloudinary.com/dugcwv1mf/image/upload/v1700912560/Project%204/Screenshot_2023-11-25_at_11.41.37_AM_tswplp.png" width="auto" height="auto" alt="image of the Radical Rides website home page on all devices"></p>
 
 ## E-commerce business model & Product Model Canvas
-A....
+The Radical Rides e-commerce platoform aims to address two issues.  Pain point number 1 is that most surfers, skaters and snowboarders do at least 2 if not all 3 sports, however having to visit 3 different stores is not
+convenient.  Also, because the equipment is quite large, most stores have a limited stock which requires the athlete to order the needed board with the store and come back at a later date to pick up the desired board. 
 
-<img src="https://res.cloudinary.com/dugcwv1mf/image/upload/v1699533539/Project%204/Screenshot_2023-11-09_at_12.38.25_PM_me714m.png" width="auto" height="auto" alt="image of the Radical Rides product model canvas">
+Radical Rides will be the central location for the needs of all 3 sports and should our store not provide the needed board, the user can submit a custom board order right from the website.
+
+<img src="https://res.cloudinary.com/dugcwv1mf/image/upload/v1700926494/Project%204/Screenshot_2023-11-25_at_3.34.32_PM_mrzusx.png" width="auto" height="auto" alt="image of the Radical Rides product model canvas">
+
+
+## Customer Acquisition
+Initial marketing will be focused on creating a Facebook business page since it is the largest social media platform on the market and then utilize Facebook's advertisment campaing features to drive potential customers to our Facebook page and then the e-commerce website.
+
+<img src="https://res.cloudinary.com/dugcwv1mf/image/upload/v1700927355/Project%204/Screenshot_2023-11-25_at_3.48.32_PM_b11tuv.png" width="auto" height="auto" alt="image of the Radical Rides Facebook page">
+
+The second marketing strategy will be to collect user emails via the website which will then be targeted via email marketing campaigns with new product releases, promotions and discounts. 
+
+<img src="https://res.cloudinary.com/dugcwv1mf/image/upload/v1700927175/Project%204/Screenshot_2023-11-25_at_3.45.55_PM_imjukc.png" width="auto" height="auto" alt="image of the Radical Rides email subscription feature">
 
 ## Business Requirements
 Prior to initiating the project's development, user stories were created to give a high level understanding of what the platform's functional requirements will be and they were assigned labels based on their importance using the MoSCoW prioritization method.   
