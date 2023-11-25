@@ -6,16 +6,16 @@ The platform was tested on the following browsers: Chrome, Safari & Firefox.
 
 | Browser | Screenshot | Notes |
 | --- | --- | --- |
-| Chrome | ![screenshot](https://res.cloudinary.com/dugcwv1mf/image/upload/v1699528747/Project%204/Screenshot_2023-11-09_at_11.18.22_AM_ho9t8k.png) | Works as expected |
-| Firefox | ![screenshot](https://res.cloudinary.com/dugcwv1mf/image/upload/v1699528747/Project%204/Screenshot_2023-11-09_at_11.18.22_AM_ho9t8k.png) | Works as expected |
-| Safari | ![screenshot](https://res.cloudinary.com/dugcwv1mf/image/upload/v1699528747/Project%204/Screenshot_2023-11-09_at_11.18.22_AM_ho9t8k.png) | Works as expected |
+| Chrome | ![screenshot](https://res.cloudinary.com/dugcwv1mf/image/upload/v1700928919/Project%204/Screenshot_2023-11-25_at_4.14.44_PM_gtonf7.png) | Works as expected |
+| Firefox | ![screenshot](https://res.cloudinary.com/dugcwv1mf/image/upload/v1700928918/Project%204/Screenshot_2023-11-25_at_4.14.16_PM_rq40sz.png) | Works as expected |
+| Safari | ![screenshot](https://res.cloudinary.com/dugcwv1mf/image/upload/v1700928919/Project%204/Screenshot_2023-11-25_at_4.13.54_PM_i5cz0d.png) | Works as expected |
 
 ## Responsiveness
 The platform was tested for responsiveness on the following devices through Chrome's developer tools: 
 
 | Device | Screenshot | Notes |
 | --- | --- | --- |
-| iPhone SE | ![screenshot](https://res.cloudinary.com/dugcwv1mf/image/upload/v1699528747/Project%204/Screenshot_2023-11-09_at_11.18.22_AM_ho9t8k.png) | Works as expected |
+| iPhone SE | ![screenshot]() | Works as expected |
 | iPhone XR | ![screenshot](https://res.cloudinary.com/dugcwv1mf/image/upload/v1699528747/Project%204/Screenshot_2023-11-09_at_11.18.22_AM_ho9t8k.png) | Works as expected |
 | iPhone 12 PRO | ![screenshot](https://res.cloudinary.com/dugcwv1mf/image/upload/v1699528747/Project%204/Screenshot_2023-11-09_at_11.18.22_AM_ho9t8k.png) | Works as expected |
 | Galaxy Fold | ![screenshot](https://res.cloudinary.com/dugcwv1mf/image/upload/v1699528747/Project%204/Screenshot_2023-11-09_at_11.18.22_AM_ho9t8k.png) | Works as expected |
