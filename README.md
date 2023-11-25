@@ -1,10 +1,10 @@
 # Radical Rides
 The Radical Rides e-commerce platoform aims to address the pain point of .....  
 
-Link to live site [here](herokuapp.com).
+Link to live site [here](https://radical-rides-7dc93d43c139.herokuapp.com/).
 
 <p align="center">
-<img src="https://res.cloudinary.com/dugcwv1mf/image/upload/v1699528747/Project%204/Screenshot_2023-11-09_at_11.18.22_AM_ho9t8k.png" width="auto" height="auto" alt="image of the Radical Rides website home page on all devices"></p>
+<img src="https://res.cloudinary.com/dugcwv1mf/image/upload/v1700912560/Project%204/Screenshot_2023-11-25_at_11.41.37_AM_tswplp.png" width="auto" height="auto" alt="image of the Radical Rides website home page on all devices"></p>
 
 ## Business Product Model Canvas
 A....
