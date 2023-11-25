@@ -25,16 +25,39 @@ The platform was tested for responsiveness on the following devices through Chro
 | iPad Pro | ![screenshot](https://res.cloudinary.com/dugcwv1mf/image/upload/v1700933677/Project%204/Screenshot_2023-11-25_at_5.34.16_PM_m4bkow.png) | Works as expected |
 
 ## Functional Testing
-Testing results of functionalities not considered to be feature or user story.
+Testing results of functionalities not considered to be a feature or user story.
 
 | Function(s) | Screenshot | Expected Result | Notes |
 | --- | --- | --- | --- |
-| Web Navigation | ![screenshot](https://res.cloudinary.com/dugcwv1mf/image/upload/v1699528747/Project%204/Screenshot_2023-11-09_at_11.18.22_AM_ho9t8k.png) | Should be ..... | Works as expected |
-| Mobile Navigation | ![screenshot](https://res.cloudinary.com/dugcwv1mf/image/upload/v1699528747/Project%204/Screenshot_2023-11-09_at_11.18.22_AM_ho9t8k.png) | Should be visible in a ..... | Works as expected |
-| Landing Page Carousel | ![screenshot](https://res.cloudinary.com/dugcwv1mf/image/upload/v1699528747/Project%204/Screenshot_2023-11-09_at_11.18.22_AM_ho9t8k.png) | The carousel should have clickable indicators and buttons to go through the slides. | Works as expected |
-| Footer Social Media links | ![screenshot](https://res.cloudinary.com/dugcwv1mf/image/upload/v1699528747/Project%204/Screenshot_2023-11-09_at_11.18.22_AM_ho9t8k.png) | Clicking on the four social media links should open up those platforms in a new tab. | Works as expected |
-| Website Logo | ![screenshot](https://res.cloudinary.com/dugcwv1mf/image/upload/v1699528747/Project%204/Screenshot_2023-11-09_at_11.18.22_AM_ho9t8k.png) | Clicking on the website logo in the header should take the user to the home page. | Works as expected |
-| 404 Page Not Found | ![screenshot](https://res.cloudinary.com/dugcwv1mf/image/upload/v1699528747/Project%204/Screenshot_2023-11-09_at_11.18.22_AM_ho9t8k.png) | Entering a URL which does not exist shows a 404 page not found. | Works as expected |
+| Web Navigation | ![screenshot]() | Should be expanded showing all the available website pages | Works as expected |
+| Mobile Navigation | ![screenshot]() | Should be visible in a hamburger menu | Works as expected |
+| Landing Page Carousel | ![screenshot]() | The carousel should have clickable indicators and buttons to go through the slides. | Works as expected |
+| Footer Social Media links | ![screenshot]() | Clicking on the three social media links should open up those platforms in a new tab. | Works as expected |
+| Website Logo | ![screenshot]() | Clicking on the website logo in the header should take the user to the home page. | Works as expected |
+| 404 Page Not Found | ![screenshot]() | Entering a URL which does not exist shows a 404 page not found. | Works as expected |
+| Search - positive | ![screenshot]() | Entering search criteria should show relevant products | Works as expected |
+| Search - negative | ![screenshot]() | Entering search criteria that doesn't exist should show no products found | Works as expected |
+| Notifications - add to bag | ![screenshot]() | When a user addes to their bag, they should see a notification | Works as expected |
+| Notifications - update bag | ![screenshot]() | When a user updates their bag, they should see notifications | Works as expected |
+| Notifications - profile | ![screenshot]() | When a user updates their profile, they should see notifications | Works as expected |
+| Footer Privacy Policy link | ![screenshot]() | Clicking on the privacy policy link should open up the link in a new tab. | Works as expected |
+| Footer terms of service link | ![screenshot]() | Clicking on the terms of service link should open up the link in a new tab. | Works as expected |
+| Product Filters | ![screenshot]() | Selecting a product filter shows me products only from the specified category | Works as expected |
+| Product Category Filters | ![screenshot]() | Selecting a product category filter shows me products only from the specified product category | Works as expected |
+| Product sorting - low to high  | ![screenshot]() | Products can be sorted from low price to high price | Works as expected |
+| Product sorting - hight to low  | ![screenshot]() | Products can be sorted from high price to low price | Works as expected |
+| Product sorting - rating low to high  | ![screenshot]() | Products can be sorted from lowest to highest rating | Works as expected |
+| Product sorting - rating high to low  | ![screenshot]() | Products can be sorted from highest to lowest rating | Works as expected |
+| Product sorting - name A to Z  | ![screenshot]() | Products can be sorted from A to Z | Works as expected |
+| Product sorting - name Z to A  | ![screenshot]() | Products can be sorted from Z to A | Works as expected |
+| Product sorting - category A to Z  | ![screenshot]() | Products can be sorted by category from A to Z | Works as expected |
+| Product sorting - category Z to Z  | ![screenshot]() | Products can be sorted by category from Z to A | Works as expected |
+| Pagination | ![screenshot]() | Pages which have more than 15 products display pagination options | Works as expected |
+| Email Subscriptions | ![screenshot]() | customers who enter their email to opt in for email marketing have their emails recorded in Mailchimp | Works as expected |
+
+
+
+| 40 | ![screenshot]() | En | Works as expected |
 
 ## Features & User Story Testing
 
