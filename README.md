@@ -41,7 +41,7 @@ Once the user stories were completed, the next phase of the project was to compl
 ## Database Schema
 After the wire-frames completion, a database schema was created to understand what information should be stored on the back-end database.
 
-<img src="https://res.cloudinary.com/dugcwv1mf/image/upload/v1699528747/Project%204/Screenshot_2023-11-09_at_11.18.22_AM_ho9t8k.png" width="auto" height="auto" alt="Radical Rides Project DB schema"> 
+<img src="https://res.cloudinary.com/dugcwv1mf/image/upload/v1701005549/Project%204/Screenshot_2023-11-26_at_1.32.07_PM_wkykhi.png" width="auto" height="auto" alt="Radical Rides Project DB schema"> 
 
 ## Features 
 The Radical Rides e-commerce site consists of the following pages and features:
