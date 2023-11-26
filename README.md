@@ -46,79 +46,79 @@ After the wire-frames completion, a database schema was created to understand wh
 ## Features 
 The Radical Rides e-commerce site consists of the following pages and features:
 
-* Landing Page
+### Landing Page
 
-The
+The home page of the Radical Rides website displays the website's navigation based on product type with a few custom pages and is followed by a carousel displaying the three main types of boards that the business offers making it clear to potential buyers that the website is a full-service platform for all three sports.
 
 <img src="https://res.cloudinary.com/dugcwv1mf/image/upload/v1701007920/Project%204/Screenshot_2023-11-26_at_2.11.35_PM_cjewor.png" width="auto" height="auto" alt="Radical Rides landing page"> 
 
-* Products Page
+### Products Page
 
-The
+Products can be viewed in three ways, either all the products which the website offers at the same time, products based on a sport category or products based on a sports sub-category.  When viewing numerous products, if the amount of products exceeds 15 products per page, the user will see a pagination feature at the bottom of the page to move onto the next page instead of having a very long scroll, providing a much simpler user experience.
 
 <img src="https://res.cloudinary.com/dugcwv1mf/image/upload/v1701009096/Project%204/SCR-20231126-mxin_cqy7n0.png" width="auto" height="auto" alt="Radical Rides products page"> 
 
-* Product Details Page
+### Product Details Page
 
-The
+The product details page provides all available attributes of information of the product being viewed and also shows a section under the main product of other products which are similar to the prooduct being viewed with an option to visit the similar product's product details page.
 
 <img src="https://res.cloudinary.com/dugcwv1mf/image/upload/v1701009049/Project%204/SCR-20231126-mxas_gzpi9q.png" width="auto" height="auto" alt="Radical Rides Product details page"> 
 
-* Shopping Bag
+### Shopping Bag
 
-The
+A central feature of any e-commerce platform, the shopping bag shows the list of items which the user has added for purchase.  In the shopping bag, the user can increase or decrease the quantity of items they would like to purchase or delete them altogether and remove them from the shopping bag for purchase.
 
 <img src="https://res.cloudinary.com/dugcwv1mf/image/upload/v1701008199/Project%204/Screenshot_2023-11-26_at_2.16.19_PM_acqbol.png" width="auto" height="auto" alt="Radical Rides landing page"> 
 
-* Liked Products Page
+### Liked Products Page
 
-The
+The liked products page is a very handy feature.  Should the user be browsing products casually and is hesitant to add interesting products to the shopping bag because that would indicate an intent to purchase, each product details page has a LIKE button which the user can click and the product is immediately added to the liked or bookmarked products page.  Then at a later time they can visit the liked products page in order to see a summary of all of the produts which they liked on the site and likewise unlike and remove them from that section or click on them to go the product's details page.  The user does not need to be logged in or have an account in order to like products and add them, therefore minimizing the adoption drop rate of using this feature.
 
 <img src="https://res.cloudinary.com/dugcwv1mf/image/upload/v1701008258/Project%204/Screenshot_2023-11-26_at_2.17.11_PM_r52vt6.png" width="auto" height="auto" alt="Radical Rides liked products page"> 
 
-* Custom Board Orders Page
+### Custom Board Orders Page
 
-The
+Should the website not have a board that meets the exact specifications of a customer, they have the option to visit the custom board orders page and submit a custom board order.  They can specify the board type based on sport, board class, it lenght, width and thickness, image to be printed on the board, select a board color and input any additional notes to the board designer.
 
 <img src="https://res.cloudinary.com/dugcwv1mf/image/upload/v1701008301/Project%204/Screenshot_2023-11-26_at_2.18.00_PM_ahbex3.png" width="auto" height="auto" alt="Radical Rides custom product orders page"> 
 
-* Wish Lists Page
+### Wish Lists Page
 
-The
+The website consits of a wishlists page.  This feature gives the user the ability to create a wishlit for a specific occasion, add products to it and have it always saved to their profile in order to revisit at a later date and purchase when the needed occasion arrives.  Products in a whislist are daynamic, users can add more products to them or remove products from them.
 
 <img src="https://res.cloudinary.com/dugcwv1mf/image/upload/v1701008362/Project%204/Screenshot_2023-11-26_at_2.19.01_PM_ahoksa.png" width="auto" height="auto" alt="Radical Rides wishlist page"> 
 
-* Product Reviews Page
+### Product Reviews Page
 
 The
 
 <img src="https://res.cloudinary.com/dugcwv1mf/image/upload/v1701008501/Project%204/Screenshot_2023-11-26_at_2.21.20_PM_bexaxu.png" width="auto" height="auto" alt="Radical Rides product reviews page"> 
 
-* Contact Form 
+### Contact Form 
 
 The
 
 <img src="https://res.cloudinary.com/dugcwv1mf/image/upload/v1701008551/Project%204/Screenshot_2023-11-26_at_2.22.10_PM_su6bpk.png" width="auto" height="auto" alt="Radical Rides contact form"> 
 
-* Profile Page
+### Profile Page
 
 The
 
 <img src="https://res.cloudinary.com/dugcwv1mf/image/upload/v1701008586/Project%204/Screenshot_2023-11-26_at_2.22.45_PM_vttn3c.png" width="auto" height="auto" alt="Radical Rides landing page"> 
 
-* Newsletter Subscribtions 
+### Newsletter Subscribtions 
 
 The
 
 <img src="https://res.cloudinary.com/dugcwv1mf/image/upload/v1701008666/Project%204/Screenshot_2023-11-26_at_2.24.05_PM_xirb4v.png" width="auto" height="auto" alt="Radical Rides subscription form"> 
 
-* Admin User Product Management - Create Products
+### Admin User Product Management - Create Products
 
 The
 
 <img src="https://res.cloudinary.com/dugcwv1mf/image/upload/v1701008786/Project%204/Screenshot_2023-11-26_at_2.26.04_PM_r1kspn.png" width="auto" height="auto" alt="Radical Rides admin user rights"> 
 
-* Admin User Product Management - Edit & Delete Products
+### Admin User Product Management - Edit & Delete Products
 
 The
 
