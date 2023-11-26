@@ -27,7 +27,8 @@ SECRET_KEY = os.environ.get('SECRET_KEY', 'zd1kas@x+^-+nl02*68r&2m1cr!n2*y0(u(f2
 # SECURITY WARNING: don't run with debug turned on in production!
 #DEBUG = 'DEVELOPMENT' in os.environ
 
-DEBUG = True
+#DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = ['radical-rides-7dc93d43c139.herokuapp.com','localhost','127.0.0.1']
 

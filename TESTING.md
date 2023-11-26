@@ -38,22 +38,22 @@ Testing results of functionalities not considered to be a feature or user story.
 | Search - positive | ![screenshot](https://res.cloudinary.com/dugcwv1mf/image/upload/v1700943359/Project%204/Screenshot_2023-11-25_at_8.15.38_PM_uaa5p5.png) | Entering search criteria should show relevant products | Works as expected |
 | Search - negative | ![screenshot](https://res.cloudinary.com/dugcwv1mf/image/upload/v1700943416/Project%204/Screenshot_2023-11-25_at_8.16.35_PM_zafi59.png) | Entering search criteria that doesn't exist should show no products found | Works as expected |
 | Notifications - add to bag | ![screenshot]() | When a user addes to their bag, they should see a notification | Works as expected |
-| Notifications - update bag | ![screenshot]() | When a user updates their bag, they should see notifications | Works as expected |
-| Notifications - profile | ![screenshot]() | When a user updates their profile, they should see notifications | Works as expected |
-| Footer Privacy Policy link | ![screenshot]() | Clicking on the privacy policy link should open up the link in a new tab. | Works as expected |
-| Footer terms of service link | ![screenshot]() | Clicking on the terms of service link should open up the link in a new tab. | Works as expected |
-| Product Filters | ![screenshot]() | Selecting a product filter shows me products only from the specified category | Works as expected |
-| Product Category Filters | ![screenshot]() | Selecting a product category filter shows me products only from the specified product category | Works as expected |
-| Product sorting - low to high  | ![screenshot]() | Products can be sorted from low price to high price | Works as expected |
-| Product sorting - hight to low  | ![screenshot]() | Products can be sorted from high price to low price | Works as expected |
-| Product sorting - rating low to high  | ![screenshot]() | Products can be sorted from lowest to highest rating | Works as expected |
-| Product sorting - rating high to low  | ![screenshot]() | Products can be sorted from highest to lowest rating | Works as expected |
-| Product sorting - name A to Z  | ![screenshot]() | Products can be sorted from A to Z | Works as expected |
-| Product sorting - name Z to A  | ![screenshot]() | Products can be sorted from Z to A | Works as expected |
-| Product sorting - category A to Z  | ![screenshot]() | Products can be sorted by category from A to Z | Works as expected |
-| Product sorting - category Z to Z  | ![screenshot]() | Products can be sorted by category from Z to A | Works as expected |
-| Pagination | ![screenshot]() | Pages which have more than 15 products display pagination options | Works as expected |
-| Email Subscriptions | ![screenshot]() | customers who enter their email to opt in for email marketing have their emails recorded in Mailchimp | Works as expected |
+| Notifications - update bag | ![screenshot](https://res.cloudinary.com/dugcwv1mf/image/upload/v1700993524/Project%204/Screenshot_2023-11-26_at_10.11.39_AM_ocr2eu.png) | When a user updates their bag, they should see notifications | Works as expected |
+| Notifications - profile | ![screenshot](https://res.cloudinary.com/dugcwv1mf/image/upload/v1700993589/Project%204/Screenshot_2023-11-26_at_10.12.49_AM_eyxinl.png) | When a user updates their profile, they should see a notification | Works as expected |
+| Footer Privacy Policy link | ![screenshot](https://res.cloudinary.com/dugcwv1mf/image/upload/v1700993644/Project%204/Screenshot_2023-11-26_at_10.13.30_AM_xfj7zq.png) | Clicking on the privacy policy link should open up the link in a new tab. | Works as expected |
+| Footer terms of service link | ![screenshot](https://res.cloudinary.com/dugcwv1mf/image/upload/v1700993684/Project%204/Screenshot_2023-11-26_at_10.14.24_AM_azmtmf.png) | Clicking on the terms of service link should open up the link in a new tab. | Works as expected |
+| Product Filters | ![screenshot](https://res.cloudinary.com/dugcwv1mf/image/upload/v1700943074/Project%204/Screenshot_2023-11-25_at_8.10.51_PM_olg0wj.png) | Selecting a product filter shows me products only from the specified category | Works as expected |
+| Product Category Filters | ![screenshot](https://res.cloudinary.com/dugcwv1mf/image/upload/v1700993860/Project%204/Screenshot_2023-11-26_at_10.17.19_AM_qbhpqo.png) | Selecting a product category filter shows me products only from the specified product category | Works as expected |
+| Product sorting - low to high  | ![screenshot](https://res.cloudinary.com/dugcwv1mf/image/upload/v1700993963/Project%204/Screenshot_2023-11-26_at_10.19.03_AM_ta5qd8.png) | Products can be sorted from low price to high price | Works as expected |
+| Product sorting - hight to low  | ![screenshot](https://res.cloudinary.com/dugcwv1mf/image/upload/v1700993998/Project%204/Screenshot_2023-11-26_at_10.19.39_AM_mcvaru.png) | Products can be sorted from high price to low price | Works as expected |
+| Product sorting - rating low to high  | ![screenshot](https://res.cloudinary.com/dugcwv1mf/image/upload/v1700994158/Project%204/Screenshot_2023-11-26_at_10.22.19_AM_vt0zwd.png) | Products can be sorted from lowest to highest rating | Works as expected |
+| Product sorting - rating high to low  | ![screenshot](https://res.cloudinary.com/dugcwv1mf/image/upload/v1700994204/Project%204/Screenshot_2023-11-26_at_10.22.58_AM_lum6tz.png) | Products can be sorted from highest to lowest rating | Works as expected |
+| Product sorting - name A to Z  | ![screenshot](https://res.cloudinary.com/dugcwv1mf/image/upload/v1700994244/Project%204/Screenshot_2023-11-26_at_10.23.44_AM_uqn9zu.png) | Products can be sorted from A to Z | Works as expected |
+| Product sorting - name Z to A  | ![screenshot](https://res.cloudinary.com/dugcwv1mf/image/upload/v1700994321/Project%204/Screenshot_2023-11-26_at_10.25.02_AM_vhdbj5.png) | Products can be sorted from Z to A | Works as expected |
+| Product sorting - category A to Z  | ![screenshot](https://res.cloudinary.com/dugcwv1mf/image/upload/v1700994366/Project%204/Screenshot_2023-11-26_at_10.25.46_AM_re5xqv.png) | Products can be sorted by category from A to Z | Works as expected |
+| Product sorting - category Z to A  | ![screenshot](https://res.cloudinary.com/dugcwv1mf/image/upload/v1700994411/Project%204/Screenshot_2023-11-26_at_10.26.27_AM_k3r2qg.png) | Products can be sorted by category from Z to A | Works as expected |
+| Pagination | ![screenshot](https://res.cloudinary.com/dugcwv1mf/image/upload/v1700994454/Project%204/Screenshot_2023-11-26_at_10.27.15_AM_ss5bgr.png) | Pages which have more than 15 products display pagination options | Works as expected |
+| Email Subscriptions | ![screenshot](https://res.cloudinary.com/dugcwv1mf/image/upload/v1700994683/Project%204/Screenshot_2023-11-26_at_10.31.03_AM_bgfimz.png) | customers who enter their email to opt in for email marketing have their emails recorded in Mailchimp | Works as expected |
 
 
 
