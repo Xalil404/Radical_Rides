@@ -90,25 +90,25 @@ The website consits of a wishlists page.  This feature gives the user the abilit
 
 ### Product Reviews Page
 
-The
+Previous customers of Radical Rides products have the option of visiting the product reviews page and submitting a review of a product which they have purchased and can leave on honest review of how they feel about the product's quality with a star rating and text review.  Users have to be logged in to use this feature to avoid spam reviews and so that there is accountability on who wrote the review and the business owner can reach out to users if they were genuinely unhappy about a specific product in order to remedy the siuation.  This feature builds greater trust and transparency amongst potential customers regarding the business' products and offerings.   
 
 <img src="https://res.cloudinary.com/dugcwv1mf/image/upload/v1701008501/Project%204/Screenshot_2023-11-26_at_2.21.20_PM_bexaxu.png" width="auto" height="auto" alt="Radical Rides product reviews page"> 
 
 ### Contact Form 
 
-The
+Users can submit a contact form and message in order to get in touch with Radical Rides staff.  The staff of the website receive the submitted messages in their Django admin portal. 
 
 <img src="https://res.cloudinary.com/dugcwv1mf/image/upload/v1701008551/Project%204/Screenshot_2023-11-26_at_2.22.10_PM_su6bpk.png" width="auto" height="auto" alt="Radical Rides contact form"> 
 
 ### Profile Page
 
-The
+The profile page is mainly focused on storing two pieces of information, the user's default deilivery or shipping information and an order history of previous purchases.  When a user fills out their profile delivery information, that information is filled out by default on the order checkout page simplifying the checkout process and providing a smoother user experience.
 
 <img src="https://res.cloudinary.com/dugcwv1mf/image/upload/v1701008586/Project%204/Screenshot_2023-11-26_at_2.22.45_PM_vttn3c.png" width="auto" height="auto" alt="Radical Rides landing page"> 
 
 ### Newsletter Subscribtions 
 
-The
+In the footer of every page, there is a form for users to input their email and subscribe to Radical Rides news and email marketing content.  All inputed emails are stored in the business' MailChimp account. 
 
 <img src="https://res.cloudinary.com/dugcwv1mf/image/upload/v1701008666/Project%204/Screenshot_2023-11-26_at_2.24.05_PM_xirb4v.png" width="auto" height="auto" alt="Radical Rides subscription form"> 
 
