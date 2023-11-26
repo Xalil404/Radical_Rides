@@ -48,7 +48,75 @@ The Radical Rides e-commerce site consists of the following pages and features:
 
 * Landing Page
 
-<img src="https://res.cloudinary.com/dugcwv1mf/image/upload/v1699528747/Project%204/Screenshot_2023-11-09_at_11.18.22_AM_ho9t8k.png" width="auto" height="auto" alt="Radical Rides landing page"> 
+The
+
+<img src="" width="auto" height="auto" alt="Radical Rides landing page"> 
+
+* Products Page
+
+The
+
+<img src="" width="auto" height="auto" alt="Radical Rides products page"> 
+
+* Product Details Page
+
+The
+
+<img src="" width="auto" height="auto" alt="Radical Rides Product details page"> 
+
+* Shopping Bag
+
+The
+
+<img src="" width="auto" height="auto" alt="Radical Rides landing page"> 
+
+* Liked Products Page
+
+The
+
+<img src="" width="auto" height="auto" alt="Radical Rides liked products page"> 
+
+* Custom Board Orders Page
+
+The
+
+<img src="" width="auto" height="auto" alt="Radical Rides custom product orders page"> 
+
+* Wish List Page
+
+The
+
+<img src="" width="auto" height="auto" alt="Radical Rides wishlist page"> 
+
+* Product Reviews Page
+
+The
+
+<img src="" width="auto" height="auto" alt="Radical Rides product reviews page"> 
+
+* Contact Form 
+
+The
+
+<img src="" width="auto" height="auto" alt="Radical Rides contact form"> 
+
+* Profile Page
+
+The
+
+<img src="" width="auto" height="auto" alt="Radical Rides landing page"> 
+
+* Newsletter Subscribtions 
+
+The
+
+<img src="" width="auto" height="auto" alt="Radical Rides subscription form"> 
+
+* Admin User Product Management
+
+The
+
+<img src="" width="auto" height="auto" alt="Radical Rides admin user rights"> 
 
 ## Testing
 All fucntional testing, user story testing, device compatibility testing and browswer compatibility testing can be found in the [TestingMD](https://github.com/Xalil404/Radical_Rides/blob/main/TESTING.md) file.
