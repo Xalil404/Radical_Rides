@@ -34,11 +34,12 @@ Testing results of functionalities not considered to be a feature or user story.
 | Landing Page Carousel | ![screenshot](https://res.cloudinary.com/dugcwv1mf/image/upload/v1700943172/Project%204/Screenshot_2023-11-25_at_8.12.29_PM_egnoqx.png) | The carousel should have clickable indicators and buttons to go through the slides. | Works as expected |
 | Footer Social Media links | ![screenshot](https://res.cloudinary.com/dugcwv1mf/image/upload/v1700943222/Project%204/Screenshot_2023-11-25_at_8.13.20_PM_bcokyq.png) | Clicking on the three social media links should open up those platforms in a new tab. | Works as expected |
 | Website Logo | ![screenshot](https://res.cloudinary.com/dugcwv1mf/image/upload/v1700943265/Project%204/Screenshot_2023-11-25_at_8.14.03_PM_qpaske.png) | Clicking on the website logo in the header should take the user to the home page. | Works as expected |
-| 404 Page Not Found | ![screenshot]() | Entering a URL which does not exist shows a 404 page not found. | Works as expected |
+| 404 Page Not Found | ![screenshot](https://res.cloudinary.com/dugcwv1mf/image/upload/v1700995892/Project%204/Screenshot_2023-11-26_at_10.51.06_AM_izzqce.png) | Entering a URL which does not exist shows a 404 page not found. | Works as expected |
 | Search - positive | ![screenshot](https://res.cloudinary.com/dugcwv1mf/image/upload/v1700943359/Project%204/Screenshot_2023-11-25_at_8.15.38_PM_uaa5p5.png) | Entering search criteria should show relevant products | Works as expected |
 | Search - negative | ![screenshot](https://res.cloudinary.com/dugcwv1mf/image/upload/v1700943416/Project%204/Screenshot_2023-11-25_at_8.16.35_PM_zafi59.png) | Entering search criteria that doesn't exist should show no products found | Works as expected |
-| Notifications - add to bag | ![screenshot]() | When a user addes to their bag, they should see a notification | Works as expected |
-| Notifications - update bag | ![screenshot](https://res.cloudinary.com/dugcwv1mf/image/upload/v1700993524/Project%204/Screenshot_2023-11-26_at_10.11.39_AM_ocr2eu.png) | When a user updates their bag, they should see notifications | Works as expected |
+| Notifications - add to bag | ![screenshot](https://res.cloudinary.com/dugcwv1mf/image/upload/v1700993524/Project%204/Screenshot_2023-11-26_at_10.11.39_AM_ocr2eu.png) | When a user addes to their bag, they should see a notification | Works as expected |
+| Notifications - update bag | ![screenshot](https://res.cloudinary.com/dugcwv1mf/image/upload/v1700995990/Project%204/Screenshot_2023-11-26_at_10.52.50_AM_fbvnhm.png) | When a user updates their bag, they should see notifications | Works as expected |
+| Notifications - remove from bag | ![screenshot](https://res.cloudinary.com/dugcwv1mf/image/upload/v1700996075/Project%204/Screenshot_2023-11-26_at_10.54.14_AM_wvwvyq.png) | When a user removes products from their bag, they should see notifications | Works as expected |
 | Notifications - profile | ![screenshot](https://res.cloudinary.com/dugcwv1mf/image/upload/v1700993589/Project%204/Screenshot_2023-11-26_at_10.12.49_AM_eyxinl.png) | When a user updates their profile, they should see a notification | Works as expected |
 | Footer Privacy Policy link | ![screenshot](https://res.cloudinary.com/dugcwv1mf/image/upload/v1700993644/Project%204/Screenshot_2023-11-26_at_10.13.30_AM_xfj7zq.png) | Clicking on the privacy policy link should open up the link in a new tab. | Works as expected |
 | Footer terms of service link | ![screenshot](https://res.cloudinary.com/dugcwv1mf/image/upload/v1700993684/Project%204/Screenshot_2023-11-26_at_10.14.24_AM_azmtmf.png) | Clicking on the terms of service link should open up the link in a new tab. | Works as expected |
@@ -54,10 +55,6 @@ Testing results of functionalities not considered to be a feature or user story.
 | Product sorting - category Z to A  | ![screenshot](https://res.cloudinary.com/dugcwv1mf/image/upload/v1700994411/Project%204/Screenshot_2023-11-26_at_10.26.27_AM_k3r2qg.png) | Products can be sorted by category from Z to A | Works as expected |
 | Pagination | ![screenshot](https://res.cloudinary.com/dugcwv1mf/image/upload/v1700994454/Project%204/Screenshot_2023-11-26_at_10.27.15_AM_ss5bgr.png) | Pages which have more than 15 products display pagination options | Works as expected |
 | Email Subscriptions | ![screenshot](https://res.cloudinary.com/dugcwv1mf/image/upload/v1700994683/Project%204/Screenshot_2023-11-26_at_10.31.03_AM_bgfimz.png) | customers who enter their email to opt in for email marketing have their emails recorded in Mailchimp | Works as expected |
-
-
-
-| 40 | ![screenshot]() | En | Works as expected |
 
 ## Features & User Story Testing
 
