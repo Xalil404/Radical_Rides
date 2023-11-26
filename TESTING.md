@@ -55,6 +55,7 @@ Testing results of functionalities not considered to be a feature or user story.
 | Product sorting - category Z to A  | ![screenshot](https://res.cloudinary.com/dugcwv1mf/image/upload/v1700994411/Project%204/Screenshot_2023-11-26_at_10.26.27_AM_k3r2qg.png) | Products can be sorted by category from Z to A | Works as expected |
 | Pagination | ![screenshot](https://res.cloudinary.com/dugcwv1mf/image/upload/v1700994454/Project%204/Screenshot_2023-11-26_at_10.27.15_AM_ss5bgr.png) | Pages which have more than 15 products display pagination options | Works as expected |
 | Email Subscriptions | ![screenshot](https://res.cloudinary.com/dugcwv1mf/image/upload/v1700994683/Project%204/Screenshot_2023-11-26_at_10.31.03_AM_bgfimz.png) | customers who enter their email to opt in for email marketing have their emails recorded in Mailchimp | Works as expected |
+| Scroll Up Arrow | ![screenshot](https://res.cloudinary.com/dugcwv1mf/image/upload/v1701008082/Project%204/Screenshot_2023-11-26_at_2.14.21_PM_i21rkr.png) | Pressing the up arrow when at the bottom of the page takes the user to the top | Works as expected |
 
 ## Features & User Story Testing
 

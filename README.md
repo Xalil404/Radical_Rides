@@ -50,73 +50,80 @@ The Radical Rides e-commerce site consists of the following pages and features:
 
 The
 
-<img src="" width="auto" height="auto" alt="Radical Rides landing page"> 
+<img src="https://res.cloudinary.com/dugcwv1mf/image/upload/v1701007920/Project%204/Screenshot_2023-11-26_at_2.11.35_PM_cjewor.png" width="auto" height="auto" alt="Radical Rides landing page"> 
 
 * Products Page
 
 The
 
-<img src="" width="auto" height="auto" alt="Radical Rides products page"> 
+<img src="https://res.cloudinary.com/dugcwv1mf/image/upload/v1701009096/Project%204/SCR-20231126-mxin_cqy7n0.png" width="auto" height="auto" alt="Radical Rides products page"> 
 
 * Product Details Page
 
 The
 
-<img src="" width="auto" height="auto" alt="Radical Rides Product details page"> 
+<img src="https://res.cloudinary.com/dugcwv1mf/image/upload/v1701009049/Project%204/SCR-20231126-mxas_gzpi9q.png" width="auto" height="auto" alt="Radical Rides Product details page"> 
 
 * Shopping Bag
 
 The
 
-<img src="" width="auto" height="auto" alt="Radical Rides landing page"> 
+<img src="https://res.cloudinary.com/dugcwv1mf/image/upload/v1701008199/Project%204/Screenshot_2023-11-26_at_2.16.19_PM_acqbol.png" width="auto" height="auto" alt="Radical Rides landing page"> 
 
 * Liked Products Page
 
 The
 
-<img src="" width="auto" height="auto" alt="Radical Rides liked products page"> 
+<img src="https://res.cloudinary.com/dugcwv1mf/image/upload/v1701008258/Project%204/Screenshot_2023-11-26_at_2.17.11_PM_r52vt6.png" width="auto" height="auto" alt="Radical Rides liked products page"> 
 
 * Custom Board Orders Page
 
 The
 
-<img src="" width="auto" height="auto" alt="Radical Rides custom product orders page"> 
+<img src="https://res.cloudinary.com/dugcwv1mf/image/upload/v1701008301/Project%204/Screenshot_2023-11-26_at_2.18.00_PM_ahbex3.png" width="auto" height="auto" alt="Radical Rides custom product orders page"> 
 
-* Wish List Page
+* Wish Lists Page
 
 The
 
-<img src="" width="auto" height="auto" alt="Radical Rides wishlist page"> 
+<img src="https://res.cloudinary.com/dugcwv1mf/image/upload/v1701008362/Project%204/Screenshot_2023-11-26_at_2.19.01_PM_ahoksa.png" width="auto" height="auto" alt="Radical Rides wishlist page"> 
 
 * Product Reviews Page
 
 The
 
-<img src="" width="auto" height="auto" alt="Radical Rides product reviews page"> 
+<img src="https://res.cloudinary.com/dugcwv1mf/image/upload/v1701008501/Project%204/Screenshot_2023-11-26_at_2.21.20_PM_bexaxu.png" width="auto" height="auto" alt="Radical Rides product reviews page"> 
 
 * Contact Form 
 
 The
 
-<img src="" width="auto" height="auto" alt="Radical Rides contact form"> 
+<img src="https://res.cloudinary.com/dugcwv1mf/image/upload/v1701008551/Project%204/Screenshot_2023-11-26_at_2.22.10_PM_su6bpk.png" width="auto" height="auto" alt="Radical Rides contact form"> 
 
 * Profile Page
 
 The
 
-<img src="" width="auto" height="auto" alt="Radical Rides landing page"> 
+<img src="https://res.cloudinary.com/dugcwv1mf/image/upload/v1701008586/Project%204/Screenshot_2023-11-26_at_2.22.45_PM_vttn3c.png" width="auto" height="auto" alt="Radical Rides landing page"> 
 
 * Newsletter Subscribtions 
 
 The
 
-<img src="" width="auto" height="auto" alt="Radical Rides subscription form"> 
+<img src="https://res.cloudinary.com/dugcwv1mf/image/upload/v1701008666/Project%204/Screenshot_2023-11-26_at_2.24.05_PM_xirb4v.png" width="auto" height="auto" alt="Radical Rides subscription form"> 
 
-* Admin User Product Management
+* Admin User Product Management - Create Products
 
 The
 
-<img src="" width="auto" height="auto" alt="Radical Rides admin user rights"> 
+<img src="https://res.cloudinary.com/dugcwv1mf/image/upload/v1701008786/Project%204/Screenshot_2023-11-26_at_2.26.04_PM_r1kspn.png" width="auto" height="auto" alt="Radical Rides admin user rights"> 
+
+* Admin User Product Management - Edit & Delete Products
+
+The
+
+<img src="https://res.cloudinary.com/dugcwv1mf/image/upload/v1701008986/Project%204/Screenshot_2023-11-26_at_2.29.08_PM_fret1g.png" width="auto" height="auto" alt="Radical Rides admin user rights">
+<img src="https://res.cloudinary.com/dugcwv1mf/image/upload/v1701008999/Project%204/Screenshot_2023-11-26_at_2.29.26_PM_p3dazk.png" width="auto" height="auto" alt="Radical Rides admin user rights">
 
 ## Testing
 All fucntional testing, user story testing, device compatibility testing and browswer compatibility testing can be found in the [TestingMD](https://github.com/Xalil404/Radical_Rides/blob/main/TESTING.md) file.
