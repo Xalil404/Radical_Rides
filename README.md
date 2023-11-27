@@ -114,13 +114,15 @@ In the footer of every page, there is a form for users to input their email and 
 
 ### Admin User Product Management - Create Products
 
-The
+In addition to being able to CRUD product via the Django admin panel, when an admine user is logged into the website, in the profile section they will see an additional tab called "Product Managment," which allows them CRUD products via the e-commerce website without having to necessarily go into the admin panel.  The "Product Managment" tab is visible only to users with admin credentials, regular users do not see this tab.
+
+<img src="https://res.cloudinary.com/dugcwv1mf/image/upload/v1701079139/Project%204/Screenshot_2023-11-27_at_9.57.55_AM_yq4n5t.png" width="auto" height="auto" alt="Radical Rides admin user rights"> 
 
 <img src="https://res.cloudinary.com/dugcwv1mf/image/upload/v1701008786/Project%204/Screenshot_2023-11-26_at_2.26.04_PM_r1kspn.png" width="auto" height="auto" alt="Radical Rides admin user rights"> 
 
 ### Admin User Product Management - Edit & Delete Products
 
-The
+When an admin user is logged into the website, visible only to them, on the all products and product details page, they will see an "Edit product" and "Delete product" buttons next each listed product on the website.
 
 <img src="https://res.cloudinary.com/dugcwv1mf/image/upload/v1701008986/Project%204/Screenshot_2023-11-26_at_2.29.08_PM_fret1g.png" width="auto" height="auto" alt="Radical Rides admin user rights">
 <img src="https://res.cloudinary.com/dugcwv1mf/image/upload/v1701008999/Project%204/Screenshot_2023-11-26_at_2.29.26_PM_p3dazk.png" width="auto" height="auto" alt="Radical Rides admin user rights">
