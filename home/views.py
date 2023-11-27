@@ -1,6 +1,6 @@
 from django.shortcuts import render, redirect
 from .models import ContactMessage
-from .forms import ContactForm 
+from .forms import ContactForm
 
 # Create your views here.
 
@@ -18,7 +18,7 @@ def contact(request):
         form = ContactForm(request.POST)
         if form.is_valid():
             form.save()
-            
+
             success_message = "Thank you for your message! We will get in touch with you soon."
             return render(request, 'home/contact.html', {'form': ContactForm(), 'success_message': success_message})
     else:
