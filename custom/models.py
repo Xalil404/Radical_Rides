@@ -3,6 +3,7 @@ from django.contrib.auth.models import User
 
 # Create your models here.
 
+
 class CustomBoardOrder(models.Model):
     BOARD_TYPES = [
         ('snow', 'Snowboard'),
@@ -29,7 +30,7 @@ class CustomBoardOrder(models.Model):
     board_width = models.IntegerField(null=False, blank=False)
     board_thickness = models.IntegerField(null=False, blank=False)
     image_upload = models.ImageField(upload_to='custom_board_images/')
-    board_color = models.CharField(null=False, blank=False, max_length=10)  
+    board_color = models.CharField(null=False, blank=False, max_length=10)
     additional_notes = models.TextField()
 
     def __str__(self):
