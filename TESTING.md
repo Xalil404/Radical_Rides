@@ -95,7 +95,7 @@ Testing results of functionalities not considered to be a feature or user story.
 | W3C HTML | [W3C](https://validator.w3.org/nu/?doc=) | ![screenshot](https://res.cloudinary.com/dugcwv1mf/image/upload/v1699528747/Project%204/Screenshot_2023-11-09_at_11.18.22_AM_ho9t8k.png) | Pass: No Errors |
 | W3C CSS | [W3C CSS](https://jigsaw.w3.org/css-validator/) | ![screenshot](https://res.cloudinary.com/dugcwv1mf/image/upload/v1701001586/Project%204/Screenshot_2023-11-26_at_12.26.05_PM_mo91jp.png) | Pass: No Errors |
 | JSHint | [JSHint](https://jshint.com/) | ![screenshot](https://res.cloudinary.com/dugcwv1mf/image/upload/v1701085357/Project%204/Screenshot_2023-11-27_at_11.27.10_AM_m4kh6k.png) | Pass: No Errors |
-| Pep8 | [Pep8](https://pep8ci.herokuapp.com/) | ![screenshot](https://res.cloudinary.com/dugcwv1mf/image/upload/v1699528747/Project%204/Screenshot_2023-11-09_at_11.18.22_AM_ho9t8k.png) | Pass: No Errors; E501 line too long errors were ignored |
+| Pep8 | [Pep8](https://pep8ci.herokuapp.com/) | ![screenshot](https://res.cloudinary.com/dugcwv1mf/image/upload/v1701086298/Project%204/Screenshot_2023-11-27_at_11.57.06_AM_hfsryo.png) | Pass: No Errors; E501 line too long errors were ignored |
 
 ## Lighthouse Report
 | Instrument | Screenshot | Notes |
