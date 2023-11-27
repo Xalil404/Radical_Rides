@@ -3,26 +3,24 @@
 
 {% block page_header %}
 <div class="container header-container">
-    <div class="row">
-        <div class="col"></div>
-    </div>
+  <div class="row">
+    <div class="col"></div>
+  </div>
 </div>
 {% endblock %}
 
 {% block content %}
 
 <div class="container my-5 text-center">
-    <h2 class="mb-5">Create A Wishlist</h2>
-    <form method="post" action="{% url 'create_wishlist' %}">
-      {% csrf_token %}
-      <div class="form-group">
-        <label for="wishlistName" class="mb-3">Give it a name:</label>
-        <input type="text" class="form-control" id="wishlistName" name="wishlist_name" required>
-      </div>
-      <button type="submit" class="btn btn-primary mb-5">Next</button>
-    </form>
-  </div>
-
-
+  <h2 class="mb-5">Create A Wishlist</h2>
+  <form method="post" action="{% url 'create_wishlist' %}">
+    {% csrf_token %}
+    <div class="form-group">
+      <label for="wishlistName" class="mb-3">Give it a name:</label>
+      <input type="text" class="form-control" id="wishlistName" name="wishlist_name" required>
+    </div>
+    <button type="submit" class="btn btn-primary mb-5">Next</button>
+  </form>
+</div>
 
 {% endblock %}

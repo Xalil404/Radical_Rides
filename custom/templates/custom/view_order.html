@@ -27,15 +27,15 @@
             <p class="card-text">Thickness: {{ order.board_thickness }} cm</p>
             <p class="card-text">Additional Notes: {{ order.additional_notes }}</p>
             <p class="card-text">Image To Be Printed:
-            {% if order.image_upload %}
-            <img src="{{ order.image_upload.url }}" alt="Board Image" class="img-fluid mb-3">
-            {% endif %}</p>
+                {% if order.image_upload %}
+                <img src="{{ order.image_upload.url }}" alt="Board Image" class="img-fluid mb-3">
+                {% endif %}
+            </p>
             <div class="container text-center">
-            <a href="{% url 'custom_orders' %}" class="btn btn-primary">Back to Order List</a>
-        </div>
+                <a href="{% url 'custom_orders' %}" class="btn btn-primary">Back to Order List</a>
+            </div>
         </div>
     </div>
 </div>
-
 
 {% endblock %}

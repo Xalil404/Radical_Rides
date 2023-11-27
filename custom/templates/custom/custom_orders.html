@@ -13,47 +13,48 @@
 
 <div class="container mt-5">
     <h2 class="text-center">Custom Board Orders</h2>
-
     <div class="container text-center">
-        <a href="{% url 'create_custom' %}" class="btn btn-primary btn-lg mx-auto mt-3">Create New Custom Board Order</a>
+        <a href="{% url 'create_custom' %}" class="btn btn-primary btn-lg mx-auto mt-3">Create New Custom Board
+            Order</a>
     </div>
-
     <div class="row mt-4">
         {% for order in custom_orders %}
-            <div class="col-md-6 mb-4">
-                <div class="card">
-                    <div class="card-body">
-                        <h5 class="card-title">Order #{{ order.id }}</h5>
-                        <p class="card-text">Type: {{ order.board_type }}</p>
-                        <p class="card-text">Class: {{ order.board_class }}</p>
-                        <p class="card-text">Length: {{ order.board_length }} cm</p>
-                        <p class="card-text">Color: {{ order.board_color }}</p>
-                    </div>
-                    <div class="card-footer d-flex justify-content-between align-items-center">
-                        <form method="post" action="{% url 'delete_order' order.id %}">
-                            {% csrf_token %}
-                            <button type="button" class="btn btn-danger delete-order" data-toggle="modal" data-target="#confirmDeleteModal" data-order-id="{{ order.id }}" data-delete-url="{% url 'delete_order' order.id %}">
-                                Delete
-                            </button>
-                        </form>
-                        <a href="{% url 'view_order' order.id %}" class="btn btn-secondary">View Order Details</a>
-                    </div>                    
+        <div class="col-md-6 mb-4">
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">Order #{{ order.id }}</h5>
+                    <p class="card-text">Type: {{ order.board_type }}</p>
+                    <p class="card-text">Class: {{ order.board_class }}</p>
+                    <p class="card-text">Length: {{ order.board_length }} cm</p>
+                    <p class="card-text">Color: {{ order.board_color }}</p>
+                </div>
+                <div class="card-footer d-flex justify-content-between align-items-center">
+                    <form method="post" action="{% url 'delete_order' order.id %}">
+                        {% csrf_token %}
+                        <button type="button" class="btn btn-danger delete-order" data-toggle="modal"
+                            data-target="#confirmDeleteModal" data-order-id="{{ order.id }}"
+                            data-delete-url="{% url 'delete_order' order.id %}">
+                            Delete
+                        </button>
+                    </form>
+                    <a href="{% url 'view_order' order.id %}" class="btn btn-secondary">View Order Details</a>
                 </div>
             </div>
+        </div>
         {% endfor %}
     </div>
 
     {% if not custom_orders %}
-        <h3 class="text-center my-4">No available custom orders.</h3> 
-        <p class="text-center my-4">Please note that custom board orders have to be reviewed by our designers prior to being fulfilled. Customer service will be in touch with you after you submit
-            your order.</p>
+    <h3 class="text-center my-4">No available custom orders.</h3>
+    <p class="text-center my-4">Please note that custom board orders have to be reviewed by our designers prior to being
+        fulfilled. Customer service will be in touch with you after you submit
+        your order.</p>
     {% endif %}
 
 </div>
-
-
 <!--Modal to confirm deletion-->
-<div class="modal fade" id="confirmDeleteModal" tabindex="-1" role="dialog" aria-labelledby="confirmDeleteModalLabel" aria-hidden="true">
+<div class="modal fade" id="confirmDeleteModal" tabindex="-1" role="dialog" aria-labelledby="confirmDeleteModalLabel"
+    aria-hidden="true">
     <div class="modal-dialog" role="document">
         <div class="modal-content">
             <div class="modal-header">
@@ -72,8 +73,7 @@
         </div>
     </div>
 </div>
-
-<!-- JavaScript to Handle Modal -->
+<!-- JavaScript to Handle Deletion Modal -->
 <script>
     $(document).ready(function () {
         $('.delete-order').on('click', function (event) {

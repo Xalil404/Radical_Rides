@@ -13,18 +13,15 @@
 
 <div class="container my-5">
     <h2 class="text-center mb-4">Custom Board Order</h2>
-
-    <form method="post" action="{% url 'create_custom' %}" enctype="multipart/form-data" onsubmit="return validateForm()">
+    <form method="post" action="{% url 'create_custom' %}" enctype="multipart/form-data"
+        onsubmit="return validateForm()">
         {% csrf_token %}
-
         {{ form|crispy }}
-
         <!-- Submit Button -->
         <div class="container text-center">
-        <button type="submit" class="btn btn-primary">Place Order</button>
-    </div>
+            <button type="submit" class="btn btn-primary">Place Order</button>
+        </div>
     </form>
 </div>
-
 
 {% endblock %}
