@@ -25,11 +25,11 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = os.environ.get('SECRET_KEY', 'zd1kas@x+^-+nl02*68r&2m1cr!n2*y0(u(f23k)dt4bc%8xw)')
 
 # SECURITY WARNING: don't run with debug turned on in production!
-#DEBUG = 'DEVELOPMENT' in os.environ
+# DEBUG = 'DEVELOPMENT' in os.environ
 
 DEBUG = True
 
-ALLOWED_HOSTS = ['radical-rides-7dc93d43c139.herokuapp.com','localhost','127.0.0.1']
+ALLOWED_HOSTS = ['radical-rides-7dc93d43c139.herokuapp.com', 'localhost', '127.0.0.1']
 
 
 # Application definition
@@ -78,7 +78,7 @@ TEMPLATES = [
         'OPTIONS': {
             'context_processors': [
                 'django.template.context_processors.debug',
-                'django.template.context_processors.request', # required by allauth
+                'django.template.context_processors.request',
                 'django.contrib.auth.context_processors.auth',
                 'django.contrib.messages.context_processors.messages',
                 'django.template.context_processors.media',
@@ -103,7 +103,6 @@ AUTHENTICATION_BACKENDS = (
 )
 
 SITE_ID = 1
-
 
 
 ACCOUNT_AUTHENTICATION_METHOD = 'username_email'
@@ -131,7 +130,6 @@ else:
             'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
         }
     }
-
 
 
 # Password validation
@@ -182,7 +180,7 @@ if 'USE_AWS' in os.environ:
         'Expires': 'Thu, 31 Dec 2099 20:00:00 GMT',
         'CacheControl': 'max-age=94608000',
     }
-    
+
     # Bucket Config
     AWS_STORAGE_BUCKET_NAME = 'radical-rides'
     AWS_S3_REGION_NAME = 'eu-north-1'
@@ -200,7 +198,7 @@ if 'USE_AWS' in os.environ:
     STATIC_URL = f'https://{AWS_S3_CUSTOM_DOMAIN}/{STATICFILES_LOCATION}/'
     MEDIA_URL = f'https://{AWS_S3_CUSTOM_DOMAIN}/{MEDIAFILES_LOCATION}/'
 
-#Stripe
+# Stripe
 FREE_DELIVERY_THRESHOLD = 299
 STANDARD_DELIVERY_PERCENTAGE = 10
 STRIPE_CURRENCY = 'usd'
