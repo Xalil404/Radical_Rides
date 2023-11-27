@@ -8,7 +8,7 @@ Link to live site [here](https://radical-rides-7dc93d43c139.herokuapp.com/).
 
 ## E-commerce business model & Product Model Canvas
 The Radical Rides e-commerce platoform aims to address two issues.  Pain point number 1 is that most surfers, skaters and snowboarders do at least 2 if not all 3 sports, however having to visit 3 different stores is not
-convenient.  Also, because the equipment is quite large, most stores have a limited stock which requires the athlete to order the needed board with the store and come back at a later date to pick up the desired board. 
+convenient.  Also, because the equipment is quite large, most stores have a limited stock which requires the athlete to order the needed board with the store and come back at a later date to pick up the desired board.
 
 Radical Rides will be the central location for the needs of all 3 sports and should our store not provide the needed board, the user can submit a custom board order right from the website.
 
@@ -23,6 +23,8 @@ Initial marketing will be focused on creating a Facebook business page since it 
 The second marketing strategy will be to collect user emails via the website which will then be targeted via email marketing campaigns with new product releases, promotions and discounts. 
 
 <img src="https://res.cloudinary.com/dugcwv1mf/image/upload/v1700927175/Project%204/Screenshot_2023-11-25_at_3.45.55_PM_imjukc.png" width="auto" height="auto" alt="image of the Radical Rides email subscription feature">
+
+After Facebook ad marketing campaings, uitilization of Google Ads will be considered as the next logical move to increase brand awareness and drive new customers. 
 
 ## Business Requirements
 Prior to initiating the project's development, user stories were created to give a high level understanding of what the platform's functional requirements will be and they were assigned labels based on their importance using the MoSCoW prioritization method.   
@@ -72,13 +74,13 @@ A central feature of any e-commerce platform, the shopping bag shows the list of
 
 ### Liked Products Page
 
-The liked products page is a very handy feature.  Should the user be browsing products casually and is hesitant to add interesting products to the shopping bag because that would indicate an intent to purchase, each product details page has a LIKE button which the user can click and the product is immediately added to the liked or bookmarked products page.  Then at a later time they can visit the liked products page in order to see a summary of all of the produts which they liked on the site and likewise unlike and remove them from that section or click on them to go the product's details page.  The user does not need to be logged in or have an account in order to like products and add them, therefore minimizing the adoption drop rate of using this feature.
+The liked products page is a very handy feature.  Should the user be browsing products casually and is hesitant to add interesting products to the shopping bag because that would indicate an intent to purchase, each product details page has a LIKE button which the user can click and the product is immediately added to the liked or bookmarked products page.  Then at a later time they can visit the liked products page in order to see a summary of all of the produts which they liked on the site and likewise unlike and remove them from that section or click on them to go the product's details page and add them to the shopping bag.  The user does not need to be logged in or have an account in order to like products and add them to the liked products page, therefore minimizing the adoption drop rate of using this feature.
 
 <img src="https://res.cloudinary.com/dugcwv1mf/image/upload/v1701008258/Project%204/Screenshot_2023-11-26_at_2.17.11_PM_r52vt6.png" width="auto" height="auto" alt="Radical Rides liked products page"> 
 
 ### Custom Board Orders Page
 
-Should the website not have a board that meets the exact specifications of a customer, they have the option to visit the custom board orders page and submit a custom board order.  They can specify the board type based on sport, board class, it lenght, width and thickness, image to be printed on the board, select a board color and input any additional notes to the board designer.
+Should the website not have a board that meets the exact specifications of a customer, they have the option to visit the custom board orders page and submit a custom board order.  They can specify the board type based on sport, board class, its lenght, width and thickness, image to be printed on the board, select a board color and input any additional notes to the board designer.
 
 <img src="https://res.cloudinary.com/dugcwv1mf/image/upload/v1701008301/Project%204/Screenshot_2023-11-26_at_2.18.00_PM_ahbex3.png" width="auto" height="auto" alt="Radical Rides custom product orders page"> 
 
@@ -90,7 +92,7 @@ The website consits of a wishlists page.  This feature gives the user the abilit
 
 ### Product Reviews Page
 
-Previous customers of Radical Rides products have the option of visiting the product reviews page and submitting a review of a product which they have purchased and can leave on honest review of how they feel about the product's quality with a star rating and text review.  Users have to be logged in to use this feature to avoid spam reviews and so that there is accountability on who wrote the review and the business owner can reach out to users if they were genuinely unhappy about a specific product in order to remedy the siuation.  This feature builds greater trust and transparency amongst potential customers regarding the business' products and offerings.   
+Previous customers of Radical Rides products have the option of visiting the product reviews page and submitting a review of a product which they have purchased and can leave on honest review of how they feel about the product's quality with a star rating and text review.  Users have to be logged in to use this feature to avoid spam reviews and so that there is accountability on who wrote the review and the business owner can reach out to users if they were genuinely unhappy about a specific product in order to remedy the siuation.  Viewing reviews however is open to all users whether logged in or not.  This feature builds greater trust and transparency amongst potential customers regarding the business' products and offerings.   
 
 <img src="https://res.cloudinary.com/dugcwv1mf/image/upload/v1701008501/Project%204/Screenshot_2023-11-26_at_2.21.20_PM_bexaxu.png" width="auto" height="auto" alt="Radical Rides product reviews page"> 
 
@@ -114,7 +116,7 @@ In the footer of every page, there is a form for users to input their email and 
 
 ### Admin User Product Management - Create Products
 
-In addition to being able to CRUD product via the Django admin panel, when an admine user is logged into the website, in the profile section they will see an additional tab called "Product Managment," which allows them CRUD products via the e-commerce website without having to necessarily go into the admin panel.  The "Product Managment" tab is visible only to users with admin credentials, regular users do not see this tab.
+In addition to being able to CRUD products via the Django admin panel, when an admine user is logged into the website, in the profile section they will see an additional tab called "Product Management," which allows them CRUD products functionality via the e-commerce website without having to necessarily go into the admin panel.  The "Product Managment" tab is visible only to users with admin credentials, regular users do not see this tab.
 
 <img src="https://res.cloudinary.com/dugcwv1mf/image/upload/v1701079139/Project%204/Screenshot_2023-11-27_at_9.57.55_AM_yq4n5t.png" width="auto" height="auto" alt="Radical Rides admin user rights"> 
 
