@@ -4,10 +4,11 @@ from django.contrib.auth.models import User
 
 from django.utils import timezone
 
+
 class Category(models.Model):
     class Meta:
         verbose_name_plural = 'Categories'
-        
+
     name = models.CharField(max_length=254)
     friendly_name = models.CharField(max_length=254, null=True, blank=True)
 
@@ -39,7 +40,7 @@ class Wishlist(models.Model):
 
     def __str__(self):
         return f"{self.user.username}'s {self.name} Wishlist"
-    
+
 
 class ProductReview(models.Model):
     RATING_CHOICES = (

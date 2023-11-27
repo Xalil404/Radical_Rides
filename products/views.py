@@ -8,11 +8,11 @@ from .forms import ProductForm
 from django.core.paginator import Paginator, EmptyPage, PageNotAnInteger
 
 
-#wishlist views
+# wishlist views
 from django.contrib.auth.decorators import login_required
 from .models import Wishlist, ProductReview
 
-#product review form
+# product review form
 from .forms import ProductReviewForm
 from django.views import View
 from django.contrib.auth.mixins import LoginRequiredMixin
@@ -41,7 +41,7 @@ def all_products(request):
                 if direction == 'desc':
                     sortkey = f'-{sortkey}'
             products = products.order_by(sortkey)
-            
+
         if 'category' in request.GET:
             categories = request.GET['category'].split(',')
             products = products.filter(category__name__in=categories)
@@ -52,13 +52,13 @@ def all_products(request):
             if not query:
                 messages.error(request, "You didn't enter any search criteria!")
                 return redirect(reverse('products'))
-            
+
             queries = Q(name__icontains=query) | Q(description__icontains=query)
             products = products.filter(queries)
-   
+
     # Pagination
     page = request.GET.get('page', 1)
-    paginator = Paginator(products, 15)  
+    paginator = Paginator(products, 15)
     try:
         products = paginator.page(page)
     except PageNotAnInteger:
@@ -80,7 +80,7 @@ def all_products(request):
 
 def product_detail(request, product_id):
     """ A view to show individual product details """
-    
+
     current_product = Product.objects.get(id=product_id)
     similar_products = Product.objects.filter(category=current_product.category).exclude(id=product_id)[:3]
 
@@ -109,7 +109,7 @@ def add_product(request):
             messages.error(request, 'Failed to add product. Please ensure the form is valid.')
     else:
         form = ProductForm()
-        
+
     template = 'products/add_product.html'
     context = {
         'form': form,
@@ -124,7 +124,7 @@ def edit_product(request, product_id):
     if not request.user.is_superuser:
         messages.error(request, 'Sorry, only store owners can do that.')
         return redirect(reverse('home'))
-    
+
     product = get_object_or_404(Product, pk=product_id)
     if request.method == 'POST':
         form = ProductForm(request.POST, request.FILES, instance=product)
@@ -153,7 +153,7 @@ def delete_product(request, product_id):
     if not request.user.is_superuser:
         messages.error(request, 'Sorry, only store owners can do that.')
         return redirect(reverse('home'))
-    
+
     product = get_object_or_404(Product, pk=product_id)
     product.delete()
     messages.success(request, 'Product deleted!')
@@ -220,21 +220,21 @@ def delete_wishlist(request, wishlist_id):
 def remove_from_wishlist(request, wishlist_id, product_id):
     wishlist = get_object_or_404(Wishlist, id=wishlist_id, user=request.user)
     product = get_object_or_404(Product, id=product_id)
-    
+
     if request.method == 'POST':
         wishlist.products.remove(product)
-    
+
     return redirect('view_wishlist', wishlist_id=wishlist_id)
 
 
 def view_reviews(request):
     reviews = ProductReview.objects.select_related('product').all().order_by('-date_published')
-    return render(request, 'view_reviews.html', {'reviews': reviews, 'star_range': range(5)})  
+    return render(request, 'view_reviews.html', {'reviews': reviews, 'star_range': range(5)})
 
 
 class SubmitReviewView(LoginRequiredMixin, View):
     template_name = 'submit_review.html'
-    login_url = '/accounts/login/'  
+    login_url = '/accounts/login/'
 
     def get(self, request):
         form = ProductReviewForm()
@@ -245,9 +245,8 @@ class SubmitReviewView(LoginRequiredMixin, View):
 
         if form.is_valid():
             review = form.save(commit=False)
-            review.user = request.user  
+            review.user = request.user
             review.save()
-            return redirect('view_reviews')  
+            return redirect('view_reviews')
 
         return render(request, self.template_name, {'form': form})
-

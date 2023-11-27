@@ -3,6 +3,7 @@ from .models import Product, Category, Wishlist, ProductReview
 
 # Register your models here.
 
+
 class ProductAdmin(admin.ModelAdmin):
     list_display = (
         'sku',
@@ -14,6 +15,7 @@ class ProductAdmin(admin.ModelAdmin):
     )
 
     ordering = ('sku',)
+
 
 class CategoryAdmin(admin.ModelAdmin):
     list_display = (
@@ -29,7 +31,6 @@ class WishlistAdmin(admin.ModelAdmin):
         return ", ".join([product.name for product in obj.products.all()])
 
     display_products.short_description = 'Products'
-
 
 
 class ProductReviewAdmin(admin.ModelAdmin):
