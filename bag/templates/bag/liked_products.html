@@ -29,11 +29,10 @@
                             {% csrf_token %}
                             <button class="btn btn-outline-danger btn-sm" type="submit">
                                 <span class="icon">
-                                    <i class="fas fa-heart-broken{% if product.id in liked_product_ids %}" {% endif
-                                        %}></i>
+                                    <i class="fas fa-heart-broken{% if product.id in liked_product_ids %}" {% endif %}></i>
                                 </span>
-                                <span class="text-uppercase">{% if product.id in liked_product_ids %}Unlike{% else
-                                    %}Like{% endif %}</span>
+                                <span class="text-uppercase">
+                                    {% if product.id in liked_product_ids %}Unlike{% else %}Like{% endif %}</span>
                             </button>
                         </form>
                         <!-- View Product button -->
@@ -47,7 +46,7 @@
                 </div>
             </div>
         </div>
-        {% endfor %}
+   {% endfor %}
     </div>
     {% else %}
     <!-- No liked products message -->
