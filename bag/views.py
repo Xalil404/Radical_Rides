@@ -33,7 +33,6 @@ def add_to_bag(request, item_id):
     return redirect(redirect_url)
 
 
-
 def adjust_bag(request, item_id):
     """Adjust the quantity of the specified product to the specified amount"""
 
@@ -41,10 +40,9 @@ def adjust_bag(request, item_id):
     quantity = int(request.POST.get('quantity'))
     bag = request.session.get('bag', {})
 
-    
     if quantity > 0:
-            bag[item_id] = quantity
-            messages.success(request, f'Updated {product.name} quantity to {bag[item_id]}')
+        bag[item_id] = quantity
+        messages.success(request, f'Updated {product.name} quantity to {bag[item_id]}')
     else:
         bag.pop(item_id)
         messages.success(request, f'Removed {product.name} from your bag')
@@ -70,14 +68,14 @@ def remove_from_bag(request, item_id):
     except Exception as e:
         messages.error(request, f'Error removing item: {e}')
         return HttpResponse(status=500)
-    
+
 
 def liked_products(request):
     liked_product_ids = request.session.get('liked_product_ids', [])
     liked_products = Product.objects.filter(id__in=liked_product_ids)
-    
+
     liked_product_ids = [product.id for product in liked_products]
-    
+
     context = {'liked_products': liked_products, 'liked_product_ids': liked_product_ids}
     return render(request, 'bag/liked_products.html', context)
 
