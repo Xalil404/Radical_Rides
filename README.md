@@ -7,10 +7,9 @@ Link to live site [here](https://radical-rides-7dc93d43c139.herokuapp.com/).
 <img src="https://res.cloudinary.com/dugcwv1mf/image/upload/v1700912560/Project%204/Screenshot_2023-11-25_at_11.41.37_AM_tswplp.png" width="auto" height="auto" alt="image of the Radical Rides website home page on all devices"></p>
 
 ## E-commerce business model & Product Model Canvas
-The Radical Rides e-commerce platoform aims to address two issues.  Pain point number 1 is that most surfers, skaters and snowboarders do at least 2 if not all 3 sports, however having to visit 3 different stores is not
-convenient.  Also, because the equipment is quite large, most stores have a limited stock which requires the athlete to order the needed board with the store and come back at a later date to pick up the desired board.
+The Radical Rides e-commerce platoform aims to address two issues.  Pain point number 1 is that most surfers, skaters and snowboarders do at least 2 if not all 3 sports because the skill-set for all 3 sports is the same, however having to visit 3 different stores is not convenient.  Also, because the equipment for all three sports is quite large, most stores have a limited stock which requires the athlete to order the needed board with the store and come back at a later date to pick up the desired board with the desired dimensions and customziations. 
 
-Radical Rides will be the central location for the needs of all 3 sports and should our store not provide the needed board, the user can submit a custom board order right from the website.
+Radical Rides will be the central location for the needs of all 3 sports and should our store not provide the needed board the customer is looking for, the user can submit a custom board order right from the website. 
 
 <img src="https://res.cloudinary.com/dugcwv1mf/image/upload/v1700926494/Project%204/Screenshot_2023-11-25_at_3.34.32_PM_mrzusx.png" width="auto" height="auto" alt="image of the Radical Rides product model canvas">
 
@@ -24,7 +23,9 @@ The second marketing strategy will be to collect user emails via the website whi
 
 <img src="https://res.cloudinary.com/dugcwv1mf/image/upload/v1700927175/Project%204/Screenshot_2023-11-25_at_3.45.55_PM_imjukc.png" width="auto" height="auto" alt="image of the Radical Rides email subscription feature">
 
-After Facebook ad marketing campaings, uitilization of Google Ads will be considered as the next logical move to increase brand awareness and drive new customers. 
+After Facebook ad marketing campaings, uitilization of Google Ads will be considered as the next logical move to increase brand awareness and drive new customers. The GoogleAds platform is very simple to use and it is convenient in having you set your own budget and only spend what you are willing to pay so there are no hidden costs.  Their analytics also provide a lot of insight on where your customers are coming from and provide tips on how to better conduct marketing campaigns. 
+
+<img src="https://res.cloudinary.com/dugcwv1mf/image/upload/v1701166929/Project%204/Screenshot_2023-11-28_at_10.21.43_AM_s8pqrl.png" width="auto" height="auto" alt="image of the Google ads platform">
 
 ## Business Requirements
 Prior to initiating the project's development, user stories were created to give a high level understanding of what the platform's functional requirements will be and they were assigned labels based on their importance using the MoSCoW prioritization method.   
@@ -41,7 +42,7 @@ Once the user stories were completed, the next phase of the project was to compl
 <img src="https://res.cloudinary.com/dugcwv1mf/image/upload/v1700905215/Project%204/Screenshot_2023-11-25_at_9.36.39_AM_nwxc2j.png" width="auto" height="auto" alt="Radical Rides project wireframes"> 
 
 ## Database Schema
-After the wire-frames completion, a database schema was created to understand what information should be stored on the back-end database.
+After the wire-frames completion, a database schema was created to understand what models need to be devoloped and what information and data should be stored on the back-end database.
 
 <img src="https://res.cloudinary.com/dugcwv1mf/image/upload/v1701005549/Project%204/Screenshot_2023-11-26_at_1.32.07_PM_wkykhi.png" width="auto" height="auto" alt="Radical Rides Project DB schema"> 
 
@@ -56,55 +57,61 @@ The home page of the Radical Rides website displays the website's navigation bas
 
 ### Products Page
 
-Products can be viewed in three ways, either all the products which the website offers at the same time, products based on a sport category or products based on a sports sub-category.  When viewing numerous products, if the amount of products exceeds 15 products per page, the user will see a pagination feature at the bottom of the page to move onto the next page instead of having a very long scroll, providing a much simpler user experience.
+Products can be viewed in three ways, either all the products which the website offers at the same time, products based on a sport category i.e. (surfing) or products based on a sports sub-category i.e. (surfing-long boards).  When viewing numerous products, if the amount of products exceeds 15 products per page, the user will see a pagination feature at the bottom of the page to move onto the next page instead of having a very long scroll, providing a much simpler user experience.
 
 <img src="https://res.cloudinary.com/dugcwv1mf/image/upload/v1701009096/Project%204/SCR-20231126-mxin_cqy7n0.png" width="auto" height="auto" alt="Radical Rides products page"> 
 
 ### Product Details Page
 
-The product details page provides all available attributes of information of the product being viewed and also shows a section under the main product of other products which are similar to the prooduct being viewed with an option to visit the similar product's product details page.
+The product details page provides all available attribute information of the product being viewed and also shows a section under the main product of other products which are similar to the prooduct being viewed with an option to visit the similar product's product details page.
 
 <img src="https://res.cloudinary.com/dugcwv1mf/image/upload/v1701009049/Project%204/SCR-20231126-mxas_gzpi9q.png" width="auto" height="auto" alt="Radical Rides Product details page"> 
 
 ### Shopping Bag
 
-A central feature of any e-commerce platform, the shopping bag shows the list of items which the user has added for purchase.  In the shopping bag, the user can increase or decrease the quantity of items they would like to purchase or delete them altogether and remove them from the shopping bag for purchase.
+A central feature of any e-commerce platform, the shopping bag shows the list of items which the user has added for purchase.  In the shopping bag, the user can increase or decrease the quantity of items they would like to purchase or delete them altogether and remove them from the shopping bag.
 
 <img src="https://res.cloudinary.com/dugcwv1mf/image/upload/v1701008199/Project%204/Screenshot_2023-11-26_at_2.16.19_PM_acqbol.png" width="auto" height="auto" alt="Radical Rides landing page"> 
 
 ### Liked Products Page
 
-The liked products page is a very handy feature.  Should the user be browsing products casually and is hesitant to add interesting products to the shopping bag because that would indicate an intent to purchase, each product details page has a LIKE button which the user can click and the product is immediately added to the liked or bookmarked products page.  Then at a later time they can visit the liked products page in order to see a summary of all of the produts which they liked on the site and likewise unlike and remove them from that section or click on them to go the product's details page and add them to the shopping bag.  The user does not need to be logged in or have an account in order to like products and add them to the liked products page, therefore minimizing the adoption drop rate of using this feature.
+The liked products page is a very handy feature.  Should the user be browsing products casually and is hesitant to add interesting products to the shopping bag because that would indicate an intent to purchase, each product details page has a LIKE button which the user can click and the product is immediately added to the liked or bookmarked products page.  
+
+Then at a later time they can visit the liked products page in order to see a summary of all of the produts which they liked on the site and likewise unlike and remove them from that section or click on them to go the product's details page and add them to the shopping bag.  
+
+The user does not need to be logged in or have an account in order to like products and add them to the liked products page, therefore minimizing the adoption drop rate of using this feature.
 
 <img src="https://res.cloudinary.com/dugcwv1mf/image/upload/v1701008258/Project%204/Screenshot_2023-11-26_at_2.17.11_PM_r52vt6.png" width="auto" height="auto" alt="Radical Rides liked products page"> 
 
 ### Custom Board Orders Page
 
-Should the website not have a board that meets the exact specifications of a customer, they have the option to visit the custom board orders page and submit a custom board order.  They can specify the board type based on sport, board class, its lenght, width and thickness, image to be printed on the board, select a board color and input any additional notes to the board designer.
+Should the website not have a board that meets the exact specifications of a customer, they have the option to visit the custom board orders page and submit a custom board order.  They can specify the board type based on sport, board class, its length, width and thickness, image to be printed on the board, select a board color and input any additional notes to the board designer.
 
 <img src="https://res.cloudinary.com/dugcwv1mf/image/upload/v1701008301/Project%204/Screenshot_2023-11-26_at_2.18.00_PM_ahbex3.png" width="auto" height="auto" alt="Radical Rides custom product orders page"> 
 
 ### Wish Lists Page
 
-The website consits of a wishlists page.  This feature gives the user the ability to create a wishlit for a specific occasion, add products to it and have it always saved to their profile in order to revisit at a later date and purchase when the needed occasion arrives.  Products in a whislist are daynamic, users can add more products to them or remove products from them.
+The website consits of a wishlists page.  This feature gives the user the ability to create a wishlist for a specific occasion, add products to it and have it always saved to their profile in order to revisit at a later date and purchase when the needed occasion arrives.  Products in a whislist are daynamic, users can add more products to them or remove products from them.
 
 <img src="https://res.cloudinary.com/dugcwv1mf/image/upload/v1701008362/Project%204/Screenshot_2023-11-26_at_2.19.01_PM_ahoksa.png" width="auto" height="auto" alt="Radical Rides wishlist page"> 
 
 ### Product Reviews Page
 
-Previous customers of Radical Rides products have the option of visiting the product reviews page and submitting a review of a product which they have purchased and can leave on honest review of how they feel about the product's quality with a star rating and text review.  Users have to be logged in to use this feature to avoid spam reviews and so that there is accountability on who wrote the review and the business owner can reach out to users if they were genuinely unhappy about a specific product in order to remedy the siuation.  Viewing reviews however is open to all users whether logged in or not.  This feature builds greater trust and transparency amongst potential customers regarding the business' products and offerings.   
+Previous customers of Radical Rides products have the option of visiting the product reviews page and submitting a review of a product which they have purchased and can leave an honest review of how they feel about the product's quality with a star rating and text review.  
+
+Anyone can view the reviews page, however users have to be logged in to actually submit a review in order to avoid spam reviews and so that there is accountability on who wrote the review and the business owner can reach out to users if they were genuinely unhappy about a specific product in order to remedy the siuation.  Viewing reviews however is open to all users whether logged in or not.  This feature builds greater trust and transparency amongst potential customers regarding the business' products and offerings.   
 
 <img src="https://res.cloudinary.com/dugcwv1mf/image/upload/v1701008501/Project%204/Screenshot_2023-11-26_at_2.21.20_PM_bexaxu.png" width="auto" height="auto" alt="Radical Rides product reviews page"> 
 
 ### Contact Form 
 
-Users can submit a contact form and message in order to get in touch with Radical Rides staff.  The staff of the website receive the submitted messages in their Django admin portal. 
+Users can submit a contact form and leave a message in order to get in touch with Radical Rides staff.  The staff of the website receive the submitted messages in their Django admin portal. 
 
 <img src="https://res.cloudinary.com/dugcwv1mf/image/upload/v1701008551/Project%204/Screenshot_2023-11-26_at_2.22.10_PM_su6bpk.png" width="auto" height="auto" alt="Radical Rides contact form"> 
 
 ### Profile Page
 
-The profile page is mainly focused on storing two pieces of information, the user's default deilivery or shipping information and an order history of previous purchases.  When a user fills out their profile delivery information, that information is filled out by default on the order checkout page simplifying the checkout process and providing a smoother user experience.
+The profile page is mainly focused on storing two pieces of information, the user's default delivery or shipping information and an order history of previous purchases.  When a user fills out their profile delivery information, that information is filled out by default on the order checkout page simplifying the checkout process and providing a smoother user experience.
 
 <img src="https://res.cloudinary.com/dugcwv1mf/image/upload/v1701008586/Project%204/Screenshot_2023-11-26_at_2.22.45_PM_vttn3c.png" width="auto" height="auto" alt="Radical Rides landing page"> 
 
@@ -116,7 +123,7 @@ In the footer of every page, there is a form for users to input their email and 
 
 ### Admin User Product Management - Create Products
 
-In addition to being able to CRUD products via the Django admin panel, when an admine user is logged into the website, in the profile section they will see an additional tab called "Product Management," which allows them CRUD products functionality via the e-commerce website without having to necessarily go into the admin panel.  The "Product Managment" tab is visible only to users with admin credentials, regular users do not see this tab.
+In addition to being able to CRUD products via the Django admin panel, when an admin user is logged into the website, in the profile section they will see an additional tab called "Product Management," which allows them CRUD products functionality via the e-commerce website without having to necessarily go into the admin panel.  The "Product Managment" tab is visible only to users with admin credentials, regular users do not see this tab.
 
 <img src="https://res.cloudinary.com/dugcwv1mf/image/upload/v1701079139/Project%204/Screenshot_2023-11-27_at_9.57.55_AM_yq4n5t.png" width="auto" height="auto" alt="Radical Rides admin user rights"> 
 
@@ -124,7 +131,7 @@ In addition to being able to CRUD products via the Django admin panel, when an a
 
 ### Admin User Product Management - Edit & Delete Products
 
-When an admin user is logged into the website, visible only to them, on the all products and product details page, they will see an "Edit product" and "Delete product" buttons next each listed product on the website.
+When an admin user is logged into the website, visible only to them, on the all products page and product details page, they will see an "Edit product" and "Delete product" buttons next to each listed product on the website.  These buttons are only visible to users with admin credentials, for everyone else, these buttons are hidden and not visible. 
 
 <img src="https://res.cloudinary.com/dugcwv1mf/image/upload/v1701008986/Project%204/Screenshot_2023-11-26_at_2.29.08_PM_fret1g.png" width="auto" height="auto" alt="Radical Rides admin user rights">
 <img src="https://res.cloudinary.com/dugcwv1mf/image/upload/v1701008999/Project%204/Screenshot_2023-11-26_at_2.29.26_PM_p3dazk.png" width="auto" height="auto" alt="Radical Rides admin user rights">
@@ -138,23 +145,23 @@ Deployment of the Radical Rides application required deployment of the web app o
 
 * In [ElephantSQL](https://www.elephantsql.com/) I created a new instance and copied the new database URL.
 
-* The on [Heroku](heroku.com) I created a new application and in the app's config vars section added the ElephantSQL database URL.
+* Then on [Heroku](https://www.heroku.com/) I created a new application and in the app's config vars section added the ElephantSQL database URL.
 
-* In my project's settings.py file I installed psycopg2, imported the dj_database_url, commented out the DATABASES section and replaced it with another temporary DATABASES section, migrated the database models to the new database, loaddata-ed the categories, products and created a new superuser. After completing the migration I removed the newly created temporary DATABASES section and uncommented the original DATABASES section, git commited and git pushed my code in order to initiate the deployment.
+* In my project's settings.py file I installed psycopg2, imported the dj_database_url, commented out the DATABASES section and replaced it with another temporary DATABASES section, migrated the database models to the new database, loaddata-ed the categories, products and created a new superuser. After completing the migration I removed the newly created temporary DATABASES section and uncommented the original DATABASES section in my settings file, git commited and git pushed my code in order to initiate the deployment.
 
 * Then on AWS I created a new bucket to store static files and configured the bucket's settings. In the bucket's settings, I updated the CORS configuration, enabled ACLs, updated object ownership permissions, generated a bucket policy, created a new group in the Identify and Access Management (IAM) section, attached the newly generated bucket policy to it, and finally retrieved and downloaded the access keys in a CSV file.
 
 * Back in the IDE I added 'storages' to my apps in settings.py and an additional setting to use AWS storage.
 
-* In [Heroku](heroku.com), in the config vars section, I added the AWS retrieved keys and to use AWS and removed the disable collect static variable so that static files would be pushed to S3.  
+* In [Heroku](https://www.heroku.com/), in the config vars section, I added the AWS retrieved keys and to use AWS and removed the disable collect static variable so that static files would be pushed to S3.  
 
 * Back in the IDE again, I added a custom_storages.py file, imported S3Boto storage and added a media and static storage classes. After committing and pushing the latest changes, I deployed the app again.
 
-* Back in AW S3 I created a media folder, uploaded all the proudct images, granted them public read access and completed the media upload process. 
+* Back in AW S3 I created a media folder, uploaded all the proudct images to the folder, granted them public read access and completed the media upload process. 
 
 * Then from the [Stripe](https://stripe.com/en-ie) admin interface I retrieved the Stripe public and private keys and added them as config variables in the Heroku app settings.  Also in the Stripe admin dashboard I added the web app's checkout URL in the webhook endpoint URL section and marked it to receive all events. 
 
-* I then copied the Stripe webhook signing secret and added to the config vars in the Heroku settings.
+* I then copied the Stripe webhook signing secret and added it to the config vars in the Heroku settings.
 
 ## Credits
 
@@ -199,3 +206,5 @@ Deployment of the Radical Rides application required deployment of the web app o
 * [Stripe](https://stripe.com/ie) as the payments processing platform. 
 
 * [Cloudinary](https://cloudinary.com/) for storing and hosting website marketing images. 
+
+* [XML Sitemaps](https://www.xml-sitemaps.com/) to generate XML file.
