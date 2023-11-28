@@ -160,8 +160,6 @@ Deployment of the Radical Rides application required deployment of the web app o
 
 * [Shopify](https://www.shopify.com/tools/business-name-generator) to generate the website business name.
 
-* [Colors](https://coolors.co/) to generate the website branding and color palette. 
-
 * [Unsplash](https://unsplash.com/) & [Pixels](https://www.pexels.com/) for marketing images.
 
 * [Favicon.io](https://favicon.io/) for web app Favicon. 
@@ -191,3 +189,13 @@ Deployment of the Radical Rides application required deployment of the web app o
 * [DrawSQL](https://drawsql.app/) to create database schema.
 
 * [Miro](https://miro.com/) to create design wireframes.
+
+* [Mail Chimp](https://mailchimp.com/) to collect and store user emails for newsletter marketing.
+
+* [Privacy Policy Generator](https://www.privacypolicygenerator.info/) to generate the website's privacy policy.
+
+* [Terms Feed](https://www.termsfeed.com/) to generate the website's terms of service policy.
+
+* [Stripe](https://stripe.com/ie) as the payments processing platform. 
+
+* [Cloudinary](https://cloudinary.com/) for storing and hosting website marketing images. 
