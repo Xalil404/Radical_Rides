@@ -15,14 +15,15 @@ The platform was tested for responsiveness on the following devices through Chro
 
 | Device | Screenshot | Notes |
 | --- | --- | --- |
-| iPhone SE | ![screenshot](https://res.cloudinary.com/dugcwv1mf/image/upload/v1700930757/Project%204/Screenshot_2023-11-25_at_4.45.36_PM_m8thiu.png) | Works as expected |
-| iPhone XR | ![screenshot](https://res.cloudinary.com/dugcwv1mf/image/upload/v1700930796/Project%204/Screenshot_2023-11-25_at_4.46.16_PM_qbl87t.png) | Works as expected |
-| iPhone 12 PRO | ![screenshot](https://res.cloudinary.com/dugcwv1mf/image/upload/v1700930833/Project%204/Screenshot_2023-11-25_at_4.46.52_PM_y5tvzc.png) | Works as expected |
-| Galaxy Fold | ![screenshot](https://res.cloudinary.com/dugcwv1mf/image/upload/v1700933478/Project%204/Screenshot_2023-11-25_at_5.30.42_PM_vtxerz.png) | Works as expected |
-| Galaxy S8+ | ![screenshot](https://res.cloudinary.com/dugcwv1mf/image/upload/v1700933532/Project%204/Screenshot_2023-11-25_at_5.31.51_PM_kqsge1.png) | Works as expected |
-| Nest Hub Max | ![screenshot](https://res.cloudinary.com/dugcwv1mf/image/upload/v1700933570/Project%204/Screenshot_2023-11-25_at_5.32.30_PM_m0y5hu.png) | Works as expected |
-| iPad Air | ![screenshot](https://res.cloudinary.com/dugcwv1mf/image/upload/v1700933606/Project%204/Screenshot_2023-11-25_at_5.33.06_PM_chyqcj.png) | Works as expected |
-| iPad Pro | ![screenshot](https://res.cloudinary.com/dugcwv1mf/image/upload/v1700933677/Project%204/Screenshot_2023-11-25_at_5.34.16_PM_m4bkow.png) | Works as expected |
+| iPhone SE | ![screenshot](https://res.cloudinary.com/dugcwv1mf/image/upload/v1701782888/Project%204/Screenshot_2023-12-05_at_1.27.31_PM_uxk0yd.png) | Works as expected |
+| iPhone XR | ![screenshot](https://res.cloudinary.com/dugcwv1mf/image/upload/v1701782925/Project%204/Screenshot_2023-12-05_at_1.28.22_PM_emmdya.png) | Works as expected |
+| iPhone 12 PRO | ![screenshot](https://res.cloudinary.com/dugcwv1mf/image/upload/v1701782973/Project%204/Screenshot_2023-12-05_at_1.28.58_PM_gisc8m.png) | Works as expected |
+| Galaxy Fold | ![screenshot](https://res.cloudinary.com/dugcwv1mf/image/upload/v1701783019/Project%204/Screenshot_2023-12-05_at_1.29.58_PM_ppykw1.png) | Works as expected |
+| Galaxy S8+ | ![screenshot](https://res.cloudinary.com/dugcwv1mf/image/upload/v1701783059/Project%204/Screenshot_2023-12-05_at_1.30.38_PM_cocc4h.png) | Works as expected |
+| Nest Hub Max | ![screenshot](https://res.cloudinary.com/dugcwv1mf/image/upload/v1701783103/Project%204/Screenshot_2023-12-05_at_1.31.21_PM_bdcyk6.png) | Works as expected |
+| iPad Air | ![screenshot](https://res.cloudinary.com/dugcwv1mf/image/upload/v1701783142/Project%204/Screenshot_2023-12-05_at_1.31.56_PM_jdu7u1.png) | Works as expected |
+| iPad Pro | ![screenshot](https://res.cloudinary.com/dugcwv1mf/image/upload/v1701783181/Project%204/Screenshot_2023-12-05_at_1.32.36_PM_zmeslf.png) | Works as expected |
+| iPad Mini | ![screenshot](https://res.cloudinary.com/dugcwv1mf/image/upload/v1701783228/Project%204/Screenshot_2023-12-05_at_1.33.27_PM_wetna6.png) | Works as expected |
 
 ## Functional Testing
 Testing results of functionalities not considered to be a feature or user story.
