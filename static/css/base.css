@@ -203,7 +203,7 @@ a.category-badge > span.badge:hover {
     background:#fff;
     clear:left; 
     font:14px Helvetica,Arial,sans-serif; 
-    width: 350px;
+    width: 305px;
 }
 
 /* -------------------------------- Media Queries */
@@ -360,7 +360,6 @@ a.category-badge > span.badge:hover {
 
     
 }
-
 
 /* Galaxy Fold*/
 @media (max-width: 300px) {
