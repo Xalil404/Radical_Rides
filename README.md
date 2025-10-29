@@ -1,7 +1,7 @@
 # Radical Rides
 The Radical Rides e-commerce platoform is the 1 stop destination for surfers, skaters and snowboarders to purchase all of their sporting goods needs in one place.
 
-Link to live site [here](https://radical-rides-7dc93d43c139.herokuapp.com/).
+Link to live site [here](https://radical-rides.onrender.com).
 
 <p align="center">
 <img src="https://res.cloudinary.com/dugcwv1mf/image/upload/v1700912560/Project%204/Screenshot_2023-11-25_at_11.41.37_AM_tswplp.png" width="auto" height="auto" alt="image of the Radical Rides website home page on all devices"></p>
