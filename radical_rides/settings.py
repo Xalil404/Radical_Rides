@@ -13,7 +13,12 @@ https://docs.djangoproject.com/en/3.2/ref/settings/
 import os
 import dj_database_url
 from pathlib import Path
-import env
+
+# Load local env.py only for development
+try:
+    import env
+except ImportError:
+    pass
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
@@ -24,13 +29,15 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 
 # SECURITY WARNING: keep the secret key used in production secret!
 SECRET_KEY = os.environ.get('SECRET_KEY')
+if not SECRET_KEY:
+    raise ValueError("SECRET_KEY environment variable not set!")
 
 # SECURITY WARNING: don't run with debug turned on in production!
 
 # DEBUG = False
 DEBUG = True
 
-ALLOWED_HOSTS = ['radical-rides-7dc93d43c139.herokuapp.com', 'localhost', '127.0.0.1']
+ALLOWED_HOSTS = ['radical-rides-7dc93d43c139.herokuapp.com', 'radical-rides.onrender.com', 'localhost', '127.0.0.1']
 
 
 # Application definition
